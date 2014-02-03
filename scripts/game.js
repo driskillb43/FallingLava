@@ -23,8 +23,8 @@ bgSprite.addEventListener("load", init, false);
 
 
 function init() {
-    document.addEventListener("keydown", function(e) {checkKey(e, true);}, false);
-    document.addEventListener("keyup", function(e) {checkKey(e, false);}, false);
+    document.addEventListener("keydown", function(event) {checkKey(event, true);}, false);
+    document.addEventListener("keyup", function(event) {checkKey(event, false);}, false);
     begin();
 }
 
@@ -55,18 +55,18 @@ function clearCtx(ctx) {
     ctx.clearRect(0, 0, canvasWidth, canvasHeight);
 }
 
-function checkKey(e, value) {
-    var keyID = e.keyCode || e.which;
+function checkKey(event, isKeyDown) {
+    var keyID = event.keyCode || event.which;
     if (keyID === 39) { // Right arrow
-        player.isRightKey = value;
-        e.preventDefault();
+        player.isRightKey = isKeyDown;
+        event.preventDefault();
     }
     if (keyID === 37) { // Left arrow
-        player.isLeftKey = value;
-        e.preventDefault();
+        player.isLeftKey = isKeyDown;
+        event.preventDefault();
     }
-    if (keyID === 32) { // Spacebar
-        player.isSpacebar = value;
-        e.preventDefault();
+    if (keyID === 32) { // SpaceBar
+        player.isSpaceBar = isKeyDown;
+        event.preventDefault();
     }
 }

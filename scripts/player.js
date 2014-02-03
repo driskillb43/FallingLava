@@ -18,8 +18,6 @@ var FACING_RIGHT_HEIGHT = 45;
 var SPRITE_ADDITION = 32;
 var SPRITE_AMOUNT = 3;
 
-
-
 function Player() {
     this.srcX = FACING_LEFT_X;
     this.srcY = FACING_LEFT_Y;
@@ -29,11 +27,13 @@ function Player() {
     this.drawY = 360;
     this.centerX = this.drawX + (this.width / 2);
     this.centerY = this.drawY + (this.height / 2);
-    this.speed = 2;
+    this.runSpeed = 2;
+    this.jumpSpeed = 5;
     this.spriteAddition = FACING_LEFT_X;
     this.isRightKey = false;
     this.isLeftKey = false;
-    this.isSpacebar = false;
+    this.isSpaceBar = false;
+    this.jumping = false;
     this.playerSprite = new Image();
     this.playerSprite.src = "images/egyptianqueen.png";
 }
@@ -50,41 +50,38 @@ Player.prototype.draw = function () {
 
 Player.prototype.checkDirection = function () {
     var newDrawX = this.drawX,
-        newDrawY = this.drawY,
-        obstacleCollision = false;
-    if (this.isRightKey) {
-        newDrawX += this.speed;
-        this.changeImage(this.spriteAddition, FACING_RIGHT_Y, FACING_RIGHT_WIDTH, FACING_RIGHT_HEIGHT);
-        if(this.spriteAddition >= SPRITE_ADDITION * SPRITE_AMOUNT)
-        {
-        	this.spriteAddition = FACING_RIGHT_X;
-        }
-        else
-        {
-        	this.spriteAddition += SPRITE_ADDITION;
-        }
-    } else if (this.isLeftKey) {
-        newDrawX -= this.speed;
-        this.changeImage(this.spriteAddition, FACING_LEFT_Y, FACING_LEFT_WIDTH, FACING_LEFT_HEIGHT);
-        if(this.spriteAddition >= SPRITE_ADDITION * SPRITE_AMOUNT)
-        {
-        	this.spriteAddition = FACING_LEFT_X;
-        }
-        else
-        {
-        	this.spriteAddition += SPRITE_ADDITION;
-        }
-    } else if (this.isSpacebar) {
-    	newDrawY -= this.speed;
+        newDrawY = this.drawY;
+    
+    if (this.isRightKey) 
+    {
+        newDrawX += this.runSpeed;
+        this.changeImage(this.spriteAddition, FACING_RIGHT_Y, FACING_RIGHT_WIDTH, FACING_RIGHT_HEIGHT, FACING_RIGHT_X);
+    } 
+    else if (this.isLeftKey) 
+    {
+        newDrawX -= this.runSpeed;
+        this.changeImage(this.spriteAddition, FACING_LEFT_Y, FACING_LEFT_WIDTH, FACING_LEFT_HEIGHT, FACING_LEFT_X);
+    }
+    
+    if (this.isSpaceBar) {
+    	newDrawY -= this.jumpSpeed;
     }
     
     this.drawX = newDrawX;
     this.drawY = newDrawY;
 }
 
-Player.prototype.changeImage = function(srcX, srcY, width, height) {
+Player.prototype.changeImage = function(srcX, srcY, width, height, originalSrcX) {
 	this.srcX = srcX;
 	this.srcY = srcY;
 	this.width = width;
 	this.height = height;
+    if(this.spriteAddition >= SPRITE_ADDITION * SPRITE_AMOUNT)
+    {
+    	this.spriteAddition = originalSrcX;
+    }
+    else
+    {
+    	this.spriteAddition += SPRITE_ADDITION;
+    }
 }
