@@ -7,7 +7,8 @@ var canvasBg = document.getElementById("canvasBg"),
     ctxEntities = canvasEntities.getContext("2d"),
     canvasWidth = canvasBg.width,
     canvasHeight = canvasBg.height,
-    player = new Player();
+    groundY = 400,
+    player = new Player(),
     isPlaying = false,
     requestAnimFrame =  window.requestAnimationFrame ||
                         window.webkitRequestAnimationFrame ||
