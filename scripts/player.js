@@ -19,7 +19,7 @@ var SPRITE_ADDITION = 32;
 var SPRITE_AMOUNT = 3;
 
 //Amount of gravity the player feels
-GRAVITY_AMOUNT = 5;
+GRAVITY_AMOUNT = 10;
 
 function Player() {
     this.srcX = FACING_LEFT_X;
@@ -31,7 +31,7 @@ function Player() {
     this.centerX = this.drawX + (this.width / 2);
     this.centerY = this.drawY + (this.height / 2);
     this.runSpeed = 2;
-    this.jumpSpeed = 5;
+    this.jumpSpeed = 30;
     this.jumpCount = 0;
     this.jumpAmount = 50;
     this.spriteAddition = FACING_LEFT_X;
@@ -68,8 +68,8 @@ Player.prototype.checkDirection = function () {
         this.changeImage(this.spriteAddition, FACING_LEFT_Y, PLAYER_WIDTH, PLAYER_HEIGHT, FACING_LEFT_X);
     }
     
-    if (this.isSpaceBar && !this.isJumping) {
-    	newDrawY -= this.jumpSpeed;
+    if (this.isSpaceBar) 
+    {
     	this.isJumping = true;
     }
     
@@ -79,13 +79,19 @@ Player.prototype.checkDirection = function () {
     }
     
     //Apply gravity
-    if(this.isJumping && this.jumpAmount !== this.jumpCount)
+    if(this.isJumping)
     {
-    	newDrawY += GRAVITY_AMOUNT;
-    }
-    else
-    {
-    	this.jumpCount++;
+    	if(this.jumpCount >= this.jumpAmount)
+    	{
+    		newDrawY += GRAVITY_AMOUNT;
+    	}
+    	else
+    	{
+    		console.log(this.jumpCount);
+    		this.jumpCount++;
+    		newDrawY -= this.jumpSpeed;
+    		newDrawY += GRAVITY_AMOUNT + this.jumpCount;
+    	}
     }
     
     if(!this.outOfBoundsY(newDrawY))
@@ -94,6 +100,7 @@ Player.prototype.checkDirection = function () {
     }
     else
     {
+    	this.jumpCount = 0;
     	this.isJumping = false;
     }
 }
@@ -120,6 +127,5 @@ Player.prototype.outOfBoundsX = function(drawX)
 
 Player.prototype.outOfBoundsY = function(drawY)
 {
-	return (drawY + PLAYER_HEIGHT) >= groundY + 5;
-	this.jumpCount = 0;
+	return (drawY + PLAYER_HEIGHT) >= groundY + 15;
 }
