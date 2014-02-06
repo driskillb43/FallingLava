@@ -9,6 +9,7 @@ var canvasBg = document.getElementById("canvasBg"),
     canvasHeight = canvasBg.height,
     groundY = 400,
     player = new Player(),
+    lavas = new Array(),
     isPlaying = false,
     requestAnimFrame =  window.requestAnimationFrame ||
                         window.webkitRequestAnimationFrame ||
@@ -23,40 +24,66 @@ bgSprite.src = "images/background.png";
 bgSprite.addEventListener("load", init, false);
 
 
-function init() {
+function init() 
+{
     document.addEventListener("keydown", function(event) {checkKey(event, true);}, false);
     document.addEventListener("keyup", function(event) {checkKey(event, false);}, false);
+    initializeLavas();
     begin();
 }
 
-function begin() {
+function initializeLavas()
+{
+	for (var i = 0; i <= 10; i++)
+	{
+		lavas.push(new Lava(randomRange(0, canvasWidth), randomRange(1, 10)))
+	}
+}
+
+function begin()
+{
     ctxBg.drawImage(bgSprite, 0, 0, canvasWidth, canvasHeight, 0, 0, canvasWidth, canvasHeight);
     isPlaying = true;
     requestAnimFrame(loop);
 }
 
-function update() {
+function update() 
+{
     clearCtx(ctxEntities);
     player.update();
+    for (var i = 0; i < lavas.length; i++)
+    {
+    	lavas[i].update();
+    }
+    addLavas();
 }
 
-function draw() {
+function draw() 
+{
     player.draw();
+    for (var i = 0; i < lavas.length; i++)
+    {
+    	lavas[i].draw();
+    }
 }
 
-function loop() {
-    if (isPlaying) {
+function loop() 
+{
+    if (isPlaying) 
+    {
         update();
         draw();
         requestAnimFrame(loop);
     }
 }
 
-function clearCtx(ctx) {
+function clearCtx(ctx) 
+{
     ctx.clearRect(0, 0, canvasWidth, canvasHeight);
 }
 
-function checkKey(event, isKeyDown) {
+function checkKey(event, isKeyDown) 
+{
     var keyID = event.keyCode || event.which;
     if (keyID === 39) { // Right arrow
         player.isRightKey = isKeyDown;
@@ -70,4 +97,25 @@ function checkKey(event, isKeyDown) {
         player.isSpaceBar = isKeyDown;
         event.preventDefault();
     }
+}
+
+function addLavas()
+{
+	for (var i = 0; i <= randomRange(0, 1); i++)
+	{
+		lavas.push(new Lava(randomRange(0, canvasWidth), randomRange(1, 10)))
+	}
+}
+
+function randomRange (min, max) 
+{
+    return Math.floor(Math.random() * (max + 1 - min)) + min;
+}
+
+function collision(a, b) 
+{
+    return a.drawX <= b.drawX + b.width &&
+        a.drawX >= b.drawX &&
+        a.drawY <= b.drawY + b.height &&
+        a.drawY >= b.drawY;
 }
