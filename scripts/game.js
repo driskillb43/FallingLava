@@ -67,7 +67,6 @@ function update()
     	entities[i].update();
     	if(!(entities[i] instanceof Player) && collision(entities[i], player))
     	{
-    		console.log("I'm in here!")
     		player.isDead = true;
     		isPlaying = false;
     	}
