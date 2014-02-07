@@ -1,5 +1,5 @@
 /**
- * The Player class (represents the character on the screen)
+ * The Player class (represents the character on the screen) 
  */
 
 //Player's left position in sprite
@@ -26,8 +26,8 @@ function Player() {
     this.srcY = FACING_LEFT_Y;
     this.width = PLAYER_WIDTH;
     this.height = PLAYER_HEIGHT;
-    this.drawX = canvasWidth / 2;
-    this.drawY = groundY - 40;
+    this.drawX = CANVAS_WIDTH / 2;
+    this.drawY = GROUND_Y - PLAYER_HEIGHT;
     this.centerX = this.drawX + (this.width / 2);
     this.centerY = this.drawY + (this.height / 2);
     this.runSpeed = 2;
@@ -41,6 +41,7 @@ function Player() {
     this.isJumping = false;
     this.playerSprite = new Image();
     this.playerSprite.src = "images/egyptianqueen.png";
+    this.isDead = false;
 }
 
 Player.prototype.update = function () {
@@ -122,10 +123,10 @@ Player.prototype.changeImage = function(srcX, srcY, width, height, originalSrcX)
 
 Player.prototype.outOfBoundsX = function(drawX)
 {
-	return (drawX + PLAYER_WIDTH) >= canvasWidth || drawX <= 0;
+	return (drawX + PLAYER_WIDTH) >= CANVAS_WIDTH || drawX <= 0;
 }
 
 Player.prototype.outOfBoundsY = function(drawY)
 {
-	return (drawY + PLAYER_HEIGHT) >= groundY + 15;
+	return (drawY + PLAYER_HEIGHT) >= GROUND_Y + 15;
 }
