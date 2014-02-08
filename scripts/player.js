@@ -3,16 +3,16 @@
  */
 
 //Player's left position in sprite
-var FACING_LEFT_X = 5;
-var FACING_LEFT_Y = 50;
+var FACING_LEFT_X = 8;
+var FACING_LEFT_Y = 52;
 
 //Player's right position in sprite
-var FACING_RIGHT_X = 0;
+var FACING_RIGHT_X = 3;
 var FACING_RIGHT_Y = 100;
 
 //Player dimensions
-var PLAYER_WIDTH = 25;
-var PLAYER_HEIGHT = 45;
+var PLAYER_WIDTH = 21;
+var PLAYER_HEIGHT = 42;
 
 //Amount of pixels between the sprites in the player's spritesheet
 var SPRITE_ADDITION = 32;

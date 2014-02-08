@@ -65,11 +65,6 @@ function update()
     for (var i = 0; i < entities.length; i++)
     {
     	entities[i].update();
-    	if(!(entities[i] instanceof Player) && collision(entities[i], player))
-    	{
-    		player.isDead = true;
-    		isPlaying = false;
-    	}
     }
 }
 
@@ -78,6 +73,11 @@ function draw()
     for (var i = 0; i < entities.length; i++)
     {
     	entities[i].draw();
+    	if(!(entities[i] instanceof Player) && collision(entities[i], player))
+    	{
+    		player.isDead = true;
+    		isPlaying = false;
+    	}
     }
 }
 
