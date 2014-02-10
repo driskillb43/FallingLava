@@ -16,7 +16,10 @@ var CANVAS_WIDTH = backgroundCanvas.width,
     BACKGROUND_IMAGE_PATH = "images/background.png",
     LOAD_EVENT = "load",
     KEY_DOWN_EVENT = "keydown",
-    KEY_UP_EVENT = "keyup";
+    KEY_UP_EVENT = "keyup",
+    RIGHT_ARROW_ID = 39,
+    LEFT_ARROW_ID = 37,
+    SPACEBAR_ID = 32;
 
 var entities = new Array(),	
 	player = new Player(),
@@ -99,17 +102,17 @@ function clearCtx(ctx)
 function checkKey(event, isKeyDown) 
 {
     var keyID = event.keyCode || event.which;
-    if (keyID === 39) // Right arrow
+    if (keyID === RIGHT_ARROW_ID)
     { 
         player.isRightKey = isKeyDown;
         event.preventDefault();
     }
-    if (keyID === 37) // Left arrow
+    if (keyID === LEFT_ARROW_ID)
     {
         player.isLeftKey = isKeyDown;
         event.preventDefault();
     }
-    if (keyID === 32) // SpaceBar
+    if (keyID === SPACEBAR_ID)
     { 
         player.isSpaceBar = isKeyDown;
         event.preventDefault();
