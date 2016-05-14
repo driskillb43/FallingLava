@@ -78,6 +78,7 @@ function draw()
     	entities[i].draw();
     	if(!(entities[i] instanceof Player) && collision(entities[i], player))
     	{
+            player.playDeathSound();
     		player.isDead = true;
     		isPlaying = false;
     	}

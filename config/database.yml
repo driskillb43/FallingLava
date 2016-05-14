@@ -16,8 +16,6 @@ test:
 
 production:
   adapter: postgresql
-  database: falling_lava_production
+  url: <%= ENV['DATABASE_URL'] %>
   pool: 5
   timeout: 5000
-  username: postgres
-  password: postgres

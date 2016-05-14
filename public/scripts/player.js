@@ -127,6 +127,12 @@ var Player = Class.create(
 	    	this.spriteAddition += SPRITE_ADDITION;
 	    }
 	},
+
+	playDeathSound: function()
+	{
+		var audio = new Audio('sounds/thats_hot.wav');
+		audio.play();
+	},
 	
 	outOfBoundsX: function(drawX)
 	{	
