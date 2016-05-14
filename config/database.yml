@@ -16,9 +16,6 @@ test:
 
 production:
   adapter: postgresql
-  database: dfor75ard986lk
-  url: postgres://gqtqiwuebtptbw:O2wAKGpQo9FZOQCKHeHEaq1CQp@ec2-54-235-102-190.compute-1.amazonaws.com:5432/dfor75ard986lk
+  database: falling_lava_production
   pool: 5
   timeout: 5000
-  username: gqtqiwuebtptbw
-  password: O2wAKGpQo9FZOQCKHeHEaq1CQp
