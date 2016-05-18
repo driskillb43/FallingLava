@@ -1,0 +1,2 @@
+module FallingLavaHelper
+end

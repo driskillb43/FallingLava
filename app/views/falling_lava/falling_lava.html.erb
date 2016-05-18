@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<%= stylesheet_link_tag "falling_lava" %>
+
+<canvas id="backgroundCanvas" width="800" height="600"></canvas>
+
+<div id="overlapping">
+  <canvas id="canvasEntities" width="800" height="600"></canvas>
+  <canvas id="menu" width="800" height="600"></canvas>
+</div>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/prototype/1.6.0.2/prototype.js"></script>
+<%= javascript_include_tag "falling_lava/util.js" %>
+<%= javascript_include_tag "falling_lava/player.js" %>
+<%= javascript_include_tag "falling_lava/lava.js" %>
+<%= javascript_include_tag "falling_lava/menu.js" %>
+<%= javascript_include_tag "falling_lava/game.js" %>
+</html>
