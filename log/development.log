@@ -9295,3 +9295,2262 @@ Served asset /falling_lava/game.js - 304 Not Modified (0ms)
 
 Started GET "/assets/falling_lava/player.js?body=1" for 127.0.0.1 at 2016-05-17 20:17:02 -0400
 Served asset /falling_lava/player.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-21 12:13:09 -0400
+Connecting to database specified by database.yml
+
+PG::ConnectionBad (could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/var/run/postgresql/.s.PGSQL.5432"?
+):
+  activerecord (3.2.22) lib/active_record/connection_adapters/postgresql_adapter.rb:1222:in `initialize'
+  activerecord (3.2.22) lib/active_record/connection_adapters/postgresql_adapter.rb:1222:in `new'
+  activerecord (3.2.22) lib/active_record/connection_adapters/postgresql_adapter.rb:1222:in `connect'
+  activerecord (3.2.22) lib/active_record/connection_adapters/postgresql_adapter.rb:324:in `initialize'
+  activerecord (3.2.22) lib/active_record/connection_adapters/postgresql_adapter.rb:28:in `new'
+  activerecord (3.2.22) lib/active_record/connection_adapters/postgresql_adapter.rb:28:in `postgresql_connection'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_pool.rb:315:in `new_connection'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_pool.rb:325:in `checkout_new_connection'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_pool.rb:247:in `block (2 levels) in checkout'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_pool.rb:242:in `loop'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_pool.rb:242:in `block in checkout'
+  /usr/share/ruby/monitor.rb:211:in `mon_synchronize'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_pool.rb:239:in `checkout'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_pool.rb:102:in `block in connection'
+  /usr/share/ruby/monitor.rb:211:in `mon_synchronize'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_pool.rb:101:in `connection'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_pool.rb:410:in `retrieve_connection'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_specification.rb:171:in `retrieve_connection'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_specification.rb:145:in `connection'
+  activerecord (3.2.22) lib/active_record/query_cache.rb:67:in `rescue in call'
+  activerecord (3.2.22) lib/active_record/query_cache.rb:61:in `call'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.22) lib/active_support/callbacks.rb:405:in `_run__18291856119897535__call__2098716085596550766__callbacks'
+  activesupport (3.2.22) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.22) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.22) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.22) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.22) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.22) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.22) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.22) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.22) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/static.rb:83:in `call'
+  railties (3.2.22) lib/rails/engine.rb:484:in `call'
+  railties (3.2.22) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.22) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/share/ruby/webrick/httpserver.rb:138:in `service'
+  /usr/share/ruby/webrick/httpserver.rb:94:in `run'
+  /usr/share/ruby/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/bdriskill/.gem/ruby/gems/actionpack-3.2.22/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.7ms)
+  Rendered /home/bdriskill/.gem/ruby/gems/actionpack-3.2.22/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /home/bdriskill/.gem/ruby/gems/actionpack-3.2.22/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.7ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2016-05-21 12:13:10 -0400
+
+PG::ConnectionBad (could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/var/run/postgresql/.s.PGSQL.5432"?
+):
+  activerecord (3.2.22) lib/active_record/connection_adapters/postgresql_adapter.rb:1222:in `initialize'
+  activerecord (3.2.22) lib/active_record/connection_adapters/postgresql_adapter.rb:1222:in `new'
+  activerecord (3.2.22) lib/active_record/connection_adapters/postgresql_adapter.rb:1222:in `connect'
+  activerecord (3.2.22) lib/active_record/connection_adapters/postgresql_adapter.rb:324:in `initialize'
+  activerecord (3.2.22) lib/active_record/connection_adapters/postgresql_adapter.rb:28:in `new'
+  activerecord (3.2.22) lib/active_record/connection_adapters/postgresql_adapter.rb:28:in `postgresql_connection'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_pool.rb:315:in `new_connection'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_pool.rb:325:in `checkout_new_connection'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_pool.rb:247:in `block (2 levels) in checkout'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_pool.rb:242:in `loop'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_pool.rb:242:in `block in checkout'
+  /usr/share/ruby/monitor.rb:211:in `mon_synchronize'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_pool.rb:239:in `checkout'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_pool.rb:102:in `block in connection'
+  /usr/share/ruby/monitor.rb:211:in `mon_synchronize'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_pool.rb:101:in `connection'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_pool.rb:410:in `retrieve_connection'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_specification.rb:171:in `retrieve_connection'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_specification.rb:145:in `connection'
+  activerecord (3.2.22) lib/active_record/query_cache.rb:67:in `rescue in call'
+  activerecord (3.2.22) lib/active_record/query_cache.rb:61:in `call'
+  activerecord (3.2.22) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.22) lib/active_support/callbacks.rb:405:in `_run__18291856119897535__call__2098716085596550766__callbacks'
+  activesupport (3.2.22) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.22) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.22) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.22) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.22) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.22) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.22) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.22) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.22) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/static.rb:83:in `call'
+  railties (3.2.22) lib/rails/engine.rb:484:in `call'
+  railties (3.2.22) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.22) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/share/ruby/webrick/httpserver.rb:138:in `service'
+  /usr/share/ruby/webrick/httpserver.rb:94:in `run'
+  /usr/share/ruby/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/bdriskill/.gem/ruby/gems/actionpack-3.2.22/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.7ms)
+  Rendered /home/bdriskill/.gem/ruby/gems/actionpack-3.2.22/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.5ms)
+  Rendered /home/bdriskill/.gem/ruby/gems/actionpack-3.2.22/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-21 12:13:33 -0400
+Connecting to database specified by database.yml
+Processing by FallingLavaController#new as HTML
+Compiled falling_lava.css  (1002ms)  (pid 13034)
+Compiled falling_lava/util.js  (0ms)  (pid 13034)
+Compiled falling_lava/player.js  (0ms)  (pid 13034)
+Compiled falling_lava/lava.js  (0ms)  (pid 13034)
+Compiled falling_lava/menu.js  (0ms)  (pid 13034)
+Compiled falling_lava/game.js  (0ms)  (pid 13034)
+  Rendered falling_lava/falling_lava.html.erb within layouts/application (1106.0ms)
+Warning. Error encountered while saving cache /home/bdriskill/workspace/FallingLava/tmp/cache/sass/0d3ef1028e8bb6cdfe763fe4c4af766f0516941f/application.css.sassc: can't dump anonymous class #<Class:0x000000029f9668>
+
+Warning. Error encountered while saving cache /home/bdriskill/workspace/FallingLava/tmp/cache/sass/efdcc5a24c5e228bde77b8d460d33a9413dfdf50/_bootstrap-sprockets.scssc: can't dump anonymous class #<Class:0x000000029f9668>
+
+Warning. Error encountered while saving cache /home/bdriskill/workspace/FallingLava/tmp/cache/sass/efdcc5a24c5e228bde77b8d460d33a9413dfdf50/_bootstrap.scssc: can't dump anonymous class #<Class:0x000000029f9668>
+
+Warning. Error encountered while saving cache /home/bdriskill/workspace/FallingLava/tmp/cache/sass/0991b04194e517797516ef874688e3bbb1a4252d/_variables.scssc: can't dump anonymous class #<Class:0x000000029f9668>
+
+Warning. Error encountered while saving cache /home/bdriskill/workspace/FallingLava/tmp/cache/sass/0991b04194e517797516ef874688e3bbb1a4252d/_mixins.scssc: can't dump anonymous class #<Class:0x000000029f9668>
+
+Warning. Error encountered while saving cache /home/bdriskill/workspace/FallingLava/tmp/cache/sass/48bb6cd3dce483eb5fc9f67b9c0831ee92870480/_hide-text.scssc: can't dump anonymous class #<Class:0x000000029f9668>
+
+Warning. Error encountered while saving cache /home/bdriskill/workspace/FallingLava/tmp/cache/sass/48bb6cd3dce483eb5fc9f67b9c0831ee92870480/_opacity.scssc: can't dump anonymous class #<Class:0x000000029f9668>
+
+Warning. Error encountered while saving cache /home/bdriskill/workspace/FallingLava/tmp/cache/sass/48bb6cd3dce483eb5fc9f67b9c0831ee92870480/_image.scssc: can't dump anonymous class #<Class:0x000000029f9668>
+
+Warning. Error encountered while saving cache /home/bdriskill/workspace/FallingLava/tmp/cache/sass/48bb6cd3dce483eb5fc9f67b9c0831ee92870480/_labels.scssc: can't dump anonymous class #<Class:0x000000029f9668>
+
+Warning. Error encountered while saving cache /home/bdriskill/workspace/FallingLava/tmp/cache/sass/48bb6cd3dce483eb5fc9f67b9c0831ee92870480/_reset-filter.scssc: can't dump anonymous class #<Class:0x000000029f9668>
+
+Warning. Error encountered while saving cache /home/bdriskill/workspace/FallingLava/tmp/cache/sass/48bb6cd3dce483eb5fc9f67b9c0831ee92870480/_resize.scssc: can't dump anonymous class #<Class:0x000000029f9668>
+
+Warning. Error encountered while saving cache /home/bdriskill/workspace/FallingLava/tmp/cache/sass/48bb6cd3dce483eb5fc9f67b9c0831ee92870480/_responsive-visibility.scssc: can't dump anonymous class #<Class:0x000000029f9668>
+
+Warning. Error encountered while saving cache /home/bdriskill/workspace/FallingLava/tmp/cache/sass/48bb6cd3dce483eb5fc9f67b9c0831ee92870480/_size.scssc: can't dump anonymous class #<Class:0x000000029f9668>
+
+Warning. Error encountered while saving cache /home/bdriskill/workspace/FallingLava/tmp/cache/sass/48bb6cd3dce483eb5fc9f67b9c0831ee92870480/_tab-focus.scssc: can't dump anonymous class #<Class:0x000000029f9668>
+
+Warning. Error encountered while saving cache /home/bdriskill/workspace/FallingLava/tmp/cache/sass/48bb6cd3dce483eb5fc9f67b9c0831ee92870480/_text-emphasis.scssc: can't dump anonymous class #<Class:0x000000029f9668>
+
+Warning. Error encountered while saving cache /home/bdriskill/workspace/FallingLava/tmp/cache/sass/48bb6cd3dce483eb5fc9f67b9c0831ee92870480/_text-overflow.scssc: can't dump anonymous class #<Class:0x000000029f9668>
+
+Warning. Error encountered while saving cache /home/bdriskill/workspace/FallingLava/tmp/cache/sass/48bb6cd3dce483eb5fc9f67b9c0831ee92870480/_vendor-prefixes.scssc: can't dump anonymous class #<Class:0x000000029f9668>
+
+Warning. Error encountered while saving cache /home/bdriskill/workspace/FallingLava/tmp/cache/sass/48bb6cd3dce483eb5fc9f67b9c0831ee92870480/_alerts.scssc: can't dump anonymous class #<Class:0x000000029f9668>
+
+Warning. Error encountered while saving cache /home/bdriskill/workspace/FallingLava/tmp/cache/sass/48bb6cd3dce483eb5fc9f67b9c0831ee92870480/_buttons.scssc: can't dump anonymous class #<Class:0x000000029f9668>
+
+Warning. Error encountered while saving cache /home/bdriskill/workspace/FallingLava/tmp/cache/sass/48bb6cd3dce483eb5fc9f67b9c0831ee92870480/_panels.scssc: can't dump anonymous class #<Class:0x000000029f9668>
+
+Warning. Error encountered while saving cache /home/bdriskill/workspace/FallingLava/tmp/cache/sass/48bb6cd3dce483eb5fc9f67b9c0831ee92870480/_pagination.scssc: can't dump anonymous class #<Class:0x000000029f9668>
+
+Warning. Error encountered while saving cache /home/bdriskill/workspace/FallingLava/tmp/cache/sass/48bb6cd3dce483eb5fc9f67b9c0831ee92870480/_list-group.scssc: can't dump anonymous class #<Class:0x000000029f9668>
+
+Warning. Error encountered while saving cache /home/bdriskill/workspace/FallingLava/tmp/cache/sass/48bb6cd3dce483eb5fc9f67b9c0831ee92870480/_nav-divider.scssc: can't dump anonymous class #<Class:0x000000029f9668>
+
+Warning. Error encountered while saving cache /home/bdriskill/workspace/FallingLava/tmp/cache/sass/48bb6cd3dce483eb5fc9f67b9c0831ee92870480/_forms.scssc: can't dump anonymous class #<Class:0x000000029f9668>
+
+Warning. Error encountered while saving cache /home/bdriskill/workspace/FallingLava/tmp/cache/sass/48bb6cd3dce483eb5fc9f67b9c0831ee92870480/_progress-bar.scssc: can't dump anonymous class #<Class:0x000000029f9668>
+
+Warning. Error encountered while saving cache /home/bdriskill/workspace/FallingLava/tmp/cache/sass/48bb6cd3dce483eb5fc9f67b9c0831ee92870480/_table-row.scssc: can't dump anonymous class #<Class:0x000000029f9668>
+
+Warning. Error encountered while saving cache /home/bdriskill/workspace/FallingLava/tmp/cache/sass/48bb6cd3dce483eb5fc9f67b9c0831ee92870480/_background-variant.scssc: can't dump anonymous class #<Class:0x000000029f9668>
+
+Warning. Error encountered while saving cache /home/bdriskill/workspace/FallingLava/tmp/cache/sass/48bb6cd3dce483eb5fc9f67b9c0831ee92870480/_border-radius.scssc: can't dump anonymous class #<Class:0x000000029f9668>
+
+Warning. Error encountered while saving cache /home/bdriskill/workspace/FallingLava/tmp/cache/sass/48bb6cd3dce483eb5fc9f67b9c0831ee92870480/_gradients.scssc: can't dump anonymous class #<Class:0x000000029f9668>
+
+Warning. Error encountered while saving cache /home/bdriskill/workspace/FallingLava/tmp/cache/sass/48bb6cd3dce483eb5fc9f67b9c0831ee92870480/_clearfix.scssc: can't dump anonymous class #<Class:0x000000029f9668>
+
+Warning. Error encountered while saving cache /home/bdriskill/workspace/FallingLava/tmp/cache/sass/48bb6cd3dce483eb5fc9f67b9c0831ee92870480/_center-block.scssc: can't dump anonymous class #<Class:0x000000029f9668>
+
+Warning. Error encountered while saving cache /home/bdriskill/workspace/FallingLava/tmp/cache/sass/48bb6cd3dce483eb5fc9f67b9c0831ee92870480/_nav-vertical-align.scssc: can't dump anonymous class #<Class:0x000000029f9668>
+
+Warning. Error encountered while saving cache /home/bdriskill/workspace/FallingLava/tmp/cache/sass/48bb6cd3dce483eb5fc9f67b9c0831ee92870480/_grid-framework.scssc: can't dump anonymous class #<Class:0x000000029f9668>
+
+Warning. Error encountered while saving cache /home/bdriskill/workspace/FallingLava/tmp/cache/sass/48bb6cd3dce483eb5fc9f67b9c0831ee92870480/_grid.scssc: can't dump anonymous class #<Class:0x000000029f9668>
+
+Warning. Error encountered while saving cache /home/bdriskill/workspace/FallingLava/tmp/cache/sass/0991b04194e517797516ef874688e3bbb1a4252d/_normalize.scssc: can't dump anonymous class #<Class:0x000000029f9668>
+
+Warning. Error encountered while saving cache /home/bdriskill/workspace/FallingLava/tmp/cache/sass/0991b04194e517797516ef874688e3bbb1a4252d/_print.scssc: can't dump anonymous class #<Class:0x000000029f9668>
+
+Warning. Error encountered while saving cache /home/bdriskill/workspace/FallingLava/tmp/cache/sass/0991b04194e517797516ef874688e3bbb1a4252d/_glyphicons.scssc: can't dump anonymous class #<Class:0x000000029f9668>
+
+Warning. Error encountered while saving cache /home/bdriskill/workspace/FallingLava/tmp/cache/sass/0991b04194e517797516ef874688e3bbb1a4252d/_scaffolding.scssc: can't dump anonymous class #<Class:0x000000029f9668>
+
+Warning. Error encountered while saving cache /home/bdriskill/workspace/FallingLava/tmp/cache/sass/0991b04194e517797516ef874688e3bbb1a4252d/_type.scssc: can't dump anonymous class #<Class:0x000000029f9668>
+
+Warning. Error encountered while saving cache /home/bdriskill/workspace/FallingLava/tmp/cache/sass/0991b04194e517797516ef874688e3bbb1a4252d/_code.scssc: can't dump anonymous class #<Class:0x000000029f9668>
+
+Warning. Error encountered while saving cache /home/bdriskill/workspace/FallingLava/tmp/cache/sass/0991b04194e517797516ef874688e3bbb1a4252d/_grid.scssc: can't dump anonymous class #<Class:0x000000029f9668>
+
+Warning. Error encountered while saving cache /home/bdriskill/workspace/FallingLava/tmp/cache/sass/0991b04194e517797516ef874688e3bbb1a4252d/_tables.scssc: can't dump anonymous class #<Class:0x000000029f9668>
+
+Warning. Error encountered while saving cache /home/bdriskill/workspace/FallingLava/tmp/cache/sass/0991b04194e517797516ef874688e3bbb1a4252d/_forms.scssc: can't dump anonymous class #<Class:0x000000029f9668>
+
+Warning. Error encountered while saving cache /home/bdriskill/workspace/FallingLava/tmp/cache/sass/0991b04194e517797516ef874688e3bbb1a4252d/_buttons.scssc: can't dump anonymous class #<Class:0x000000029f9668>
+
+Warning. Error encountered while saving cache /home/bdriskill/workspace/FallingLava/tmp/cache/sass/0991b04194e517797516ef874688e3bbb1a4252d/_component-animations.scssc: can't dump anonymous class #<Class:0x000000029f9668>
+
+Warning. Error encountered while saving cache /home/bdriskill/workspace/FallingLava/tmp/cache/sass/0991b04194e517797516ef874688e3bbb1a4252d/_dropdowns.scssc: can't dump anonymous class #<Class:0x000000029f9668>
+
+Warning. Error encountered while saving cache /home/bdriskill/workspace/FallingLava/tmp/cache/sass/0991b04194e517797516ef874688e3bbb1a4252d/_button-groups.scssc: can't dump anonymous class #<Class:0x000000029f9668>
+
+Warning. Error encountered while saving cache /home/bdriskill/workspace/FallingLava/tmp/cache/sass/0991b04194e517797516ef874688e3bbb1a4252d/_input-groups.scssc: can't dump anonymous class #<Class:0x000000029f9668>
+
+Warning. Error encountered while saving cache /home/bdriskill/workspace/FallingLava/tmp/cache/sass/0991b04194e517797516ef874688e3bbb1a4252d/_navs.scssc: can't dump anonymous class #<Class:0x000000029f9668>
+
+Warning. Error encountered while saving cache /home/bdriskill/workspace/FallingLava/tmp/cache/sass/0991b04194e517797516ef874688e3bbb1a4252d/_navbar.scssc: can't dump anonymous class #<Class:0x000000029f9668>
+
+Warning. Error encountered while saving cache /home/bdriskill/workspace/FallingLava/tmp/cache/sass/0991b04194e517797516ef874688e3bbb1a4252d/_breadcrumbs.scssc: can't dump anonymous class #<Class:0x000000029f9668>
+
+Warning. Error encountered while saving cache /home/bdriskill/workspace/FallingLava/tmp/cache/sass/0991b04194e517797516ef874688e3bbb1a4252d/_pagination.scssc: can't dump anonymous class #<Class:0x000000029f9668>
+
+Warning. Error encountered while saving cache /home/bdriskill/workspace/FallingLava/tmp/cache/sass/0991b04194e517797516ef874688e3bbb1a4252d/_pager.scssc: can't dump anonymous class #<Class:0x000000029f9668>
+
+Warning. Error encountered while saving cache /home/bdriskill/workspace/FallingLava/tmp/cache/sass/0991b04194e517797516ef874688e3bbb1a4252d/_labels.scssc: can't dump anonymous class #<Class:0x000000029f9668>
+
+Warning. Error encountered while saving cache /home/bdriskill/workspace/FallingLava/tmp/cache/sass/0991b04194e517797516ef874688e3bbb1a4252d/_badges.scssc: can't dump anonymous class #<Class:0x000000029f9668>
+
+Warning. Error encountered while saving cache /home/bdriskill/workspace/FallingLava/tmp/cache/sass/0991b04194e517797516ef874688e3bbb1a4252d/_jumbotron.scssc: can't dump anonymous class #<Class:0x000000029f9668>
+
+Warning. Error encountered while saving cache /home/bdriskill/workspace/FallingLava/tmp/cache/sass/0991b04194e517797516ef874688e3bbb1a4252d/_thumbnails.scssc: can't dump anonymous class #<Class:0x000000029f9668>
+
+Warning. Error encountered while saving cache /home/bdriskill/workspace/FallingLava/tmp/cache/sass/0991b04194e517797516ef874688e3bbb1a4252d/_alerts.scssc: can't dump anonymous class #<Class:0x000000029f9668>
+
+Warning. Error encountered while saving cache /home/bdriskill/workspace/FallingLava/tmp/cache/sass/0991b04194e517797516ef874688e3bbb1a4252d/_progress-bars.scssc: can't dump anonymous class #<Class:0x000000029f9668>
+
+Warning. Error encountered while saving cache /home/bdriskill/workspace/FallingLava/tmp/cache/sass/0991b04194e517797516ef874688e3bbb1a4252d/_media.scssc: can't dump anonymous class #<Class:0x000000029f9668>
+
+Warning. Error encountered while saving cache /home/bdriskill/workspace/FallingLava/tmp/cache/sass/0991b04194e517797516ef874688e3bbb1a4252d/_list-group.scssc: can't dump anonymous class #<Class:0x000000029f9668>
+
+Warning. Error encountered while saving cache /home/bdriskill/workspace/FallingLava/tmp/cache/sass/0991b04194e517797516ef874688e3bbb1a4252d/_panels.scssc: can't dump anonymous class #<Class:0x000000029f9668>
+
+Warning. Error encountered while saving cache /home/bdriskill/workspace/FallingLava/tmp/cache/sass/0991b04194e517797516ef874688e3bbb1a4252d/_responsive-embed.scssc: can't dump anonymous class #<Class:0x000000029f9668>
+
+Warning. Error encountered while saving cache /home/bdriskill/workspace/FallingLava/tmp/cache/sass/0991b04194e517797516ef874688e3bbb1a4252d/_wells.scssc: can't dump anonymous class #<Class:0x000000029f9668>
+
+Warning. Error encountered while saving cache /home/bdriskill/workspace/FallingLava/tmp/cache/sass/0991b04194e517797516ef874688e3bbb1a4252d/_close.scssc: can't dump anonymous class #<Class:0x000000029f9668>
+
+Warning. Error encountered while saving cache /home/bdriskill/workspace/FallingLava/tmp/cache/sass/0991b04194e517797516ef874688e3bbb1a4252d/_modals.scssc: can't dump anonymous class #<Class:0x000000029f9668>
+
+Warning. Error encountered while saving cache /home/bdriskill/workspace/FallingLava/tmp/cache/sass/0991b04194e517797516ef874688e3bbb1a4252d/_tooltip.scssc: can't dump anonymous class #<Class:0x000000029f9668>
+
+Warning. Error encountered while saving cache /home/bdriskill/workspace/FallingLava/tmp/cache/sass/0991b04194e517797516ef874688e3bbb1a4252d/_popovers.scssc: can't dump anonymous class #<Class:0x000000029f9668>
+
+Warning. Error encountered while saving cache /home/bdriskill/workspace/FallingLava/tmp/cache/sass/0991b04194e517797516ef874688e3bbb1a4252d/_carousel.scssc: can't dump anonymous class #<Class:0x000000029f9668>
+
+Warning. Error encountered while saving cache /home/bdriskill/workspace/FallingLava/tmp/cache/sass/0991b04194e517797516ef874688e3bbb1a4252d/_utilities.scssc: can't dump anonymous class #<Class:0x000000029f9668>
+
+Warning. Error encountered while saving cache /home/bdriskill/workspace/FallingLava/tmp/cache/sass/0991b04194e517797516ef874688e3bbb1a4252d/_responsive-utilities.scssc: can't dump anonymous class #<Class:0x000000029f9668>
+
+Compiled application.css  (3053ms)  (pid 13034)
+Compiled jquery.js  (2ms)  (pid 13034)
+Compiled jquery_ujs.js  (0ms)  (pid 13034)
+Compiled bootstrap/affix.js  (0ms)  (pid 13034)
+Compiled bootstrap/alert.js  (0ms)  (pid 13034)
+Compiled bootstrap/button.js  (0ms)  (pid 13034)
+Compiled bootstrap/carousel.js  (0ms)  (pid 13034)
+Compiled bootstrap/collapse.js  (0ms)  (pid 13034)
+Compiled bootstrap/dropdown.js  (0ms)  (pid 13034)
+Compiled bootstrap/tab.js  (0ms)  (pid 13034)
+Compiled bootstrap/transition.js  (0ms)  (pid 13034)
+Compiled bootstrap/scrollspy.js  (0ms)  (pid 13034)
+Compiled bootstrap/modal.js  (0ms)  (pid 13034)
+Compiled bootstrap/tooltip.js  (0ms)  (pid 13034)
+Compiled bootstrap/popover.js  (0ms)  (pid 13034)
+Compiled bootstrap-sprockets.js  (55ms)  (pid 13034)
+Compiled application.js  (118ms)  (pid 13034)
+Completed 200 OK in 4457.1ms (Views: 4456.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-21 12:13:38 -0400
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-21 12:13:38 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-05-21 12:13:38 -0400
+Served asset /bootstrap/alert.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-05-21 12:13:38 -0400
+Served asset /bootstrap/tab.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-05-21 12:13:38 -0400
+Served asset /bootstrap/collapse.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-05-21 12:13:38 -0400
+Served asset /bootstrap/carousel.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-05-21 12:13:38 -0400
+Served asset /bootstrap/dropdown.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-05-21 12:13:38 -0400
+Served asset /bootstrap/button.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-05-21 12:13:38 -0400
+Served asset /bootstrap/affix.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-05-21 12:13:38 -0400
+Served asset /bootstrap/modal.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-05-21 12:13:38 -0400
+Served asset /bootstrap/scrollspy.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-05-21 12:13:38 -0400
+Served asset /bootstrap/tooltip.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-05-21 12:13:38 -0400
+Served asset /bootstrap/transition.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-05-21 12:13:38 -0400
+Served asset /bootstrap/popover.js - 200 OK (35ms)
+
+
+Started GET "/assets/falling_lava.css?body=1" for 127.0.0.1 at 2016-05-21 12:13:38 -0400
+Served asset /falling_lava.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-05-21 12:13:38 -0400
+Served asset /bootstrap-sprockets.js - 200 OK (7ms)
+
+
+Started GET "/assets/falling_lava/util.js?body=1" for 127.0.0.1 at 2016-05-21 12:13:38 -0400
+Served asset /falling_lava/util.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/falling_lava/player.js?body=1" for 127.0.0.1 at 2016-05-21 12:13:38 -0400
+Served asset /falling_lava/player.js - 200 OK (1ms)
+
+
+Started GET "/assets/falling_lava/lava.js?body=1" for 127.0.0.1 at 2016-05-21 12:13:38 -0400
+Served asset /falling_lava/lava.js - 200 OK (0ms)
+
+
+Started GET "/assets/falling_lava/menu.js?body=1" for 127.0.0.1 at 2016-05-21 12:13:38 -0400
+Served asset /falling_lava/menu.js - 200 OK (0ms)
+
+
+Started GET "/assets/falling_lava/game.js?body=1" for 127.0.0.1 at 2016-05-21 12:13:38 -0400
+Served asset /falling_lava/game.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-21 12:13:43 -0400
+Processing by FallingLavaController#new as HTML
+  Rendered falling_lava/falling_lava.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 8.9ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-05-21 12:13:43 -0400
+Served asset /bootstrap/button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-05-21 12:13:43 -0400
+Served asset /bootstrap/alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-05-21 12:13:43 -0400
+Served asset /bootstrap/dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-21 12:13:43 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-05-21 12:13:43 -0400
+Served asset /bootstrap/affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-05-21 12:13:43 -0400
+Served asset /bootstrap/carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-05-21 12:13:43 -0400
+Served asset /bootstrap/collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-21 12:13:43 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-05-21 12:13:43 -0400
+Served asset /bootstrap/tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-05-21 12:13:43 -0400
+Served asset /bootstrap/modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-05-21 12:13:43 -0400
+Served asset /bootstrap/transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-05-21 12:13:43 -0400
+Served asset /bootstrap/scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava.css?body=1" for 127.0.0.1 at 2016-05-21 12:13:43 -0400
+Served asset /falling_lava.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-05-21 12:13:43 -0400
+Served asset /bootstrap/tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/menu.js?body=1" for 127.0.0.1 at 2016-05-21 12:13:43 -0400
+Served asset /falling_lava/menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-05-21 12:13:43 -0400
+Served asset /bootstrap-sprockets.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-05-21 12:13:43 -0400
+Served asset /bootstrap/popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/player.js?body=1" for 127.0.0.1 at 2016-05-21 12:13:43 -0400
+Served asset /falling_lava/player.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/util.js?body=1" for 127.0.0.1 at 2016-05-21 12:13:43 -0400
+Served asset /falling_lava/util.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/game.js?body=1" for 127.0.0.1 at 2016-05-21 12:13:43 -0400
+Served asset /falling_lava/game.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/lava.js?body=1" for 127.0.0.1 at 2016-05-21 12:13:43 -0400
+Served asset /falling_lava/lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-21 12:15:56 -0400
+Processing by FallingLavaController#new as HTML
+Compiled falling_lava/menu.js  (0ms)  (pid 13034)
+  Rendered falling_lava/falling_lava.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 12.0ms (Views: 11.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-21 12:15:56 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-05-21 12:15:56 -0400
+Served asset /bootstrap/alert.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-05-21 12:15:56 -0400
+Served asset /bootstrap/dropdown.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-21 12:15:56 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-05-21 12:15:56 -0400
+Served asset /bootstrap/collapse.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-05-21 12:15:56 -0400
+Served asset /bootstrap/carousel.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-05-21 12:15:56 -0400
+Served asset /bootstrap/tab.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-05-21 12:15:56 -0400
+Served asset /bootstrap/button.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-05-21 12:15:56 -0400
+Served asset /bootstrap/affix.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-05-21 12:15:56 -0400
+Served asset /bootstrap/transition.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-05-21 12:15:56 -0400
+Served asset /bootstrap/scrollspy.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-05-21 12:15:56 -0400
+Served asset /bootstrap/modal.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-05-21 12:15:56 -0400
+Served asset /bootstrap/tooltip.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-05-21 12:15:56 -0400
+Served asset /bootstrap/popover.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-05-21 12:15:56 -0400
+Served asset /bootstrap-sprockets.js - 200 OK (1ms)
+
+
+Started GET "/assets/falling_lava.css?body=1" for 127.0.0.1 at 2016-05-21 12:15:56 -0400
+Served asset /falling_lava.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/util.js?body=1" for 127.0.0.1 at 2016-05-21 12:15:56 -0400
+Served asset /falling_lava/util.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/menu.js?body=1" for 127.0.0.1 at 2016-05-21 12:15:56 -0400
+Served asset /falling_lava/menu.js - 200 OK (1ms)
+
+
+Started GET "/assets/falling_lava/lava.js?body=1" for 127.0.0.1 at 2016-05-21 12:15:56 -0400
+Served asset /falling_lava/lava.js - 200 OK (0ms)
+
+
+Started GET "/assets/falling_lava/player.js?body=1" for 127.0.0.1 at 2016-05-21 12:15:56 -0400
+Served asset /falling_lava/player.js - 200 OK (0ms)
+
+
+Started GET "/assets/falling_lava/game.js?body=1" for 127.0.0.1 at 2016-05-21 12:15:56 -0400
+Served asset /falling_lava/game.js - 304 Not Modified (0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2016-05-21 12:15:56 -0400
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (3.2.22) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.22) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.22) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.22) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.22) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.22) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/static.rb:83:in `call'
+  railties (3.2.22) lib/rails/engine.rb:484:in `call'
+  railties (3.2.22) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.22) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/share/ruby/webrick/httpserver.rb:138:in `service'
+  /usr/share/ruby/webrick/httpserver.rb:94:in `run'
+  /usr/share/ruby/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/bdriskill/.gem/ruby/gems/actionpack-3.2.22/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-21 12:26:30 -0400
+Processing by FallingLavaController#new as HTML
+Compiled falling_lava/timer.js  (0ms)  (pid 13034)
+Compiled falling_lava/game.js  (0ms)  (pid 13034)
+  Rendered falling_lava/falling_lava.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 14.1ms (Views: 13.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/falling_lava/timer.js?body=1" for 127.0.0.1 at 2016-05-21 12:26:30 -0400
+Served asset /falling_lava/timer.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-05-21 12:26:30 -0400
+Served asset /bootstrap/alert.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-21 12:26:30 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-05-21 12:26:30 -0400
+Served asset /bootstrap/affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-21 12:26:30 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-05-21 12:26:30 -0400
+Served asset /bootstrap/button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-05-21 12:26:30 -0400
+Served asset /bootstrap/transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-05-21 12:26:30 -0400
+Served asset /bootstrap/modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-05-21 12:26:30 -0400
+Served asset /bootstrap/scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-05-21 12:26:30 -0400
+Served asset /bootstrap/popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-05-21 12:26:30 -0400
+Served asset /bootstrap-sprockets.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-05-21 12:26:30 -0400
+Served asset /bootstrap/dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-05-21 12:26:30 -0400
+Served asset /bootstrap/tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-05-21 12:26:30 -0400
+Served asset /bootstrap/collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-05-21 12:26:30 -0400
+Served asset /bootstrap/carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-05-21 12:26:30 -0400
+Served asset /bootstrap/tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/util.js?body=1" for 127.0.0.1 at 2016-05-21 12:26:30 -0400
+Served asset /falling_lava/util.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/player.js?body=1" for 127.0.0.1 at 2016-05-21 12:26:30 -0400
+Served asset /falling_lava/player.js - 200 OK (0ms)
+
+
+Started GET "/assets/falling_lava/lava.js?body=1" for 127.0.0.1 at 2016-05-21 12:26:30 -0400
+Served asset /falling_lava/lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava.css?body=1" for 127.0.0.1 at 2016-05-21 12:26:30 -0400
+Served asset /falling_lava.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/game.js?body=1" for 127.0.0.1 at 2016-05-21 12:26:30 -0400
+Served asset /falling_lava/game.js - 200 OK (0ms)
+
+
+Started GET "/assets/falling_lava/menu.js?body=1" for 127.0.0.1 at 2016-05-21 12:26:30 -0400
+Served asset /falling_lava/menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2016-05-21 12:26:30 -0400
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (3.2.22) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.22) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.22) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.22) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.22) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.22) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/static.rb:83:in `call'
+  railties (3.2.22) lib/rails/engine.rb:484:in `call'
+  railties (3.2.22) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.22) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/share/ruby/webrick/httpserver.rb:138:in `service'
+  /usr/share/ruby/webrick/httpserver.rb:94:in `run'
+  /usr/share/ruby/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/bdriskill/.gem/ruby/gems/actionpack-3.2.22/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-21 12:27:55 -0400
+Processing by FallingLavaController#new as HTML
+Compiled falling_lava/timer.js  (0ms)  (pid 13034)
+  Rendered falling_lava/falling_lava.html.erb within layouts/application (51.8ms)
+Completed 200 OK in 56.9ms (Views: 56.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-05-21 12:27:55 -0400
+Served asset /bootstrap/carousel.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-21 12:27:55 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-05-21 12:27:55 -0400
+Served asset /bootstrap/button.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-05-21 12:27:55 -0400
+Served asset /bootstrap/dropdown.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-05-21 12:27:55 -0400
+Served asset /bootstrap/alert.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-05-21 12:27:55 -0400
+Served asset /bootstrap/affix.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-05-21 12:27:55 -0400
+Served asset /bootstrap/collapse.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-21 12:27:55 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-05-21 12:27:55 -0400
+Served asset /bootstrap/scrollspy.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-05-21 12:27:55 -0400
+Served asset /bootstrap/transition.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-05-21 12:27:55 -0400
+Served asset /bootstrap/modal.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-05-21 12:27:55 -0400
+Served asset /bootstrap/tab.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-05-21 12:27:55 -0400
+Served asset /bootstrap/tooltip.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-05-21 12:27:55 -0400
+Served asset /bootstrap/popover.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-05-21 12:27:55 -0400
+Served asset /bootstrap-sprockets.js - 200 OK (2ms)
+
+
+Started GET "/assets/falling_lava.css?body=1" for 127.0.0.1 at 2016-05-21 12:27:55 -0400
+Served asset /falling_lava.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/util.js?body=1" for 127.0.0.1 at 2016-05-21 12:27:55 -0400
+Served asset /falling_lava/util.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/player.js?body=1" for 127.0.0.1 at 2016-05-21 12:27:55 -0400
+Served asset /falling_lava/player.js - 200 OK (0ms)
+
+
+Started GET "/assets/falling_lava/menu.js?body=1" for 127.0.0.1 at 2016-05-21 12:27:55 -0400
+Served asset /falling_lava/menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/lava.js?body=1" for 127.0.0.1 at 2016-05-21 12:27:55 -0400
+Served asset /falling_lava/lava.js - 200 OK (0ms)
+
+
+Started GET "/assets/falling_lava/game.js?body=1" for 127.0.0.1 at 2016-05-21 12:27:55 -0400
+Served asset /falling_lava/game.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/timer.js?body=1" for 127.0.0.1 at 2016-05-21 12:27:55 -0400
+Served asset /falling_lava/timer.js - 200 OK (0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2016-05-21 12:27:55 -0400
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (3.2.22) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.22) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.22) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.22) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.22) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.22) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/static.rb:83:in `call'
+  railties (3.2.22) lib/rails/engine.rb:484:in `call'
+  railties (3.2.22) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.22) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/share/ruby/webrick/httpserver.rb:138:in `service'
+  /usr/share/ruby/webrick/httpserver.rb:94:in `run'
+  /usr/share/ruby/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/bdriskill/.gem/ruby/gems/actionpack-3.2.22/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-21 12:28:37 -0400
+Processing by FallingLavaController#new as HTML
+Compiled falling_lava/timer.js  (0ms)  (pid 13034)
+  Rendered falling_lava/falling_lava.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 9.3ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-05-21 12:28:37 -0400
+Served asset /bootstrap/alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-05-21 12:28:37 -0400
+Served asset /bootstrap/carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-05-21 12:28:37 -0400
+Served asset /bootstrap/collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-21 12:28:37 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-05-21 12:28:37 -0400
+Served asset /bootstrap/transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-05-21 12:28:37 -0400
+Served asset /bootstrap/scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-05-21 12:28:37 -0400
+Served asset /bootstrap/affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-05-21 12:28:37 -0400
+Served asset /bootstrap/button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-21 12:28:37 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-05-21 12:28:37 -0400
+Served asset /bootstrap/tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-05-21 12:28:37 -0400
+Served asset /bootstrap/dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-05-21 12:28:37 -0400
+Served asset /bootstrap/modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-05-21 12:28:37 -0400
+Served asset /bootstrap/tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/util.js?body=1" for 127.0.0.1 at 2016-05-21 12:28:37 -0400
+Served asset /falling_lava/util.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/player.js?body=1" for 127.0.0.1 at 2016-05-21 12:28:37 -0400
+Served asset /falling_lava/player.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava.css?body=1" for 127.0.0.1 at 2016-05-21 12:28:37 -0400
+Served asset /falling_lava.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-05-21 12:28:37 -0400
+Served asset /bootstrap/popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/menu.js?body=1" for 127.0.0.1 at 2016-05-21 12:28:37 -0400
+Served asset /falling_lava/menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/lava.js?body=1" for 127.0.0.1 at 2016-05-21 12:28:37 -0400
+Served asset /falling_lava/lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/timer.js?body=1" for 127.0.0.1 at 2016-05-21 12:28:37 -0400
+Served asset /falling_lava/timer.js - 200 OK (0ms)
+
+
+Started GET "/assets/falling_lava/game.js?body=1" for 127.0.0.1 at 2016-05-21 12:28:37 -0400
+Served asset /falling_lava/game.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-05-21 12:28:37 -0400
+Served asset /bootstrap-sprockets.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-21 12:29:12 -0400
+Processing by FallingLavaController#new as HTML
+Compiled falling_lava/timer.js  (0ms)  (pid 13034)
+  Rendered falling_lava/falling_lava.html.erb within layouts/application (38.1ms)
+Completed 200 OK in 44.7ms (Views: 44.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-05-21 12:29:12 -0400
+Served asset /bootstrap/carousel.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-21 12:29:12 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-05-21 12:29:12 -0400
+Served asset /bootstrap/alert.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-05-21 12:29:12 -0400
+Served asset /bootstrap/dropdown.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-05-21 12:29:12 -0400
+Served asset /bootstrap/collapse.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-21 12:29:12 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-05-21 12:29:12 -0400
+Served asset /bootstrap/affix.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-05-21 12:29:12 -0400
+Served asset /bootstrap/button.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-05-21 12:29:12 -0400
+Served asset /bootstrap/tab.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-05-21 12:29:12 -0400
+Served asset /bootstrap/scrollspy.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-05-21 12:29:12 -0400
+Served asset /bootstrap/tooltip.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-05-21 12:29:12 -0400
+Served asset /bootstrap/transition.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-05-21 12:29:12 -0400
+Served asset /bootstrap/popover.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-05-21 12:29:12 -0400
+Served asset /bootstrap/modal.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-05-21 12:29:12 -0400
+Served asset /bootstrap-sprockets.js - 200 OK (0ms)
+
+
+Started GET "/assets/falling_lava.css?body=1" for 127.0.0.1 at 2016-05-21 12:29:12 -0400
+Served asset /falling_lava.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/util.js?body=1" for 127.0.0.1 at 2016-05-21 12:29:12 -0400
+Served asset /falling_lava/util.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/player.js?body=1" for 127.0.0.1 at 2016-05-21 12:29:12 -0400
+Served asset /falling_lava/player.js - 200 OK (0ms)
+
+
+Started GET "/assets/falling_lava/lava.js?body=1" for 127.0.0.1 at 2016-05-21 12:29:12 -0400
+Served asset /falling_lava/lava.js - 200 OK (0ms)
+
+
+Started GET "/assets/falling_lava/menu.js?body=1" for 127.0.0.1 at 2016-05-21 12:29:12 -0400
+Served asset /falling_lava/menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/timer.js?body=1" for 127.0.0.1 at 2016-05-21 12:29:12 -0400
+Served asset /falling_lava/timer.js - 200 OK (1ms)
+
+
+Started GET "/assets/falling_lava/game.js?body=1" for 127.0.0.1 at 2016-05-21 12:29:12 -0400
+Served asset /falling_lava/game.js - 304 Not Modified (0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2016-05-21 12:29:12 -0400
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (3.2.22) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.22) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.22) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.22) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.22) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.22) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/static.rb:83:in `call'
+  railties (3.2.22) lib/rails/engine.rb:484:in `call'
+  railties (3.2.22) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.22) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/share/ruby/webrick/httpserver.rb:138:in `service'
+  /usr/share/ruby/webrick/httpserver.rb:94:in `run'
+  /usr/share/ruby/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/bdriskill/.gem/ruby/gems/actionpack-3.2.22/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-21 12:29:44 -0400
+Processing by FallingLavaController#new as HTML
+Compiled falling_lava/timer.js  (0ms)  (pid 13034)
+  Rendered falling_lava/falling_lava.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 19.2ms (Views: 19.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-05-21 12:29:44 -0400
+Served asset /bootstrap/carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-05-21 12:29:44 -0400
+Served asset /bootstrap/collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-05-21 12:29:44 -0400
+Served asset /bootstrap/dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-05-21 12:29:44 -0400
+Served asset /bootstrap/tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-05-21 12:29:44 -0400
+Served asset /bootstrap/transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-05-21 12:29:44 -0400
+Served asset /bootstrap/scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-05-21 12:29:44 -0400
+Served asset /bootstrap/modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-05-21 12:29:44 -0400
+Served asset /bootstrap/alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-05-21 12:29:44 -0400
+Served asset /bootstrap/tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-05-21 12:29:44 -0400
+Served asset /bootstrap/popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-05-21 12:29:44 -0400
+Served asset /bootstrap-sprockets.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava.css?body=1" for 127.0.0.1 at 2016-05-21 12:29:44 -0400
+Served asset /falling_lava.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-05-21 12:29:44 -0400
+Served asset /bootstrap/affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-05-21 12:29:44 -0400
+Served asset /bootstrap/button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-21 12:29:44 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-21 12:29:44 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/util.js?body=1" for 127.0.0.1 at 2016-05-21 12:29:44 -0400
+Served asset /falling_lava/util.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/player.js?body=1" for 127.0.0.1 at 2016-05-21 12:29:44 -0400
+Served asset /falling_lava/player.js - 200 OK (0ms)
+
+
+Started GET "/assets/falling_lava/game.js?body=1" for 127.0.0.1 at 2016-05-21 12:29:44 -0400
+Served asset /falling_lava/game.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/timer.js?body=1" for 127.0.0.1 at 2016-05-21 12:29:44 -0400
+Served asset /falling_lava/timer.js - 200 OK (0ms)
+
+
+Started GET "/assets/falling_lava/lava.js?body=1" for 127.0.0.1 at 2016-05-21 12:29:44 -0400
+Served asset /falling_lava/lava.js - 200 OK (0ms)
+
+
+Started GET "/assets/falling_lava/menu.js?body=1" for 127.0.0.1 at 2016-05-21 12:29:44 -0400
+Served asset /falling_lava/menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2016-05-21 12:29:44 -0400
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (3.2.22) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.22) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.22) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.22) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.22) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.22) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/static.rb:83:in `call'
+  railties (3.2.22) lib/rails/engine.rb:484:in `call'
+  railties (3.2.22) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.22) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/share/ruby/webrick/httpserver.rb:138:in `service'
+  /usr/share/ruby/webrick/httpserver.rb:94:in `run'
+  /usr/share/ruby/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/bdriskill/.gem/ruby/gems/actionpack-3.2.22/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-21 12:31:25 -0400
+Processing by FallingLavaController#new as HTML
+Compiled falling_lava/timer.js  (0ms)  (pid 13034)
+  Rendered falling_lava/falling_lava.html.erb within layouts/application (39.6ms)
+Completed 200 OK in 44.5ms (Views: 44.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-21 12:31:25 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-21 12:31:25 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-05-21 12:31:25 -0400
+Served asset /bootstrap/affix.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-05-21 12:31:25 -0400
+Served asset /bootstrap/alert.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-05-21 12:31:25 -0400
+Served asset /bootstrap/button.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-05-21 12:31:25 -0400
+Served asset /bootstrap/transition.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-05-21 12:31:25 -0400
+Served asset /bootstrap/dropdown.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-05-21 12:31:25 -0400
+Served asset /bootstrap/collapse.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-05-21 12:31:25 -0400
+Served asset /bootstrap/scrollspy.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-05-21 12:31:25 -0400
+Served asset /bootstrap/carousel.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-05-21 12:31:25 -0400
+Served asset /bootstrap/tab.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-05-21 12:31:25 -0400
+Served asset /bootstrap/modal.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-05-21 12:31:25 -0400
+Served asset /bootstrap/tooltip.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-05-21 12:31:25 -0400
+Served asset /bootstrap/popover.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-05-21 12:31:25 -0400
+Served asset /bootstrap-sprockets.js - 200 OK (3ms)
+
+
+Started GET "/assets/falling_lava.css?body=1" for 127.0.0.1 at 2016-05-21 12:31:25 -0400
+Served asset /falling_lava.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/util.js?body=1" for 127.0.0.1 at 2016-05-21 12:31:25 -0400
+Served asset /falling_lava/util.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/player.js?body=1" for 127.0.0.1 at 2016-05-21 12:31:25 -0400
+Served asset /falling_lava/player.js - 200 OK (0ms)
+
+
+Started GET "/assets/falling_lava/menu.js?body=1" for 127.0.0.1 at 2016-05-21 12:31:25 -0400
+Served asset /falling_lava/menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/timer.js?body=1" for 127.0.0.1 at 2016-05-21 12:31:25 -0400
+Served asset /falling_lava/timer.js - 200 OK (1ms)
+
+
+Started GET "/assets/falling_lava/game.js?body=1" for 127.0.0.1 at 2016-05-21 12:31:25 -0400
+Served asset /falling_lava/game.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/lava.js?body=1" for 127.0.0.1 at 2016-05-21 12:31:25 -0400
+Served asset /falling_lava/lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2016-05-21 12:31:25 -0400
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (3.2.22) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.22) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.22) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.22) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.22) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.22) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/static.rb:83:in `call'
+  railties (3.2.22) lib/rails/engine.rb:484:in `call'
+  railties (3.2.22) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.22) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/share/ruby/webrick/httpserver.rb:138:in `service'
+  /usr/share/ruby/webrick/httpserver.rb:94:in `run'
+  /usr/share/ruby/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/bdriskill/.gem/ruby/gems/actionpack-3.2.22/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-21 12:33:16 -0400
+Processing by FallingLavaController#new as HTML
+Compiled falling_lava/timer.js  (0ms)  (pid 13034)
+  Rendered falling_lava/falling_lava.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 17.9ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-05-21 12:33:16 -0400
+Served asset /bootstrap/carousel.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-21 12:33:16 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-05-21 12:33:16 -0400
+Served asset /bootstrap/alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-21 12:33:16 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-05-21 12:33:16 -0400
+Served asset /bootstrap/dropdown.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-05-21 12:33:16 -0400
+Served asset /bootstrap/affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-05-21 12:33:16 -0400
+Served asset /bootstrap/transition.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-05-21 12:33:16 -0400
+Served asset /bootstrap/tab.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-05-21 12:33:16 -0400
+Served asset /bootstrap/collapse.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-05-21 12:33:16 -0400
+Served asset /bootstrap/button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-05-21 12:33:16 -0400
+Served asset /bootstrap/scrollspy.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-05-21 12:33:16 -0400
+Served asset /bootstrap/modal.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-05-21 12:33:16 -0400
+Served asset /bootstrap/tooltip.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-05-21 12:33:16 -0400
+Served asset /bootstrap/popover.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-05-21 12:33:16 -0400
+Served asset /bootstrap-sprockets.js - 200 OK (1ms)
+
+
+Started GET "/assets/falling_lava.css?body=1" for 127.0.0.1 at 2016-05-21 12:33:16 -0400
+Served asset /falling_lava.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/util.js?body=1" for 127.0.0.1 at 2016-05-21 12:33:16 -0400
+Served asset /falling_lava/util.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/player.js?body=1" for 127.0.0.1 at 2016-05-21 12:33:16 -0400
+Served asset /falling_lava/player.js - 200 OK (0ms)
+
+
+Started GET "/assets/falling_lava/lava.js?body=1" for 127.0.0.1 at 2016-05-21 12:33:16 -0400
+Served asset /falling_lava/lava.js - 200 OK (0ms)
+
+
+Started GET "/assets/falling_lava/menu.js?body=1" for 127.0.0.1 at 2016-05-21 12:33:16 -0400
+Served asset /falling_lava/menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/timer.js?body=1" for 127.0.0.1 at 2016-05-21 12:33:16 -0400
+Served asset /falling_lava/timer.js - 200 OK (1ms)
+
+
+Started GET "/assets/falling_lava/game.js?body=1" for 127.0.0.1 at 2016-05-21 12:33:16 -0400
+Served asset /falling_lava/game.js - 304 Not Modified (0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2016-05-21 12:33:16 -0400
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (3.2.22) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.22) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.22) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.22) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.22) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.22) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/static.rb:83:in `call'
+  railties (3.2.22) lib/rails/engine.rb:484:in `call'
+  railties (3.2.22) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.22) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/share/ruby/webrick/httpserver.rb:138:in `service'
+  /usr/share/ruby/webrick/httpserver.rb:94:in `run'
+  /usr/share/ruby/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/bdriskill/.gem/ruby/gems/actionpack-3.2.22/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-21 12:34:00 -0400
+Processing by FallingLavaController#new as HTML
+Compiled falling_lava/timer.js  (0ms)  (pid 13034)
+  Rendered falling_lava/falling_lava.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 9.4ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-21 12:34:00 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-21 12:34:00 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-05-21 12:34:00 -0400
+Served asset /bootstrap/collapse.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-05-21 12:34:00 -0400
+Served asset /bootstrap/dropdown.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-05-21 12:34:00 -0400
+Served asset /bootstrap/button.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-05-21 12:34:00 -0400
+Served asset /bootstrap/tab.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-05-21 12:34:00 -0400
+Served asset /bootstrap/affix.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-05-21 12:34:00 -0400
+Served asset /bootstrap/alert.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-05-21 12:34:00 -0400
+Served asset /bootstrap/carousel.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-05-21 12:34:00 -0400
+Served asset /bootstrap/modal.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-05-21 12:34:00 -0400
+Served asset /bootstrap/transition.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-05-21 12:34:00 -0400
+Served asset /bootstrap/scrollspy.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-05-21 12:34:00 -0400
+Served asset /bootstrap/tooltip.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-05-21 12:34:00 -0400
+Served asset /bootstrap/popover.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-05-21 12:34:00 -0400
+Served asset /bootstrap-sprockets.js - 200 OK (0ms)
+
+
+Started GET "/assets/falling_lava/util.js?body=1" for 127.0.0.1 at 2016-05-21 12:34:00 -0400
+Served asset /falling_lava/util.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava.css?body=1" for 127.0.0.1 at 2016-05-21 12:34:00 -0400
+Served asset /falling_lava.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/player.js?body=1" for 127.0.0.1 at 2016-05-21 12:34:00 -0400
+Served asset /falling_lava/player.js - 200 OK (0ms)
+
+
+Started GET "/assets/falling_lava/menu.js?body=1" for 127.0.0.1 at 2016-05-21 12:34:00 -0400
+Served asset /falling_lava/menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/timer.js?body=1" for 127.0.0.1 at 2016-05-21 12:34:00 -0400
+Served asset /falling_lava/timer.js - 200 OK (1ms)
+
+
+Started GET "/assets/falling_lava/game.js?body=1" for 127.0.0.1 at 2016-05-21 12:34:00 -0400
+Served asset /falling_lava/game.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/lava.js?body=1" for 127.0.0.1 at 2016-05-21 12:34:00 -0400
+Served asset /falling_lava/lava.js - 200 OK (0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2016-05-21 12:34:00 -0400
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (3.2.22) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.22) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.22) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.22) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.22) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.22) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/static.rb:83:in `call'
+  railties (3.2.22) lib/rails/engine.rb:484:in `call'
+  railties (3.2.22) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.22) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/share/ruby/webrick/httpserver.rb:138:in `service'
+  /usr/share/ruby/webrick/httpserver.rb:94:in `run'
+  /usr/share/ruby/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/bdriskill/.gem/ruby/gems/actionpack-3.2.22/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-21 12:47:38 -0400
+Processing by FallingLavaController#new as HTML
+Compiled falling_lava/timer.js  (0ms)  (pid 13034)
+  Rendered falling_lava/falling_lava.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 11.3ms (Views: 11.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-21 12:47:38 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-05-21 12:47:38 -0400
+Served asset /bootstrap/alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-21 12:47:38 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-05-21 12:47:38 -0400
+Served asset /bootstrap/carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-05-21 12:47:38 -0400
+Served asset /bootstrap/dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-05-21 12:47:38 -0400
+Served asset /bootstrap/scrollspy.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-05-21 12:47:38 -0400
+Served asset /bootstrap/transition.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-05-21 12:47:38 -0400
+Served asset /bootstrap/tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-05-21 12:47:38 -0400
+Served asset /bootstrap/modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-05-21 12:47:38 -0400
+Served asset /bootstrap/affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-05-21 12:47:38 -0400
+Served asset /bootstrap/popover.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-05-21 12:47:38 -0400
+Served asset /bootstrap/tooltip.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-05-21 12:47:38 -0400
+Served asset /bootstrap/collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-05-21 12:47:38 -0400
+Served asset /bootstrap/button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-05-21 12:47:38 -0400
+Served asset /bootstrap-sprockets.js - 200 OK (0ms)
+
+
+Started GET "/assets/falling_lava.css?body=1" for 127.0.0.1 at 2016-05-21 12:47:38 -0400
+Served asset /falling_lava.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/util.js?body=1" for 127.0.0.1 at 2016-05-21 12:47:38 -0400
+Served asset /falling_lava/util.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/menu.js?body=1" for 127.0.0.1 at 2016-05-21 12:47:38 -0400
+Served asset /falling_lava/menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/timer.js?body=1" for 127.0.0.1 at 2016-05-21 12:47:38 -0400
+Served asset /falling_lava/timer.js - 200 OK (39ms)
+
+
+Started GET "/assets/falling_lava/game.js?body=1" for 127.0.0.1 at 2016-05-21 12:47:38 -0400
+Served asset /falling_lava/game.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/lava.js?body=1" for 127.0.0.1 at 2016-05-21 12:47:38 -0400
+Served asset /falling_lava/lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/player.js?body=1" for 127.0.0.1 at 2016-05-21 12:47:38 -0400
+Served asset /falling_lava/player.js - 200 OK (0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2016-05-21 12:47:38 -0400
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (3.2.22) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.22) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.22) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.22) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.22) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.22) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/static.rb:83:in `call'
+  railties (3.2.22) lib/rails/engine.rb:484:in `call'
+  railties (3.2.22) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.22) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/share/ruby/webrick/httpserver.rb:138:in `service'
+  /usr/share/ruby/webrick/httpserver.rb:94:in `run'
+  /usr/share/ruby/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/bdriskill/.gem/ruby/gems/actionpack-3.2.22/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-21 12:48:29 -0400
+Processing by FallingLavaController#new as HTML
+Compiled falling_lava/timer.js  (0ms)  (pid 13034)
+  Rendered falling_lava/falling_lava.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 21.5ms (Views: 21.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-05-21 12:48:29 -0400
+Served asset /bootstrap/alert.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-21 12:48:29 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-05-21 12:48:29 -0400
+Served asset /bootstrap/carousel.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-05-21 12:48:29 -0400
+Served asset /bootstrap/collapse.js - 200 OK (3ms)
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-05-21 12:48:29 -0400
+Served asset /bootstrap/dropdown.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-21 12:48:29 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-05-21 12:48:29 -0400
+Served asset /bootstrap/button.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-05-21 12:48:29 -0400
+Served asset /bootstrap/affix.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-05-21 12:48:29 -0400
+Served asset /bootstrap/tab.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-05-21 12:48:29 -0400
+Served asset /bootstrap/scrollspy.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-05-21 12:48:29 -0400
+Served asset /bootstrap/modal.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-05-21 12:48:29 -0400
+Served asset /bootstrap/transition.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-05-21 12:48:29 -0400
+Served asset /bootstrap/tooltip.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-05-21 12:48:29 -0400
+Served asset /bootstrap/popover.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-05-21 12:48:29 -0400
+Served asset /bootstrap-sprockets.js - 200 OK (0ms)
+
+
+Started GET "/assets/falling_lava.css?body=1" for 127.0.0.1 at 2016-05-21 12:48:29 -0400
+Served asset /falling_lava.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/util.js?body=1" for 127.0.0.1 at 2016-05-21 12:48:29 -0400
+Served asset /falling_lava/util.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/player.js?body=1" for 127.0.0.1 at 2016-05-21 12:48:29 -0400
+Served asset /falling_lava/player.js - 200 OK (0ms)
+
+
+Started GET "/assets/falling_lava/lava.js?body=1" for 127.0.0.1 at 2016-05-21 12:48:29 -0400
+Served asset /falling_lava/lava.js - 200 OK (0ms)
+
+
+Started GET "/assets/falling_lava/menu.js?body=1" for 127.0.0.1 at 2016-05-21 12:48:29 -0400
+Served asset /falling_lava/menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/timer.js?body=1" for 127.0.0.1 at 2016-05-21 12:48:29 -0400
+Served asset /falling_lava/timer.js - 200 OK (1ms)
+
+
+Started GET "/assets/falling_lava/game.js?body=1" for 127.0.0.1 at 2016-05-21 12:48:29 -0400
+Served asset /falling_lava/game.js - 304 Not Modified (0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2016-05-21 12:48:29 -0400
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (3.2.22) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.22) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.22) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.22) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.22) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.22) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/static.rb:83:in `call'
+  railties (3.2.22) lib/rails/engine.rb:484:in `call'
+  railties (3.2.22) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.22) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/share/ruby/webrick/httpserver.rb:138:in `service'
+  /usr/share/ruby/webrick/httpserver.rb:94:in `run'
+  /usr/share/ruby/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/bdriskill/.gem/ruby/gems/actionpack-3.2.22/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-21 12:49:56 -0400
+Processing by FallingLavaController#new as HTML
+Compiled falling_lava/timer.js  (0ms)  (pid 13034)
+  Rendered falling_lava/falling_lava.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 11.1ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-05-21 12:49:56 -0400
+Served asset /bootstrap/carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-05-21 12:49:56 -0400
+Served asset /bootstrap/collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-05-21 12:49:56 -0400
+Served asset /bootstrap/affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-05-21 12:49:56 -0400
+Served asset /bootstrap/dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-05-21 12:49:56 -0400
+Served asset /bootstrap/transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-05-21 12:49:56 -0400
+Served asset /bootstrap/button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-05-21 12:49:56 -0400
+Served asset /bootstrap/modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-05-21 12:49:56 -0400
+Served asset /bootstrap/scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-05-21 12:49:56 -0400
+Served asset /bootstrap/popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-05-21 12:49:56 -0400
+Served asset /bootstrap/tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-05-21 12:49:56 -0400
+Served asset /bootstrap/tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-21 12:49:56 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-21 12:49:56 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-05-21 12:49:56 -0400
+Served asset /bootstrap-sprockets.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-05-21 12:49:56 -0400
+Served asset /bootstrap/alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/lava.js?body=1" for 127.0.0.1 at 2016-05-21 12:49:56 -0400
+Served asset /falling_lava/lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/util.js?body=1" for 127.0.0.1 at 2016-05-21 12:49:56 -0400
+Served asset /falling_lava/util.js - 304 Not Modified (47ms)
+
+
+Started GET "/assets/falling_lava/menu.js?body=1" for 127.0.0.1 at 2016-05-21 12:49:57 -0400
+Served asset /falling_lava/menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava.css?body=1" for 127.0.0.1 at 2016-05-21 12:49:57 -0400
+Served asset /falling_lava.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/player.js?body=1" for 127.0.0.1 at 2016-05-21 12:49:57 -0400
+Served asset /falling_lava/player.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/timer.js?body=1" for 127.0.0.1 at 2016-05-21 12:49:57 -0400
+Served asset /falling_lava/timer.js - 200 OK (1ms)
+
+
+Started GET "/assets/falling_lava/game.js?body=1" for 127.0.0.1 at 2016-05-21 12:49:57 -0400
+Served asset /falling_lava/game.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-21 12:50:50 -0400
+Processing by FallingLavaController#new as HTML
+Compiled falling_lava/timer.js  (0ms)  (pid 13034)
+  Rendered falling_lava/falling_lava.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 9.4ms (Views: 9.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-05-21 12:50:50 -0400
+Served asset /bootstrap/carousel.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-05-21 12:50:50 -0400
+Served asset /bootstrap/button.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-21 12:50:50 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-05-21 12:50:50 -0400
+Served asset /bootstrap/affix.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-21 12:50:50 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-05-21 12:50:50 -0400
+Served asset /bootstrap/dropdown.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-05-21 12:50:50 -0400
+Served asset /bootstrap/tab.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-05-21 12:50:50 -0400
+Served asset /bootstrap/transition.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-05-21 12:50:50 -0400
+Served asset /bootstrap/collapse.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-05-21 12:50:50 -0400
+Served asset /bootstrap/alert.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-05-21 12:50:51 -0400
+Served asset /bootstrap/scrollspy.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-05-21 12:50:51 -0400
+Served asset /bootstrap/modal.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-05-21 12:50:51 -0400
+Served asset /bootstrap/tooltip.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-05-21 12:50:51 -0400
+Served asset /bootstrap-sprockets.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-05-21 12:50:51 -0400
+Served asset /bootstrap/popover.js - 200 OK (0ms)
+
+
+Started GET "/assets/falling_lava.css?body=1" for 127.0.0.1 at 2016-05-21 12:50:51 -0400
+Served asset /falling_lava.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/util.js?body=1" for 127.0.0.1 at 2016-05-21 12:50:51 -0400
+Served asset /falling_lava/util.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/lava.js?body=1" for 127.0.0.1 at 2016-05-21 12:50:51 -0400
+Served asset /falling_lava/lava.js - 200 OK (0ms)
+
+
+Started GET "/assets/falling_lava/player.js?body=1" for 127.0.0.1 at 2016-05-21 12:50:51 -0400
+Served asset /falling_lava/player.js - 200 OK (0ms)
+
+
+Started GET "/assets/falling_lava/menu.js?body=1" for 127.0.0.1 at 2016-05-21 12:50:51 -0400
+Served asset /falling_lava/menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/timer.js?body=1" for 127.0.0.1 at 2016-05-21 12:50:51 -0400
+Served asset /falling_lava/timer.js - 200 OK (0ms)
+
+
+Started GET "/assets/falling_lava/game.js?body=1" for 127.0.0.1 at 2016-05-21 12:50:51 -0400
+Served asset /falling_lava/game.js - 304 Not Modified (0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2016-05-21 12:50:51 -0400
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (3.2.22) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.22) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.22) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.22) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.22) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.22) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/static.rb:83:in `call'
+  railties (3.2.22) lib/rails/engine.rb:484:in `call'
+  railties (3.2.22) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.22) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/share/ruby/webrick/httpserver.rb:138:in `service'
+  /usr/share/ruby/webrick/httpserver.rb:94:in `run'
+  /usr/share/ruby/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/bdriskill/.gem/ruby/gems/actionpack-3.2.22/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-21 12:52:01 -0400
+Processing by FallingLavaController#new as HTML
+Compiled falling_lava/timer.js  (0ms)  (pid 13034)
+  Rendered falling_lava/falling_lava.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 10.3ms (Views: 10.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-21 12:52:01 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-21 12:52:01 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-05-21 12:52:01 -0400
+Served asset /bootstrap/affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-05-21 12:52:01 -0400
+Served asset /bootstrap/dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-05-21 12:52:01 -0400
+Served asset /bootstrap/carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-05-21 12:52:01 -0400
+Served asset /bootstrap/alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-05-21 12:52:01 -0400
+Served asset /bootstrap/tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-05-21 12:52:01 -0400
+Served asset /bootstrap/modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-05-21 12:52:01 -0400
+Served asset /bootstrap/tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-05-21 12:52:01 -0400
+Served asset /bootstrap/popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-05-21 12:52:01 -0400
+Served asset /bootstrap-sprockets.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava.css?body=1" for 127.0.0.1 at 2016-05-21 12:52:01 -0400
+Served asset /falling_lava.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/util.js?body=1" for 127.0.0.1 at 2016-05-21 12:52:01 -0400
+Served asset /falling_lava/util.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-05-21 12:52:01 -0400
+Served asset /bootstrap/button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/menu.js?body=1" for 127.0.0.1 at 2016-05-21 12:52:01 -0400
+Served asset /falling_lava/menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/timer.js?body=1" for 127.0.0.1 at 2016-05-21 12:52:01 -0400
+Served asset /falling_lava/timer.js - 200 OK (36ms)
+
+
+Started GET "/assets/falling_lava/lava.js?body=1" for 127.0.0.1 at 2016-05-21 12:52:01 -0400
+Served asset /falling_lava/lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/player.js?body=1" for 127.0.0.1 at 2016-05-21 12:52:01 -0400
+Served asset /falling_lava/player.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-05-21 12:52:01 -0400
+Served asset /bootstrap/collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-05-21 12:52:01 -0400
+Served asset /bootstrap/scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-05-21 12:52:01 -0400
+Served asset /bootstrap/transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/game.js?body=1" for 127.0.0.1 at 2016-05-21 12:52:01 -0400
+Served asset /falling_lava/game.js - 304 Not Modified (0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2016-05-21 12:52:02 -0400
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (3.2.22) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.22) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.22) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.22) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.22) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.22) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/static.rb:83:in `call'
+  railties (3.2.22) lib/rails/engine.rb:484:in `call'
+  railties (3.2.22) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.22) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/share/ruby/webrick/httpserver.rb:138:in `service'
+  /usr/share/ruby/webrick/httpserver.rb:94:in `run'
+  /usr/share/ruby/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/bdriskill/.gem/ruby/gems/actionpack-3.2.22/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-21 12:56:13 -0400
+Processing by FallingLavaController#new as HTML
+Compiled falling_lava/timer.js  (0ms)  (pid 13034)
+  Rendered falling_lava/falling_lava.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 10.4ms (Views: 10.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-05-21 12:56:14 -0400
+Served asset /bootstrap/button.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-21 12:56:14 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-05-21 12:56:14 -0400
+Served asset /bootstrap/affix.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-05-21 12:56:14 -0400
+Served asset /bootstrap/dropdown.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-05-21 12:56:14 -0400
+Served asset /bootstrap/tab.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-05-21 12:56:14 -0400
+Served asset /bootstrap/collapse.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-21 12:56:14 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-05-21 12:56:14 -0400
+Served asset /bootstrap/alert.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-05-21 12:56:14 -0400
+Served asset /bootstrap/carousel.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-05-21 12:56:14 -0400
+Served asset /bootstrap/modal.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-05-21 12:56:14 -0400
+Served asset /bootstrap/scrollspy.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-05-21 12:56:14 -0400
+Served asset /bootstrap/transition.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-05-21 12:56:14 -0400
+Served asset /bootstrap/tooltip.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-05-21 12:56:14 -0400
+Served asset /bootstrap/popover.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-05-21 12:56:14 -0400
+Served asset /bootstrap-sprockets.js - 200 OK (0ms)
+
+
+Started GET "/assets/falling_lava/util.js?body=1" for 127.0.0.1 at 2016-05-21 12:56:14 -0400
+Served asset /falling_lava/util.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/lava.js?body=1" for 127.0.0.1 at 2016-05-21 12:56:14 -0400
+Served asset /falling_lava/lava.js - 200 OK (0ms)
+
+
+Started GET "/assets/falling_lava.css?body=1" for 127.0.0.1 at 2016-05-21 12:56:14 -0400
+Served asset /falling_lava.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/player.js?body=1" for 127.0.0.1 at 2016-05-21 12:56:14 -0400
+Served asset /falling_lava/player.js - 200 OK (0ms)
+
+
+Started GET "/assets/falling_lava/menu.js?body=1" for 127.0.0.1 at 2016-05-21 12:56:14 -0400
+Served asset /falling_lava/menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/timer.js?body=1" for 127.0.0.1 at 2016-05-21 12:56:14 -0400
+Served asset /falling_lava/timer.js - 200 OK (0ms)
+
+
+Started GET "/assets/falling_lava/game.js?body=1" for 127.0.0.1 at 2016-05-21 12:56:14 -0400
+Served asset /falling_lava/game.js - 304 Not Modified (0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2016-05-21 12:56:14 -0400
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (3.2.22) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.22) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.22) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.22) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.22) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.22) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/static.rb:83:in `call'
+  railties (3.2.22) lib/rails/engine.rb:484:in `call'
+  railties (3.2.22) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.22) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/share/ruby/webrick/httpserver.rb:138:in `service'
+  /usr/share/ruby/webrick/httpserver.rb:94:in `run'
+  /usr/share/ruby/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/bdriskill/.gem/ruby/gems/actionpack-3.2.22/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)

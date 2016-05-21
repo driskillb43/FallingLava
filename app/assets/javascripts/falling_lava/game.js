@@ -26,7 +26,7 @@ var CANVAS_WIDTH = backgroundCanvas.width,
 
 var entities = new Array(),	
 	player = new Player(),
-    lavas = new Array(),
+    timer = new Timer(),
     isPlaying = false,
     requestAnimFrame =  window.requestAnimationFrame ||
                         window.webkitRequestAnimationFrame ||
@@ -47,6 +47,7 @@ function startGame()
     document.addEventListener(KEY_DOWN_EVENT, function(event) {checkKey(event, true);}, false);
     document.addEventListener(KEY_UP_EVENT, function(event) {checkKey(event, false);}, false);
     entities.push(player);
+    entities.push(timer);
     initializeLavas();
     isPlaying = true;
 }

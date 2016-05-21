@@ -9,6 +9,7 @@ var Menu = Class.create(
             this.playButton = new Image();
             this.playButton.src = "images/play_button.png";
             this.playButton.name = "play_button"
+            this.playButtonEnabled = true
             this.playButtonDrawX = menuContext.measureText(this.text).width
             this.playButtonDrawY = menuCanvas.height / 3
         },
@@ -21,8 +22,9 @@ var Menu = Class.create(
         
         checkButtonClicked: function(mouseClickX, mouseClickY)
         {
-            if(checkCollision(mouseClickX, mouseClickY, this.playButtonDrawX, this.playButtonDrawY, this.playButton.width, this.playButton.height))
+            if(this.playButtonEnabled && checkCollision(mouseClickX, mouseClickY, this.playButtonDrawX, this.playButtonDrawY, this.playButton.width, this.playButton.height))
             {
+                this.playButtonEnabled = false;
                 startGame();
             }
         }
