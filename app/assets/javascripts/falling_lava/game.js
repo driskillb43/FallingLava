@@ -14,7 +14,7 @@ var backgroundCanvas = document.getElementById("backgroundCanvas"),
 var CANVAS_WIDTH = backgroundCanvas.width,
     CANVAS_HEIGHT = backgroundCanvas.height,
     GROUND_Y = 400,
-    LAVA_START_AMOUNT = 5,
+    LAVA_START_AMOUNT = 2,
     BACKGROUND_IMAGE_PATH = "images/background.png",
     LOAD_EVENT = "load",
     KEY_DOWN_EVENT = "keydown",
@@ -46,10 +46,15 @@ function startGame()
     clearCtx(menuContext);
     document.addEventListener(KEY_DOWN_EVENT, function(event) {checkKey(event, true);}, false);
     document.addEventListener(KEY_UP_EVENT, function(event) {checkKey(event, false);}, false);
+    initializeEntities();
+    isPlaying = true;
+}
+
+function initializeEntities()
+{
     entities.push(player);
     entities.push(timer);
     initializeLavas();
-    isPlaying = true;
 }
 
 function resetGame()
@@ -62,7 +67,7 @@ function initializeLavas()
 {
 	for (var i = 0; i <= LAVA_START_AMOUNT; i++)
 	{
-		entities.push(new Lava(randomRange(0, CANVAS_WIDTH), randomRange(1, 10)))
+		entities.push(new FallingLava(randomRange(0, CANVAS_WIDTH), randomRange(1, 3)))
 	}
 }
 
@@ -83,6 +88,29 @@ function update()
     {
     	entities[i].update();
     }
+    if(timer.currentTime != 0)
+    {
+        if(timer.currentTime % 5 == 0 && timer.changed)
+        {
+            var lavaEntities = new Array();
+            for (var i = 0; i < entities.length; i++)
+            {
+                if((entities[i] instanceof FallingLava) || (entities[i] instanceof SidewaysLava))
+                {
+                    lavaEntities.push(entities[i]);
+                }
+            }
+            lavaEntities[randomRange(0, lavaEntities.length - 1)].increaseSpeed();
+        }
+        if (timer.currentTime % 10 == 0 && timer.changed)
+        {
+            entities.push(new FallingLava(randomRange(0, CANVAS_WIDTH), randomRange(1, 3)))
+        }
+        if (timer.currentTime % 20 == 0 && timer.changed)
+        {
+            entities.push(new SidewaysLava(randomRange(0, GROUND_Y), randomRange(1, 3), randomTrueOrFalse()));
+        }
+    }
 }
 
 function resetEntities()
@@ -92,6 +120,8 @@ function resetEntities()
     {
         entities[i].reset();
     }
+    entities.clear();
+    initializeEntities();
 }
 
 function draw() 
@@ -99,7 +129,7 @@ function draw()
     for (var i = 0; i < entities.length; i++)
     {
     	entities[i].draw();
-    	if((entities[i] instanceof Lava) && checkObjectCollision(entities[i], player))
+    	if(((entities[i] instanceof FallingLava) || (entities[i] instanceof SidewaysLava)) && checkObjectCollision(entities[i], player))
     	{
             player.playDeathSound();
     		player.isDead = true;

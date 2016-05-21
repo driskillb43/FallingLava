@@ -11,6 +11,8 @@ var Timer = Class.create({
         ctxEntities.textAlign = "center";
         this.startTime = null;
         this.currentTime = null;
+        this.changed = false;
+        this.previousTime = null;
 	},
 
 	update: function() 
@@ -18,8 +20,18 @@ var Timer = Class.create({
 	    if (this.startTime == null)
         {
             this.startTime = Date.now() / 1000;
+            this.previousTime = this.startTime;
         }
         this.currentTime = Math.floor((Date.now() / 1000) - this.startTime);
+        if(this.previousTime != this.currentTime)
+        {
+            this.changed = true;
+            this.previousTime = this.currentTime;
+        }
+        else 
+        {
+            this.changed = false;
+        }
 	},
 	
 	draw: function() 

@@ -31,8 +31,6 @@ var Player = Class.create(
 	    this.height = PLAYER_HEIGHT;
 	    this.drawX = CANVAS_WIDTH / 2;
 	    this.drawY = GROUND_Y - PLAYER_HEIGHT;
-	    this.centerX = this.drawX + (this.width / 2);
-	    this.centerY = this.drawY + (this.height / 2);
 	    this.runSpeed = 2;
 	    this.jumpSpeed = 30;
 	    this.jumpCount = 0;
@@ -49,8 +47,6 @@ var Player = Class.create(
 
 	update: function() 
 	{
-	    this.centerX = this.drawX + (this.width / 2);
-	    this.centerY = this.drawY + (this.height / 2);
 	    this.checkDirection();
 	},
     
@@ -62,8 +58,6 @@ var Player = Class.create(
         this.height = PLAYER_HEIGHT;
         this.drawX = CANVAS_WIDTH / 2;
         this.drawY = GROUND_Y - PLAYER_HEIGHT;
-        this.centerX = this.drawX + (this.width / 2);
-        this.centerY = this.drawY + (this.height / 2);
         this.runSpeed = 2;
         this.jumpSpeed = 30;
         this.jumpCount = 0;

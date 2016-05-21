@@ -7,6 +7,11 @@ function randomRange (min, max)
     return Math.floor(Math.random() * (max + 1 - min)) + min;
 }
 
+function randomTrueOrFalse()
+{
+    return Math.random() < 0.5 ? true : false;
+}
+
 function checkObjectCollision(a, b)
 {
     return checkCollision(a.drawX, a.drawY, b.drawX, b.drawY, b.width, b.height);

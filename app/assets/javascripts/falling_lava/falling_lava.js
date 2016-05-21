@@ -2,7 +2,7 @@
  * Class representing the falling lava
  */
 
-var Lava = Class.create({
+var FallingLava = Class.create({
 	
 	initialize: function(drawX, fallSpeed) 
 	{
@@ -12,24 +12,20 @@ var Lava = Class.create({
 	    this.height = 24;
 	    this.drawX = drawX;
 	    this.drawY = 0;
-	    this.centerX = this.drawX + (this.width / 2);
-	    this.centerY = this.drawY + (this.height / 2);
 	    this.fallSpeed = fallSpeed;
-	    this.playerSprite = new Image();
-	    this.playerSprite.src = "images/fire.png";
+	    this.fallingLavaSprite = new Image();
+	    this.fallingLavaSprite.src = "images/fire.png";
 	},
 
 	update: function() 
 	{
-	    this.centerX = this.drawX + (this.width / 2);
-	    this.centerY = this.drawY + (this.height / 2);
+        this.drawY += this.fallSpeed;
 	},
 	
 	draw: function() 
 	{
-		this.drawY += this.fallSpeed;
 		this.checkPosition()
-	    ctxEntities.drawImage(this.playerSprite, this.srcX, this.srcY, this.width, this.height, this.drawX, this.drawY, this.width, this.height);
+	    ctxEntities.drawImage(this.fallingLavaSprite, this.srcX, this.srcY, this.width, this.height, this.drawX, this.drawY, this.width, this.height);
 	},
 	
 	checkPosition: function()
@@ -48,6 +44,11 @@ var Lava = Class.create({
 
 	isOutOfBounds: function() 
 	{
-		return this.drawY >= CANVAS_HEIGHT;
-	}
+		return this.drawY >= GROUND_Y;
+	},
+    
+    increaseSpeed: function()
+    {
+        this.fallSpeed += 1;
+    }
 });
