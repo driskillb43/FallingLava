@@ -5,18 +5,28 @@ var Menu = Class.create(
             menuContext.font = "60px Comic Sans MS";
             menuContext.fillStyle = "red";
             menuContext.textAlign = "center";
-            this.text = "Falling Lava"
+            this.mainMenuText = "Falling Lava"
+            this.tryAgainText = "You died. Try again?"
             this.playButton = new Image();
             this.playButton.src = "images/play_button.png";
             this.playButton.name = "play_button"
             this.playButtonEnabled = true
             this.playButtonDrawX = menuContext.measureText(this.text).width
             this.playButtonDrawY = menuCanvas.height / 3
+            this.tryAgain = false
         },
         
-        draw: function()
+        drawMainMenu: function()
         {
-            menuContext.fillText(this.text, menuCanvas.width / 2, menuCanvas.height / 4);
+            menuContext.fillText(this.mainMenuText, menuCanvas.width / 2, menuCanvas.height / 4);
+            menuContext.drawImage(this.playButton, this.playButtonDrawX, this.playButtonDrawY);
+        },
+        
+        drawFailMenu: function()
+        {
+            this.playButtonEnabled = true;
+            this.tryAgain = true;
+            menuContext.fillText(this.tryAgainText, menuCanvas.width / 2, menuCanvas.height / 4);
             menuContext.drawImage(this.playButton, this.playButtonDrawX, this.playButtonDrawY);
         },
         
@@ -25,7 +35,14 @@ var Menu = Class.create(
             if(this.playButtonEnabled && checkCollision(mouseClickX, mouseClickY, this.playButtonDrawX, this.playButtonDrawY, this.playButton.width, this.playButton.height))
             {
                 this.playButtonEnabled = false;
-                startGame();
+                if(this.tryAgain)
+                {
+                    resetGame();
+                }
+                else
+                {
+                    startGame();
+                }
             }
         }
     }

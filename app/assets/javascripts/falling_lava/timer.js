@@ -26,4 +26,9 @@ var Timer = Class.create({
 	{
         ctxEntities.fillText(this.currentTime, menuCanvas.width / 2, parseInt(ctxEntities.font));
 	},
+    
+    reset: function()
+    {
+        this.startTime = null;
+    }
 });

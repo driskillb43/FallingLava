@@ -52,6 +52,12 @@ function startGame()
     isPlaying = true;
 }
 
+function resetGame()
+{
+    clearCtx(menuContext);
+    isPlaying = true;
+}
+
 function initializeLavas()
 {
 	for (var i = 0; i <= LAVA_START_AMOUNT; i++)
@@ -64,7 +70,7 @@ function init()
 {
     backgroundContext.drawImage(bgSprite, 0, 0, CANVAS_WIDTH, CANVAS_HEIGHT, 0, 0, CANVAS_WIDTH, CANVAS_HEIGHT);
     document.addEventListener(MOUSE_CLICK, function(event) {checkMouseClick(event);}, false);
-    menu.draw();
+    menu.drawMainMenu();
     var audio = new Audio('sounds/falling_lava.wav');
     audio.play();
     requestAnimFrame(loop);
@@ -79,16 +85,30 @@ function update()
     }
 }
 
+function resetEntities()
+{
+    clearCtx(ctxEntities);
+    for (var i = 0; i < entities.length; i++)
+    {
+        entities[i].reset();
+    }
+}
+
 function draw() 
 {
     for (var i = 0; i < entities.length; i++)
     {
     	entities[i].draw();
-    	if(!(entities[i] instanceof Player) && checkObjectCollision(entities[i], player))
+    	if((entities[i] instanceof Lava) && checkObjectCollision(entities[i], player))
     	{
             player.playDeathSound();
     		player.isDead = true;
     		isPlaying = false;
+            player.deathAudio.onended = function()
+            {
+                resetEntities();
+                menu.drawFailMenu();
+            }
     	}
     }
 }

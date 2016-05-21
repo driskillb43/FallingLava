@@ -47,19 +47,40 @@ var Player = Class.create(
 	    this.isDead = false;
 	},
 
-	update: function () 
+	update: function() 
 	{
 	    this.centerX = this.drawX + (this.width / 2);
 	    this.centerY = this.drawY + (this.height / 2);
 	    this.checkDirection();
 	},
+    
+    reset: function()
+    {
+        this.srcX = FACING_LEFT_X;
+        this.srcY = FACING_LEFT_Y;
+        this.width = PLAYER_WIDTH;
+        this.height = PLAYER_HEIGHT;
+        this.drawX = CANVAS_WIDTH / 2;
+        this.drawY = GROUND_Y - PLAYER_HEIGHT;
+        this.centerX = this.drawX + (this.width / 2);
+        this.centerY = this.drawY + (this.height / 2);
+        this.runSpeed = 2;
+        this.jumpSpeed = 30;
+        this.jumpCount = 0;
+        this.jumpAmount = 50;
+        this.spriteAddition = FACING_LEFT_X;
+        this.isRightKey = false;
+        this.isLeftKey = false;
+        this.isSpaceBar = false;
+        this.isJumping = false;
+    },
 
-	draw: function () 
+	draw: function() 
 	{
 		ctxEntities.drawImage(this.playerSprite, this.srcX, this.srcY, this.width, this.height, this.drawX, this.drawY, this.width, this.height);
 	},
 
-	checkDirection: function () 
+	checkDirection: function() 
 	{
 	    var newDrawX = this.drawX,
 	        newDrawY = this.drawY;
@@ -129,8 +150,8 @@ var Player = Class.create(
 
 	playDeathSound: function()
 	{
-		var audio = new Audio('sounds/thats_hot.wav');
-		audio.play();
+		this.deathAudio = new Audio('sounds/thats_hot.wav');
+		this.deathAudio.play();
 	},
 	
 	outOfBoundsX: function(drawX)
