@@ -131,6 +131,7 @@ function draw()
     	entities[i].draw();
     	if(((entities[i] instanceof FallingLava) || (entities[i] instanceof SidewaysLava)) && checkObjectCollision(entities[i], player))
     	{
+            saveScore();
             player.playDeathSound();
     		player.isDead = true;
     		isPlaying = false;
@@ -183,4 +184,14 @@ function checkMouseClick(event)
     var rect = menuCanvas.getBoundingClientRect();
     menu.checkButtonClicked(event.pageX - rect.left, event.pageY - rect.top);
     event.preventDefault();
+}
+
+function saveScore()
+{
+    jQuery.ajax({
+        type: 'POST',
+        url: "falling_lava/save_score",
+        data: { score: {score: timer.currentTime }},
+        dataType: 'json'
+    });
 }
