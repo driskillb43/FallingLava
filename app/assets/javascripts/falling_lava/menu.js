@@ -11,7 +11,7 @@ var Menu = Class.create(
             this.playButton.src = "images/play_button.png";
             this.playButton.name = "play_button"
             this.playButtonEnabled = true
-            this.playButtonDrawX = menuContext.measureText(this.text).width
+            this.playButtonDrawX = (menuCanvas.width / 2) - (this.playButton.width / 2)
             this.playButtonDrawY = menuCanvas.height / 3
             this.tryAgain = false
         },
