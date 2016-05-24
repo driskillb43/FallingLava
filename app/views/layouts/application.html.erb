@@ -22,9 +22,25 @@
 
 </body>
 <script type="text/javascript">
-  $(".nav a").on("click", function() {
-    $(".nav").find(".active").removeClass("active");
-    $(this).parent().addClass("active");
-  })
+  jQuery(document).ready(function() {
+
+    jQuery(".nav a").on("click", function() {
+      jQuery(".nav").find(".active").removeClass("active");
+      jQuery(this).parent().addClass("active");
+    });
+
+    console.log(jQuery(location).attr('pathname'));
+
+    if (jQuery(location).attr('pathname').indexOf('statistics') != -1)
+    {
+      jQuery(".nav").find(".active").removeClass("active");
+      jQuery(".nav a").each(function() {
+        if(jQuery(this).attr("href").indexOf("statistics") != -1)
+        {
+          jQuery(this).parent().addClass("active");
+        }
+      });
+    }
+  });
 </script>
 </html>
