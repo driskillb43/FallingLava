@@ -18727,3 +18727,3859 @@ Processing by FallingLavaController#save_score as JSON
   [1m[35mSQL (0.3ms)[0m  INSERT INTO "scores" ("created_at", "score", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["created_at", Tue, 24 May 2016 00:31:10 UTC +00:00], ["score", 2], ["updated_at", Tue, 24 May 2016 00:31:10 UTC +00:00]]
   [1m[36m (23.0ms)[0m  [1mCOMMIT[0m
 Completed 200 OK in 31.5ms (Views: 0.1ms | ActiveRecord: 25.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-24 19:12:32 -0400
+Connecting to database specified by database.yml
+Processing by FallingLavaController#new as HTML
+Compiled falling_lava/game.js  (0ms)  (pid 62604)
+  Rendered falling_lava/falling_lava.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 83.9ms (Views: 83.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:33 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:33 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:33 -0400
+Served asset /bootstrap/carousel.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:33 -0400
+Served asset /bootstrap/dropdown.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:33 -0400
+Served asset /bootstrap/collapse.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:33 -0400
+Served asset /bootstrap/affix.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:33 -0400
+Served asset /bootstrap/alert.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:33 -0400
+Served asset /bootstrap/transition.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:33 -0400
+Served asset /bootstrap/tab.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:33 -0400
+Served asset /bootstrap/button.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:33 -0400
+Served asset /bootstrap/scrollspy.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:33 -0400
+Served asset /bootstrap/modal.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:33 -0400
+Served asset /bootstrap/popover.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:33 -0400
+Served asset /bootstrap/tooltip.js - 200 OK (30ms)
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:33 -0400
+Served asset /bootstrap-sprockets.js - 200 OK (7ms)
+
+
+Started GET "/assets/falling_lava.css?body=1" for 127.0.0.1 at 2016-05-24 19:12:33 -0400
+Served asset /falling_lava.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/util.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:33 -0400
+Served asset /falling_lava/util.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/player.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:33 -0400
+Served asset /falling_lava/player.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/falling_lava.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:33 -0400
+Served asset /falling_lava/falling_lava.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/falling_lava/menu.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:33 -0400
+Served asset /falling_lava/menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/sideways_lava.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:33 -0400
+Served asset /falling_lava/sideways_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/timer.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:33 -0400
+Served asset /falling_lava/timer.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/falling_lava/game.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:33 -0400
+Served asset /falling_lava/game.js - 200 OK (0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2016-05-24 19:12:33 -0400
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (3.2.22) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.22) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.22) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.22) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.22) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.22) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/static.rb:83:in `call'
+  railties (3.2.22) lib/rails/engine.rb:484:in `call'
+  railties (3.2.22) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.22) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/share/ruby/webrick/httpserver.rb:138:in `service'
+  /usr/share/ruby/webrick/httpserver.rb:94:in `run'
+  /usr/share/ruby/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/bdriskill/.gem/ruby/gems/actionpack-3.2.22/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/falling_lava/statistics" for 127.0.0.1 at 2016-05-24 19:12:36 -0400
+Processing by FallingLavaController#statistics as HTML
+  [1m[36mScore Load (0.3ms)[0m  [1mSELECT "scores".* FROM "scores" [0m
+  Rendered falling_lava/statistics.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 46.2ms (Views: 31.0ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:36 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:36 -0400
+Served asset /bootstrap/affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:36 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:36 -0400
+Served asset /bootstrap/alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:36 -0400
+Served asset /bootstrap/button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:36 -0400
+Served asset /bootstrap/transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:36 -0400
+Served asset /bootstrap/carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:36 -0400
+Served asset /bootstrap/scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:36 -0400
+Served asset /bootstrap/tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:36 -0400
+Served asset /bootstrap-sprockets.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:36 -0400
+Served asset /bootstrap/popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:36 -0400
+Served asset /bootstrap/tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:36 -0400
+Served asset /bootstrap/collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:36 -0400
+Served asset /bootstrap/modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava.css?body=1" for 127.0.0.1 at 2016-05-24 19:12:36 -0400
+Served asset /falling_lava.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:36 -0400
+Served asset /bootstrap/dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-24 19:12:37 -0400
+Processing by FallingLavaController#new as HTML
+  Rendered falling_lava/falling_lava.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 11.6ms (Views: 11.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:37 -0400
+Served asset /bootstrap/affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:38 -0400
+Served asset /bootstrap/button.js - 304 Not Modified (22ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:38 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:38 -0400
+Served asset /bootstrap/alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:38 -0400
+Served asset /bootstrap/carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:38 -0400
+Served asset /bootstrap/scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:38 -0400
+Served asset /bootstrap/modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:38 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:38 -0400
+Served asset /bootstrap/tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:38 -0400
+Served asset /bootstrap/transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:38 -0400
+Served asset /bootstrap/collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:38 -0400
+Served asset /bootstrap-sprockets.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:38 -0400
+Served asset /bootstrap/dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:38 -0400
+Served asset /bootstrap/popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava.css?body=1" for 127.0.0.1 at 2016-05-24 19:12:38 -0400
+Served asset /falling_lava.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/util.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:38 -0400
+Served asset /falling_lava/util.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:38 -0400
+Served asset /bootstrap/tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/player.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:38 -0400
+Served asset /falling_lava/player.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/falling_lava.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:38 -0400
+Served asset /falling_lava/falling_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/sideways_lava.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:38 -0400
+Served asset /falling_lava/sideways_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/timer.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:38 -0400
+Served asset /falling_lava/timer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/game.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:38 -0400
+Served asset /falling_lava/game.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/menu.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:38 -0400
+Served asset /falling_lava/menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/falling_lava/statistics" for 127.0.0.1 at 2016-05-24 19:12:40 -0400
+Processing by FallingLavaController#statistics as HTML
+  [1m[35mScore Load (0.4ms)[0m  SELECT "scores".* FROM "scores" 
+  Rendered falling_lava/statistics.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 32.9ms (Views: 31.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:40 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:40 -0400
+Served asset /bootstrap/affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:40 -0400
+Served asset /bootstrap/alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:40 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:40 -0400
+Served asset /bootstrap/button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:40 -0400
+Served asset /bootstrap/collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:40 -0400
+Served asset /bootstrap/modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:40 -0400
+Served asset /bootstrap/carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:40 -0400
+Served asset /bootstrap/dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:40 -0400
+Served asset /bootstrap/transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:40 -0400
+Served asset /bootstrap/scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:40 -0400
+Served asset /bootstrap/tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:40 -0400
+Served asset /bootstrap/tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:40 -0400
+Served asset /bootstrap-sprockets.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/falling_lava.css?body=1" for 127.0.0.1 at 2016-05-24 19:12:40 -0400
+Served asset /falling_lava.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:40 -0400
+Served asset /bootstrap/popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-24 19:12:41 -0400
+Processing by FallingLavaController#new as HTML
+  Rendered falling_lava/falling_lava.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 26.8ms (Views: 26.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:41 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:41 -0400
+Served asset /bootstrap/affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:41 -0400
+Served asset /bootstrap/button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:41 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:41 -0400
+Served asset /bootstrap/alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:41 -0400
+Served asset /bootstrap/carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:41 -0400
+Served asset /bootstrap/collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:41 -0400
+Served asset /bootstrap/tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/player.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:41 -0400
+Served asset /falling_lava/player.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:41 -0400
+Served asset /bootstrap/dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:41 -0400
+Served asset /bootstrap/scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:41 -0400
+Served asset /bootstrap/tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/sideways_lava.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:41 -0400
+Served asset /falling_lava/sideways_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/util.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:41 -0400
+Served asset /falling_lava/util.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:41 -0400
+Served asset /bootstrap/transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava.css?body=1" for 127.0.0.1 at 2016-05-24 19:12:41 -0400
+Served asset /falling_lava.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:41 -0400
+Served asset /bootstrap-sprockets.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:41 -0400
+Served asset /bootstrap/popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/falling_lava.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:41 -0400
+Served asset /falling_lava/falling_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/menu.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:41 -0400
+Served asset /falling_lava/menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:41 -0400
+Served asset /bootstrap/modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/game.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:41 -0400
+Served asset /falling_lava/game.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/timer.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:41 -0400
+Served asset /falling_lava/timer.js - 304 Not Modified (0ms)
+
+
+Started GET "/falling_lava/statistics" for 127.0.0.1 at 2016-05-24 19:12:42 -0400
+Processing by FallingLavaController#statistics as HTML
+  [1m[36mScore Load (0.3ms)[0m  [1mSELECT "scores".* FROM "scores" [0m
+  Rendered falling_lava/statistics.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 32.7ms (Views: 31.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:42 -0400
+Served asset /bootstrap/carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:42 -0400
+Served asset /bootstrap/transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:42 -0400
+Served asset /bootstrap/affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:42 -0400
+Served asset /bootstrap/dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:42 -0400
+Served asset /bootstrap/button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:42 -0400
+Served asset /bootstrap/collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:42 -0400
+Served asset /bootstrap/tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:42 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava.css?body=1" for 127.0.0.1 at 2016-05-24 19:12:42 -0400
+Served asset /falling_lava.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:42 -0400
+Served asset /bootstrap/modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:42 -0400
+Served asset /bootstrap/popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:42 -0400
+Served asset /bootstrap/alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:42 -0400
+Served asset /bootstrap-sprockets.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:42 -0400
+Served asset /bootstrap/tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:42 -0400
+Served asset /bootstrap/scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:42 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-24 19:12:44 -0400
+Processing by FallingLavaController#new as HTML
+  Rendered falling_lava/falling_lava.html.erb within layouts/application (25.6ms)
+Completed 200 OK in 36.9ms (Views: 36.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:44 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:44 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:44 -0400
+Served asset /bootstrap/affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:44 -0400
+Served asset /bootstrap/carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:44 -0400
+Served asset /bootstrap/tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:44 -0400
+Served asset /bootstrap/alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:44 -0400
+Served asset /bootstrap/dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:44 -0400
+Served asset /bootstrap/tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:44 -0400
+Served asset /bootstrap/transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:44 -0400
+Served asset /bootstrap/button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:44 -0400
+Served asset /bootstrap/popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/timer.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:44 -0400
+Served asset /falling_lava/timer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:44 -0400
+Served asset /bootstrap/modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:44 -0400
+Served asset /bootstrap/collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava.css?body=1" for 127.0.0.1 at 2016-05-24 19:12:44 -0400
+Served asset /falling_lava.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/player.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:44 -0400
+Served asset /falling_lava/player.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:44 -0400
+Served asset /bootstrap-sprockets.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/sideways_lava.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:44 -0400
+Served asset /falling_lava/sideways_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/util.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:44 -0400
+Served asset /falling_lava/util.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/falling_lava.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:44 -0400
+Served asset /falling_lava/falling_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:44 -0400
+Served asset /bootstrap/scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/game.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:44 -0400
+Served asset /falling_lava/game.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/menu.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:44 -0400
+Served asset /falling_lava/menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/falling_lava/statistics" for 127.0.0.1 at 2016-05-24 19:12:46 -0400
+Processing by FallingLavaController#statistics as HTML
+  [1m[35mScore Load (0.3ms)[0m  SELECT "scores".* FROM "scores" 
+  Rendered falling_lava/statistics.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 28.5ms (Views: 27.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:46 -0400
+Served asset /bootstrap/collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:46 -0400
+Served asset /bootstrap/carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:46 -0400
+Served asset /bootstrap/dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:46 -0400
+Served asset /bootstrap/transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:46 -0400
+Served asset /bootstrap/tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:46 -0400
+Served asset /bootstrap/scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:46 -0400
+Served asset /bootstrap/alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:46 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:46 -0400
+Served asset /bootstrap/popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:46 -0400
+Served asset /bootstrap/tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:46 -0400
+Served asset /bootstrap-sprockets.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:46 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:46 -0400
+Served asset /bootstrap/modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:46 -0400
+Served asset /bootstrap/button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:46 -0400
+Served asset /bootstrap/affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava.css?body=1" for 127.0.0.1 at 2016-05-24 19:12:46 -0400
+Served asset /falling_lava.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-24 19:12:47 -0400
+Processing by FallingLavaController#new as HTML
+  Rendered falling_lava/falling_lava.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 34.3ms (Views: 34.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:47 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:47 -0400
+Served asset /bootstrap/alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:47 -0400
+Served asset /bootstrap/carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:47 -0400
+Served asset /bootstrap/tab.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:47 -0400
+Served asset /bootstrap/transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:47 -0400
+Served asset /bootstrap/popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:47 -0400
+Served asset /bootstrap/dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:47 -0400
+Served asset /bootstrap/collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:47 -0400
+Served asset /bootstrap/button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/sideways_lava.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:47 -0400
+Served asset /falling_lava/sideways_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:47 -0400
+Served asset /bootstrap/affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:47 -0400
+Served asset /bootstrap-sprockets.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:47 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:47 -0400
+Served asset /bootstrap/tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/menu.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:47 -0400
+Served asset /falling_lava/menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:47 -0400
+Served asset /bootstrap/modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/player.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:47 -0400
+Served asset /falling_lava/player.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava.css?body=1" for 127.0.0.1 at 2016-05-24 19:12:47 -0400
+Served asset /falling_lava.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/timer.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:47 -0400
+Served asset /falling_lava/timer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:47 -0400
+Served asset /bootstrap/scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/falling_lava.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:47 -0400
+Served asset /falling_lava/falling_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/game.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:47 -0400
+Served asset /falling_lava/game.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/util.js?body=1" for 127.0.0.1 at 2016-05-24 19:12:47 -0400
+Served asset /falling_lava/util.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-24 19:14:33 -0400
+Processing by FallingLavaController#new as HTML
+Compiled falling_lava.css  (1038ms)  (pid 62604)
+  Rendered falling_lava/falling_lava.html.erb within layouts/application (1043.9ms)
+Completed 200 OK in 1051.3ms (Views: 1051.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-24 19:14:34 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-24 19:14:34 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-05-24 19:14:34 -0400
+Served asset /bootstrap/affix.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-05-24 19:14:34 -0400
+Served asset /bootstrap/tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-05-24 19:14:34 -0400
+Served asset /bootstrap/carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-05-24 19:14:34 -0400
+Served asset /bootstrap/alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-05-24 19:14:34 -0400
+Served asset /bootstrap/modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-05-24 19:14:34 -0400
+Served asset /bootstrap/collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-05-24 19:14:34 -0400
+Served asset /bootstrap/dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-05-24 19:14:34 -0400
+Served asset /bootstrap/scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-05-24 19:14:34 -0400
+Served asset /bootstrap-sprockets.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-05-24 19:14:34 -0400
+Served asset /bootstrap/button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/player.js?body=1" for 127.0.0.1 at 2016-05-24 19:14:34 -0400
+Served asset /falling_lava/player.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-05-24 19:14:34 -0400
+Served asset /bootstrap/popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-05-24 19:14:34 -0400
+Served asset /bootstrap/tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/menu.js?body=1" for 127.0.0.1 at 2016-05-24 19:14:34 -0400
+Served asset /falling_lava/menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-05-24 19:14:34 -0400
+Served asset /bootstrap/transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava.css?body=1" for 127.0.0.1 at 2016-05-24 19:14:34 -0400
+Served asset /falling_lava.css - 200 OK (1ms)
+
+
+Started GET "/assets/falling_lava/sideways_lava.js?body=1" for 127.0.0.1 at 2016-05-24 19:14:35 -0400
+Served asset /falling_lava/sideways_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/util.js?body=1" for 127.0.0.1 at 2016-05-24 19:14:35 -0400
+Served asset /falling_lava/util.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/falling_lava.js?body=1" for 127.0.0.1 at 2016-05-24 19:14:35 -0400
+Served asset /falling_lava/falling_lava.js - 304 Not Modified (16ms)
+
+
+Started GET "/assets/falling_lava/game.js?body=1" for 127.0.0.1 at 2016-05-24 19:14:35 -0400
+Served asset /falling_lava/game.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/timer.js?body=1" for 127.0.0.1 at 2016-05-24 19:14:35 -0400
+Served asset /falling_lava/timer.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-24 19:15:22 -0400
+Processing by FallingLavaController#new as HTML
+  Rendered falling_lava/falling_lava.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 15.2ms (Views: 14.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-24 19:15:22 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-24 19:15:22 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-05-24 19:15:22 -0400
+Served asset /bootstrap/tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-05-24 19:15:22 -0400
+Served asset /bootstrap/carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-05-24 19:15:22 -0400
+Served asset /bootstrap/dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava.css?body=1" for 127.0.0.1 at 2016-05-24 19:15:22 -0400
+Served asset /falling_lava.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-05-24 19:15:22 -0400
+Served asset /bootstrap/modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/player.js?body=1" for 127.0.0.1 at 2016-05-24 19:15:22 -0400
+Served asset /falling_lava/player.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-05-24 19:15:22 -0400
+Served asset /bootstrap/alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/util.js?body=1" for 127.0.0.1 at 2016-05-24 19:15:22 -0400
+Served asset /falling_lava/util.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/sideways_lava.js?body=1" for 127.0.0.1 at 2016-05-24 19:15:22 -0400
+Served asset /falling_lava/sideways_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/falling_lava.js?body=1" for 127.0.0.1 at 2016-05-24 19:15:22 -0400
+Served asset /falling_lava/falling_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/game.js?body=1" for 127.0.0.1 at 2016-05-24 19:15:22 -0400
+Served asset /falling_lava/game.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-05-24 19:15:22 -0400
+Served asset /bootstrap/scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-05-24 19:15:22 -0400
+Served asset /bootstrap/popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/timer.js?body=1" for 127.0.0.1 at 2016-05-24 19:15:22 -0400
+Served asset /falling_lava/timer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-05-24 19:15:22 -0400
+Served asset /bootstrap/button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-05-24 19:15:22 -0400
+Served asset /bootstrap/transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-05-24 19:15:22 -0400
+Served asset /bootstrap/affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/menu.js?body=1" for 127.0.0.1 at 2016-05-24 19:15:22 -0400
+Served asset /falling_lava/menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-05-24 19:15:22 -0400
+Served asset /bootstrap/tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-05-24 19:15:22 -0400
+Served asset /bootstrap/collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-05-24 19:15:22 -0400
+Served asset /bootstrap-sprockets.js - 304 Not Modified (18ms)
+
+
+Started GET "/falling_lava/statistics" for 127.0.0.1 at 2016-05-24 19:16:00 -0400
+Processing by FallingLavaController#statistics as HTML
+  [1m[36mScore Load (0.3ms)[0m  [1mSELECT "scores".* FROM "scores" [0m
+  Rendered falling_lava/statistics.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 9.4ms (Views: 8.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-24 19:16:00 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-05-24 19:16:00 -0400
+Served asset /bootstrap/alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-05-24 19:16:00 -0400
+Served asset /bootstrap/button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-05-24 19:16:00 -0400
+Served asset /bootstrap/tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-05-24 19:16:00 -0400
+Served asset /bootstrap/affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-05-24 19:16:00 -0400
+Served asset /bootstrap/carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-05-24 19:16:00 -0400
+Served asset /bootstrap/modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-05-24 19:16:00 -0400
+Served asset /bootstrap/transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-24 19:16:00 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-05-24 19:16:00 -0400
+Served asset /bootstrap-sprockets.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-05-24 19:16:00 -0400
+Served asset /bootstrap/scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava.css?body=1" for 127.0.0.1 at 2016-05-24 19:16:00 -0400
+Served asset /falling_lava.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-05-24 19:16:00 -0400
+Served asset /bootstrap/dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-05-24 19:16:00 -0400
+Served asset /bootstrap/popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-05-24 19:16:00 -0400
+Served asset /bootstrap/collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-05-24 19:16:00 -0400
+Served asset /bootstrap/tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-24 19:16:00 -0400
+Processing by FallingLavaController#new as HTML
+  Rendered falling_lava/falling_lava.html.erb within layouts/application (25.0ms)
+Completed 200 OK in 32.3ms (Views: 32.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-24 19:16:00 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-24 19:16:00 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-05-24 19:16:00 -0400
+Served asset /bootstrap/tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-05-24 19:16:00 -0400
+Served asset /bootstrap/alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-05-24 19:16:00 -0400
+Served asset /bootstrap/collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-05-24 19:16:00 -0400
+Served asset /bootstrap/affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-05-24 19:16:00 -0400
+Served asset /bootstrap/dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-05-24 19:16:00 -0400
+Served asset /bootstrap/transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-05-24 19:16:00 -0400
+Served asset /bootstrap-sprockets.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-05-24 19:16:00 -0400
+Served asset /bootstrap/button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/util.js?body=1" for 127.0.0.1 at 2016-05-24 19:16:00 -0400
+Served asset /falling_lava/util.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-05-24 19:16:00 -0400
+Served asset /bootstrap/tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-05-24 19:16:00 -0400
+Served asset /bootstrap/modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/sideways_lava.js?body=1" for 127.0.0.1 at 2016-05-24 19:16:00 -0400
+Served asset /falling_lava/sideways_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava.css?body=1" for 127.0.0.1 at 2016-05-24 19:16:00 -0400
+Served asset /falling_lava.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-05-24 19:16:00 -0400
+Served asset /bootstrap/scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/falling_lava.js?body=1" for 127.0.0.1 at 2016-05-24 19:16:00 -0400
+Served asset /falling_lava/falling_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/player.js?body=1" for 127.0.0.1 at 2016-05-24 19:16:00 -0400
+Served asset /falling_lava/player.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-05-24 19:16:00 -0400
+Served asset /bootstrap/carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/timer.js?body=1" for 127.0.0.1 at 2016-05-24 19:16:01 -0400
+Served asset /falling_lava/timer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-05-24 19:16:01 -0400
+Served asset /bootstrap/popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/game.js?body=1" for 127.0.0.1 at 2016-05-24 19:16:01 -0400
+Served asset /falling_lava/game.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/menu.js?body=1" for 127.0.0.1 at 2016-05-24 19:16:01 -0400
+Served asset /falling_lava/menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-24 19:16:32 -0400
+Processing by FallingLavaController#new as HTML
+Compiled falling_lava.css  (425ms)  (pid 62604)
+  Rendered falling_lava/falling_lava.html.erb within layouts/application (430.8ms)
+Completed 200 OK in 458.0ms (Views: 457.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-24 19:16:33 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-05-24 19:16:33 -0400
+Served asset /bootstrap/affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-24 19:16:33 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-05-24 19:16:33 -0400
+Served asset /bootstrap/button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-05-24 19:16:33 -0400
+Served asset /bootstrap/collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-05-24 19:16:33 -0400
+Served asset /bootstrap/carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-05-24 19:16:33 -0400
+Served asset /bootstrap/alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-05-24 19:16:33 -0400
+Served asset /bootstrap/dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-05-24 19:16:33 -0400
+Served asset /bootstrap/tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-05-24 19:16:33 -0400
+Served asset /bootstrap/transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-05-24 19:16:33 -0400
+Served asset /bootstrap/modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-05-24 19:16:33 -0400
+Served asset /bootstrap/scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-05-24 19:16:33 -0400
+Served asset /bootstrap/tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-05-24 19:16:33 -0400
+Served asset /bootstrap-sprockets.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/sideways_lava.js?body=1" for 127.0.0.1 at 2016-05-24 19:16:33 -0400
+Served asset /falling_lava/sideways_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/util.js?body=1" for 127.0.0.1 at 2016-05-24 19:16:33 -0400
+Served asset /falling_lava/util.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-05-24 19:16:33 -0400
+Served asset /bootstrap/popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava.css?body=1" for 127.0.0.1 at 2016-05-24 19:16:33 -0400
+Served asset /falling_lava.css - 200 OK (0ms)
+
+
+Started GET "/assets/falling_lava/player.js?body=1" for 127.0.0.1 at 2016-05-24 19:16:33 -0400
+Served asset /falling_lava/player.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/timer.js?body=1" for 127.0.0.1 at 2016-05-24 19:16:33 -0400
+Served asset /falling_lava/timer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/menu.js?body=1" for 127.0.0.1 at 2016-05-24 19:16:33 -0400
+Served asset /falling_lava/menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/falling_lava.js?body=1" for 127.0.0.1 at 2016-05-24 19:16:33 -0400
+Served asset /falling_lava/falling_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/game.js?body=1" for 127.0.0.1 at 2016-05-24 19:16:33 -0400
+Served asset /falling_lava/game.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-24 19:16:58 -0400
+Processing by FallingLavaController#new as HTML
+Compiled falling_lava.css  (443ms)  (pid 62604)
+  Rendered falling_lava/falling_lava.html.erb within layouts/application (448.4ms)
+Completed 200 OK in 473.2ms (Views: 473.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-24 19:16:59 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-24 19:16:59 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-05-24 19:16:59 -0400
+Served asset /bootstrap/button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-05-24 19:16:59 -0400
+Served asset /bootstrap/carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-05-24 19:16:59 -0400
+Served asset /bootstrap/collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-05-24 19:16:59 -0400
+Served asset /bootstrap/tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-05-24 19:16:59 -0400
+Served asset /bootstrap/transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-05-24 19:16:59 -0400
+Served asset /bootstrap/dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-05-24 19:16:59 -0400
+Served asset /bootstrap/scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-05-24 19:16:59 -0400
+Served asset /bootstrap/affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-05-24 19:16:59 -0400
+Served asset /bootstrap/modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-05-24 19:16:59 -0400
+Served asset /bootstrap/alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/game.js?body=1" for 127.0.0.1 at 2016-05-24 19:16:59 -0400
+Served asset /falling_lava/game.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-05-24 19:16:59 -0400
+Served asset /bootstrap-sprockets.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava.css?body=1" for 127.0.0.1 at 2016-05-24 19:16:59 -0400
+Served asset /falling_lava.css - 200 OK (0ms)
+
+
+Started GET "/assets/falling_lava/player.js?body=1" for 127.0.0.1 at 2016-05-24 19:16:59 -0400
+Served asset /falling_lava/player.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/util.js?body=1" for 127.0.0.1 at 2016-05-24 19:16:59 -0400
+Served asset /falling_lava/util.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/falling_lava.js?body=1" for 127.0.0.1 at 2016-05-24 19:16:59 -0400
+Served asset /falling_lava/falling_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/timer.js?body=1" for 127.0.0.1 at 2016-05-24 19:16:59 -0400
+Served asset /falling_lava/timer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/menu.js?body=1" for 127.0.0.1 at 2016-05-24 19:16:59 -0400
+Served asset /falling_lava/menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/sideways_lava.js?body=1" for 127.0.0.1 at 2016-05-24 19:16:59 -0400
+Served asset /falling_lava/sideways_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-05-24 19:16:59 -0400
+Served asset /bootstrap/tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-05-24 19:16:59 -0400
+Served asset /bootstrap/popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-24 19:17:12 -0400
+Processing by FallingLavaController#new as HTML
+  Rendered falling_lava/falling_lava.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 30.8ms (Views: 30.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-24 19:17:12 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-24 19:17:12 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-05-24 19:17:12 -0400
+Served asset /bootstrap/affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-05-24 19:17:12 -0400
+Served asset /bootstrap/alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-05-24 19:17:12 -0400
+Served asset /bootstrap/button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-05-24 19:17:12 -0400
+Served asset /bootstrap/carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-05-24 19:17:12 -0400
+Served asset /bootstrap/collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-05-24 19:17:12 -0400
+Served asset /bootstrap/dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-05-24 19:17:12 -0400
+Served asset /bootstrap/tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-05-24 19:17:12 -0400
+Served asset /bootstrap/transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-05-24 19:17:12 -0400
+Served asset /bootstrap-sprockets.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava.css?body=1" for 127.0.0.1 at 2016-05-24 19:17:12 -0400
+Served asset /falling_lava.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-05-24 19:17:12 -0400
+Served asset /bootstrap/popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/game.js?body=1" for 127.0.0.1 at 2016-05-24 19:17:12 -0400
+Served asset /falling_lava/game.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/util.js?body=1" for 127.0.0.1 at 2016-05-24 19:17:12 -0400
+Served asset /falling_lava/util.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/player.js?body=1" for 127.0.0.1 at 2016-05-24 19:17:12 -0400
+Served asset /falling_lava/player.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-05-24 19:17:12 -0400
+Served asset /bootstrap/tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-05-24 19:17:12 -0400
+Served asset /bootstrap/modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/sideways_lava.js?body=1" for 127.0.0.1 at 2016-05-24 19:17:12 -0400
+Served asset /falling_lava/sideways_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-05-24 19:17:12 -0400
+Served asset /bootstrap/scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/menu.js?body=1" for 127.0.0.1 at 2016-05-24 19:17:12 -0400
+Served asset /falling_lava/menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/timer.js?body=1" for 127.0.0.1 at 2016-05-24 19:17:12 -0400
+Served asset /falling_lava/timer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/falling_lava.js?body=1" for 127.0.0.1 at 2016-05-24 19:17:12 -0400
+Served asset /falling_lava/falling_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-24 19:17:50 -0400
+Processing by FallingLavaController#new as HTML
+Compiled falling_lava.css  (467ms)  (pid 62604)
+  Rendered falling_lava/falling_lava.html.erb within layouts/application (474.3ms)
+Completed 200 OK in 497.9ms (Views: 497.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-24 19:17:51 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-05-24 19:17:51 -0400
+Served asset /bootstrap/affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-05-24 19:17:51 -0400
+Served asset /bootstrap/scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-05-24 19:17:51 -0400
+Served asset /bootstrap/button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-05-24 19:17:51 -0400
+Served asset /bootstrap/collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-05-24 19:17:51 -0400
+Served asset /bootstrap/popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-05-24 19:17:51 -0400
+Served asset /bootstrap/tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-05-24 19:17:51 -0400
+Served asset /bootstrap/carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-05-24 19:17:51 -0400
+Served asset /bootstrap/alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-05-24 19:17:51 -0400
+Served asset /bootstrap/transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-05-24 19:17:51 -0400
+Served asset /bootstrap/tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/sideways_lava.js?body=1" for 127.0.0.1 at 2016-05-24 19:17:51 -0400
+Served asset /falling_lava/sideways_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-24 19:17:51 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/menu.js?body=1" for 127.0.0.1 at 2016-05-24 19:17:51 -0400
+Served asset /falling_lava/menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/game.js?body=1" for 127.0.0.1 at 2016-05-24 19:17:51 -0400
+Served asset /falling_lava/game.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-05-24 19:17:51 -0400
+Served asset /bootstrap/modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/player.js?body=1" for 127.0.0.1 at 2016-05-24 19:17:51 -0400
+Served asset /falling_lava/player.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/falling_lava.js?body=1" for 127.0.0.1 at 2016-05-24 19:17:51 -0400
+Served asset /falling_lava/falling_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/util.js?body=1" for 127.0.0.1 at 2016-05-24 19:17:51 -0400
+Served asset /falling_lava/util.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava.css?body=1" for 127.0.0.1 at 2016-05-24 19:17:51 -0400
+Served asset /falling_lava.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-05-24 19:17:51 -0400
+Served asset /bootstrap/dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/timer.js?body=1" for 127.0.0.1 at 2016-05-24 19:17:51 -0400
+Served asset /falling_lava/timer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-05-24 19:17:51 -0400
+Served asset /bootstrap-sprockets.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-24 19:18:55 -0400
+Processing by FallingLavaController#new as HTML
+  Rendered falling_lava/falling_lava.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 39.8ms (Views: 39.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-24 19:18:55 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-05-24 19:18:55 -0400
+Served asset /bootstrap/carousel.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-05-24 19:18:55 -0400
+Served asset /bootstrap/alert.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-24 19:18:55 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-05-24 19:18:55 -0400
+Served asset /bootstrap/dropdown.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-05-24 19:18:55 -0400
+Served asset /bootstrap/tab.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-05-24 19:18:55 -0400
+Served asset /bootstrap/collapse.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-05-24 19:18:55 -0400
+Served asset /bootstrap/button.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-05-24 19:18:56 -0400
+Served asset /bootstrap/affix.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-05-24 19:18:56 -0400
+Served asset /bootstrap/scrollspy.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-05-24 19:18:56 -0400
+Served asset /bootstrap/transition.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-05-24 19:18:56 -0400
+Served asset /bootstrap/modal.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-05-24 19:18:56 -0400
+Served asset /bootstrap/tooltip.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-05-24 19:18:56 -0400
+Served asset /bootstrap/popover.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-05-24 19:18:56 -0400
+Served asset /bootstrap-sprockets.js - 200 OK (0ms)
+
+
+Started GET "/assets/falling_lava.css?body=1" for 127.0.0.1 at 2016-05-24 19:18:56 -0400
+Served asset /falling_lava.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/util.js?body=1" for 127.0.0.1 at 2016-05-24 19:18:56 -0400
+Served asset /falling_lava/util.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/player.js?body=1" for 127.0.0.1 at 2016-05-24 19:18:56 -0400
+Served asset /falling_lava/player.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/falling_lava.js?body=1" for 127.0.0.1 at 2016-05-24 19:18:56 -0400
+Served asset /falling_lava/falling_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/sideways_lava.js?body=1" for 127.0.0.1 at 2016-05-24 19:18:56 -0400
+Served asset /falling_lava/sideways_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/menu.js?body=1" for 127.0.0.1 at 2016-05-24 19:18:56 -0400
+Served asset /falling_lava/menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/game.js?body=1" for 127.0.0.1 at 2016-05-24 19:18:56 -0400
+Served asset /falling_lava/game.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/timer.js?body=1" for 127.0.0.1 at 2016-05-24 19:18:56 -0400
+Served asset /falling_lava/timer.js - 304 Not Modified (0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2016-05-24 19:18:56 -0400
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (3.2.22) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.22) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.22) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.22) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.22) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.22) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/static.rb:83:in `call'
+  railties (3.2.22) lib/rails/engine.rb:484:in `call'
+  railties (3.2.22) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.22) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/share/ruby/webrick/httpserver.rb:138:in `service'
+  /usr/share/ruby/webrick/httpserver.rb:94:in `run'
+  /usr/share/ruby/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/bdriskill/.gem/ruby/gems/actionpack-3.2.22/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-24 19:22:54 -0400
+Processing by FallingLavaController#new as HTML
+  Rendered falling_lava/falling_lava.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 41.2ms (Views: 41.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-24 19:22:54 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-05-24 19:22:54 -0400
+Served asset /bootstrap/collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-24 19:22:54 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-05-24 19:22:54 -0400
+Served asset /bootstrap/alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-05-24 19:22:54 -0400
+Served asset /bootstrap/button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-05-24 19:22:54 -0400
+Served asset /bootstrap/transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-05-24 19:22:54 -0400
+Served asset /bootstrap/scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-05-24 19:22:54 -0400
+Served asset /bootstrap/dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-05-24 19:22:54 -0400
+Served asset /bootstrap/popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-05-24 19:22:54 -0400
+Served asset /bootstrap-sprockets.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-05-24 19:22:54 -0400
+Served asset /bootstrap/carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava.css?body=1" for 127.0.0.1 at 2016-05-24 19:22:54 -0400
+Served asset /falling_lava.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-05-24 19:22:54 -0400
+Served asset /bootstrap/tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-05-24 19:22:54 -0400
+Served asset /bootstrap/tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/sideways_lava.js?body=1" for 127.0.0.1 at 2016-05-24 19:22:54 -0400
+Served asset /falling_lava/sideways_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-05-24 19:22:54 -0400
+Served asset /bootstrap/modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/timer.js?body=1" for 127.0.0.1 at 2016-05-24 19:22:54 -0400
+Served asset /falling_lava/timer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/game.js?body=1" for 127.0.0.1 at 2016-05-24 19:22:54 -0400
+Served asset /falling_lava/game.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/menu.js?body=1" for 127.0.0.1 at 2016-05-24 19:22:54 -0400
+Served asset /falling_lava/menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/falling_lava.js?body=1" for 127.0.0.1 at 2016-05-24 19:22:54 -0400
+Served asset /falling_lava/falling_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-05-24 19:22:54 -0400
+Served asset /bootstrap/affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/util.js?body=1" for 127.0.0.1 at 2016-05-24 19:22:54 -0400
+Served asset /falling_lava/util.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/player.js?body=1" for 127.0.0.1 at 2016-05-24 19:22:54 -0400
+Served asset /falling_lava/player.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-24 19:23:06 -0400
+Processing by FallingLavaController#new as HTML
+  Rendered falling_lava/falling_lava.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 29.9ms (Views: 29.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-24 19:23:06 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-24 19:23:06 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-05-24 19:23:06 -0400
+Served asset /bootstrap/affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-05-24 19:23:06 -0400
+Served asset /bootstrap/alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-05-24 19:23:06 -0400
+Served asset /bootstrap/button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-05-24 19:23:06 -0400
+Served asset /bootstrap/transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-05-24 19:23:06 -0400
+Served asset /bootstrap/carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-05-24 19:23:06 -0400
+Served asset /bootstrap/scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-05-24 19:23:06 -0400
+Served asset /bootstrap/dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-05-24 19:23:06 -0400
+Served asset /bootstrap/tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-05-24 19:23:06 -0400
+Served asset /bootstrap-sprockets.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-05-24 19:23:06 -0400
+Served asset /bootstrap/collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-05-24 19:23:06 -0400
+Served asset /bootstrap/modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-05-24 19:23:06 -0400
+Served asset /bootstrap/tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-05-24 19:23:06 -0400
+Served asset /bootstrap/popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava.css?body=1" for 127.0.0.1 at 2016-05-24 19:23:06 -0400
+Served asset /falling_lava.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/util.js?body=1" for 127.0.0.1 at 2016-05-24 19:23:06 -0400
+Served asset /falling_lava/util.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/menu.js?body=1" for 127.0.0.1 at 2016-05-24 19:23:06 -0400
+Served asset /falling_lava/menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/game.js?body=1" for 127.0.0.1 at 2016-05-24 19:23:06 -0400
+Served asset /falling_lava/game.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/timer.js?body=1" for 127.0.0.1 at 2016-05-24 19:23:06 -0400
+Served asset /falling_lava/timer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/player.js?body=1" for 127.0.0.1 at 2016-05-24 19:23:06 -0400
+Served asset /falling_lava/player.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/sideways_lava.js?body=1" for 127.0.0.1 at 2016-05-24 19:23:06 -0400
+Served asset /falling_lava/sideways_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/falling_lava.js?body=1" for 127.0.0.1 at 2016-05-24 19:23:06 -0400
+Served asset /falling_lava/falling_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-24 19:23:14 -0400
+Processing by FallingLavaController#new as HTML
+  Rendered falling_lava/falling_lava.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 29.7ms (Views: 29.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-24 19:23:14 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-24 19:23:14 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-05-24 19:23:14 -0400
+Served asset /bootstrap/alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-05-24 19:23:14 -0400
+Served asset /bootstrap/button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-05-24 19:23:14 -0400
+Served asset /bootstrap/affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-05-24 19:23:14 -0400
+Served asset /bootstrap/dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-05-24 19:23:14 -0400
+Served asset /bootstrap/scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-05-24 19:23:14 -0400
+Served asset /bootstrap/carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-05-24 19:23:14 -0400
+Served asset /bootstrap/tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-05-24 19:23:14 -0400
+Served asset /bootstrap/popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-05-24 19:23:14 -0400
+Served asset /bootstrap/transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/util.js?body=1" for 127.0.0.1 at 2016-05-24 19:23:14 -0400
+Served asset /falling_lava/util.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-05-24 19:23:14 -0400
+Served asset /bootstrap/tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-05-24 19:23:14 -0400
+Served asset /bootstrap/modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/sideways_lava.js?body=1" for 127.0.0.1 at 2016-05-24 19:23:14 -0400
+Served asset /falling_lava/sideways_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-05-24 19:23:14 -0400
+Served asset /bootstrap/collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-05-24 19:23:14 -0400
+Served asset /bootstrap-sprockets.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/game.js?body=1" for 127.0.0.1 at 2016-05-24 19:23:14 -0400
+Served asset /falling_lava/game.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/falling_lava.js?body=1" for 127.0.0.1 at 2016-05-24 19:23:14 -0400
+Served asset /falling_lava/falling_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava.css?body=1" for 127.0.0.1 at 2016-05-24 19:23:14 -0400
+Served asset /falling_lava.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/menu.js?body=1" for 127.0.0.1 at 2016-05-24 19:23:14 -0400
+Served asset /falling_lava/menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/player.js?body=1" for 127.0.0.1 at 2016-05-24 19:23:14 -0400
+Served asset /falling_lava/player.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/timer.js?body=1" for 127.0.0.1 at 2016-05-24 19:23:14 -0400
+Served asset /falling_lava/timer.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-24 19:29:58 -0400
+Processing by FallingLavaController#new as HTML
+  Rendered falling_lava/falling_lava.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 45.7ms (Views: 45.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-05-24 19:29:58 -0400
+Served asset /bootstrap/button.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-05-24 19:29:58 -0400
+Served asset /bootstrap/affix.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-05-24 19:29:58 -0400
+Served asset /bootstrap/alert.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-24 19:29:58 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-05-24 19:29:58 -0400
+Served asset /bootstrap/carousel.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-05-24 19:29:58 -0400
+Served asset /bootstrap/transition.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-05-24 19:29:58 -0400
+Served asset /bootstrap/collapse.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-24 19:29:58 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-05-24 19:29:58 -0400
+Served asset /bootstrap/tab.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-05-24 19:29:58 -0400
+Served asset /bootstrap/scrollspy.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-05-24 19:29:58 -0400
+Served asset /bootstrap/dropdown.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-05-24 19:29:58 -0400
+Served asset /bootstrap/modal.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-05-24 19:29:58 -0400
+Served asset /bootstrap/tooltip.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-05-24 19:29:58 -0400
+Served asset /bootstrap/popover.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-05-24 19:29:58 -0400
+Served asset /bootstrap-sprockets.js - 200 OK (0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2016-05-24 19:29:58 -0400
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (3.2.22) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.22) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.22) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.22) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.22) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.22) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/static.rb:83:in `call'
+  railties (3.2.22) lib/rails/engine.rb:484:in `call'
+  railties (3.2.22) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.22) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/share/ruby/webrick/httpserver.rb:138:in `service'
+  /usr/share/ruby/webrick/httpserver.rb:94:in `run'
+  /usr/share/ruby/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/bdriskill/.gem/ruby/gems/actionpack-3.2.22/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-24 19:32:25 -0400
+Processing by FallingLavaController#new as HTML
+  Rendered falling_lava/falling_lava.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 29.9ms (Views: 29.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-24 19:32:25 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-05-24 19:32:25 -0400
+Served asset /bootstrap/carousel.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-05-24 19:32:25 -0400
+Served asset /bootstrap/affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-05-24 19:32:25 -0400
+Served asset /bootstrap/button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-05-24 19:32:25 -0400
+Served asset /bootstrap/tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-05-24 19:32:25 -0400
+Served asset /bootstrap/collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-05-24 19:32:25 -0400
+Served asset /bootstrap/modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-05-24 19:32:25 -0400
+Served asset /bootstrap/dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-05-24 19:32:25 -0400
+Served asset /bootstrap/popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-24 19:32:25 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-05-24 19:32:25 -0400
+Served asset /bootstrap/scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava.css?body=1" for 127.0.0.1 at 2016-05-24 19:32:25 -0400
+Served asset /falling_lava.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/util.js?body=1" for 127.0.0.1 at 2016-05-24 19:32:25 -0400
+Served asset /falling_lava/util.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-05-24 19:32:25 -0400
+Served asset /bootstrap-sprockets.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-05-24 19:32:25 -0400
+Served asset /bootstrap/alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/menu.js?body=1" for 127.0.0.1 at 2016-05-24 19:32:25 -0400
+Served asset /falling_lava/menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/falling_lava.js?body=1" for 127.0.0.1 at 2016-05-24 19:32:25 -0400
+Served asset /falling_lava/falling_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-05-24 19:32:25 -0400
+Served asset /bootstrap/tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/player.js?body=1" for 127.0.0.1 at 2016-05-24 19:32:25 -0400
+Served asset /falling_lava/player.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/sideways_lava.js?body=1" for 127.0.0.1 at 2016-05-24 19:32:25 -0400
+Served asset /falling_lava/sideways_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-05-24 19:32:25 -0400
+Served asset /bootstrap/transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/timer.js?body=1" for 127.0.0.1 at 2016-05-24 19:32:25 -0400
+Served asset /falling_lava/timer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/game.js?body=1" for 127.0.0.1 at 2016-05-24 19:32:25 -0400
+Served asset /falling_lava/game.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-24 19:36:11 -0400
+Processing by FallingLavaController#new as HTML
+Compiled falling_lava.css  (445ms)  (pid 62604)
+  Rendered falling_lava/falling_lava.html.erb within layouts/application (451.2ms)
+Completed 200 OK in 475.5ms (Views: 475.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-24 19:36:11 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-05-24 19:36:11 -0400
+Served asset /bootstrap/button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-05-24 19:36:11 -0400
+Served asset /bootstrap/alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-05-24 19:36:11 -0400
+Served asset /bootstrap/collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-05-24 19:36:11 -0400
+Served asset /bootstrap/carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-24 19:36:11 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-05-24 19:36:11 -0400
+Served asset /bootstrap/affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-05-24 19:36:11 -0400
+Served asset /bootstrap/dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-05-24 19:36:11 -0400
+Served asset /bootstrap/tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-05-24 19:36:11 -0400
+Served asset /bootstrap/transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-05-24 19:36:11 -0400
+Served asset /bootstrap-sprockets.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava.css?body=1" for 127.0.0.1 at 2016-05-24 19:36:11 -0400
+Served asset /falling_lava.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-05-24 19:36:11 -0400
+Served asset /bootstrap/popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-05-24 19:36:11 -0400
+Served asset /bootstrap/scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/falling_lava.js?body=1" for 127.0.0.1 at 2016-05-24 19:36:11 -0400
+Served asset /falling_lava/falling_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-05-24 19:36:11 -0400
+Served asset /bootstrap/tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-05-24 19:36:11 -0400
+Served asset /bootstrap/modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/menu.js?body=1" for 127.0.0.1 at 2016-05-24 19:36:11 -0400
+Served asset /falling_lava/menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/util.js?body=1" for 127.0.0.1 at 2016-05-24 19:36:11 -0400
+Served asset /falling_lava/util.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/sideways_lava.js?body=1" for 127.0.0.1 at 2016-05-24 19:36:11 -0400
+Served asset /falling_lava/sideways_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/timer.js?body=1" for 127.0.0.1 at 2016-05-24 19:36:11 -0400
+Served asset /falling_lava/timer.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/falling_lava/game.js?body=1" for 127.0.0.1 at 2016-05-24 19:36:11 -0400
+Served asset /falling_lava/game.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/player.js?body=1" for 127.0.0.1 at 2016-05-24 19:36:11 -0400
+Served asset /falling_lava/player.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-24 19:36:42 -0400
+Processing by FallingLavaController#new as HTML
+Compiled falling_lava.css  (456ms)  (pid 62604)
+  Rendered falling_lava/falling_lava.html.erb within layouts/application (461.3ms)
+Completed 200 OK in 485.8ms (Views: 485.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-05-24 19:36:42 -0400
+Served asset /bootstrap/carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-05-24 19:36:42 -0400
+Served asset /bootstrap/collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-05-24 19:36:42 -0400
+Served asset /bootstrap/button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-05-24 19:36:42 -0400
+Served asset /bootstrap/tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-05-24 19:36:42 -0400
+Served asset /bootstrap/transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-24 19:36:42 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-05-24 19:36:42 -0400
+Served asset /bootstrap/affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-05-24 19:36:42 -0400
+Served asset /bootstrap/dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-05-24 19:36:42 -0400
+Served asset /bootstrap/alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-24 19:36:42 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-05-24 19:36:42 -0400
+Served asset /bootstrap/modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-05-24 19:36:42 -0400
+Served asset /bootstrap/scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-05-24 19:36:42 -0400
+Served asset /bootstrap/tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-05-24 19:36:42 -0400
+Served asset /bootstrap/popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-05-24 19:36:42 -0400
+Served asset /bootstrap-sprockets.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/falling_lava.js?body=1" for 127.0.0.1 at 2016-05-24 19:36:42 -0400
+Served asset /falling_lava/falling_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/sideways_lava.js?body=1" for 127.0.0.1 at 2016-05-24 19:36:42 -0400
+Served asset /falling_lava/sideways_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/player.js?body=1" for 127.0.0.1 at 2016-05-24 19:36:42 -0400
+Served asset /falling_lava/player.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/menu.js?body=1" for 127.0.0.1 at 2016-05-24 19:36:42 -0400
+Served asset /falling_lava/menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/game.js?body=1" for 127.0.0.1 at 2016-05-24 19:36:42 -0400
+Served asset /falling_lava/game.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/timer.js?body=1" for 127.0.0.1 at 2016-05-24 19:36:42 -0400
+Served asset /falling_lava/timer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava.css?body=1" for 127.0.0.1 at 2016-05-24 19:36:42 -0400
+Served asset /falling_lava.css - 200 OK (0ms)
+
+
+Started GET "/assets/falling_lava/util.js?body=1" for 127.0.0.1 at 2016-05-24 19:36:42 -0400
+Served asset /falling_lava/util.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-24 19:40:25 -0400
+Processing by FallingLavaController#new as HTML
+Compiled falling_lava.css  (500ms)  (pid 62604)
+  Rendered falling_lava/falling_lava.html.erb within layouts/application (506.1ms)
+Completed 200 OK in 528.1ms (Views: 528.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-24 19:40:25 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-24 19:40:25 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-05-24 19:40:25 -0400
+Served asset /bootstrap/button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-05-24 19:40:25 -0400
+Served asset /bootstrap/alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-05-24 19:40:25 -0400
+Served asset /bootstrap/collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-05-24 19:40:25 -0400
+Served asset /bootstrap/affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-05-24 19:40:25 -0400
+Served asset /bootstrap/tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-05-24 19:40:25 -0400
+Served asset /bootstrap/carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-05-24 19:40:25 -0400
+Served asset /bootstrap/scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-05-24 19:40:25 -0400
+Served asset /bootstrap/modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-05-24 19:40:25 -0400
+Served asset /bootstrap/transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-05-24 19:40:25 -0400
+Served asset /bootstrap/dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/game.js?body=1" for 127.0.0.1 at 2016-05-24 19:40:25 -0400
+Served asset /falling_lava/game.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/util.js?body=1" for 127.0.0.1 at 2016-05-24 19:40:25 -0400
+Served asset /falling_lava/util.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava.css?body=1" for 127.0.0.1 at 2016-05-24 19:40:25 -0400
+Served asset /falling_lava.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-05-24 19:40:25 -0400
+Served asset /bootstrap-sprockets.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/sideways_lava.js?body=1" for 127.0.0.1 at 2016-05-24 19:40:25 -0400
+Served asset /falling_lava/sideways_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/falling_lava.js?body=1" for 127.0.0.1 at 2016-05-24 19:40:25 -0400
+Served asset /falling_lava/falling_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/player.js?body=1" for 127.0.0.1 at 2016-05-24 19:40:25 -0400
+Served asset /falling_lava/player.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/timer.js?body=1" for 127.0.0.1 at 2016-05-24 19:40:25 -0400
+Served asset /falling_lava/timer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/menu.js?body=1" for 127.0.0.1 at 2016-05-24 19:40:25 -0400
+Served asset /falling_lava/menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-05-24 19:40:25 -0400
+Served asset /bootstrap/popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-05-24 19:40:25 -0400
+Served asset /bootstrap/tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-24 19:41:57 -0400
+Connecting to database specified by database.yml
+Processing by FallingLavaController#new as HTML
+  Rendered falling_lava/falling_lava.html.erb within layouts/application (32.1ms)
+Completed 200 OK in 77.4ms (Views: 77.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-24 19:41:57 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-24 19:41:57 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-05-24 19:41:57 -0400
+Served asset /bootstrap/affix.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-05-24 19:41:57 -0400
+Served asset /bootstrap/alert.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-05-24 19:41:57 -0400
+Served asset /bootstrap/carousel.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-05-24 19:41:57 -0400
+Served asset /bootstrap/collapse.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-05-24 19:41:57 -0400
+Served asset /bootstrap/button.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-05-24 19:41:57 -0400
+Served asset /bootstrap/tab.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-05-24 19:41:57 -0400
+Served asset /bootstrap/dropdown.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-05-24 19:41:57 -0400
+Served asset /bootstrap/transition.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/falling_lava.css?body=1" for 127.0.0.1 at 2016-05-24 19:41:57 -0400
+Served asset /falling_lava.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-05-24 19:41:57 -0400
+Served asset /bootstrap/tooltip.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-05-24 19:41:57 -0400
+Served asset /bootstrap/modal.js - 304 Not Modified (22ms)
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-05-24 19:41:57 -0400
+Served asset /bootstrap/popover.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-05-24 19:41:57 -0400
+Served asset /bootstrap-sprockets.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-05-24 19:41:57 -0400
+Served asset /bootstrap/scrollspy.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/falling_lava/util.js?body=1" for 127.0.0.1 at 2016-05-24 19:41:57 -0400
+Served asset /falling_lava/util.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/player.js?body=1" for 127.0.0.1 at 2016-05-24 19:41:57 -0400
+Served asset /falling_lava/player.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/menu.js?body=1" for 127.0.0.1 at 2016-05-24 19:41:57 -0400
+Served asset /falling_lava/menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/falling_lava.js?body=1" for 127.0.0.1 at 2016-05-24 19:41:57 -0400
+Served asset /falling_lava/falling_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/sideways_lava.js?body=1" for 127.0.0.1 at 2016-05-24 19:41:57 -0400
+Served asset /falling_lava/sideways_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/timer.js?body=1" for 127.0.0.1 at 2016-05-24 19:41:57 -0400
+Served asset /falling_lava/timer.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/falling_lava/game.js?body=1" for 127.0.0.1 at 2016-05-24 19:41:57 -0400
+Served asset /falling_lava/game.js - 304 Not Modified (0ms)
+
+
+Started POST "/falling_lava/save_score" for 127.0.0.1 at 2016-05-24 19:44:01 -0400
+Processing by FallingLavaController#save_score as JSON
+  Parameters: {"score"=>{"score"=>"19"}}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (21.8ms)[0m  INSERT INTO "scores" ("created_at", "score", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["created_at", Tue, 24 May 2016 23:44:01 UTC +00:00], ["score", 19], ["updated_at", Tue, 24 May 2016 23:44:01 UTC +00:00]]
+  [1m[36m (32.0ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 71.7ms (Views: 0.1ms | ActiveRecord: 58.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-24 20:58:50 -0400
+Processing by FallingLavaController#new as HTML
+Compiled falling_lava.css  (962ms)  (pid 1591)
+  Rendered falling_lava/falling_lava.html.erb within layouts/application (968.5ms)
+Completed 200 OK in 991.9ms (Views: 991.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-05-24 20:58:51 -0400
+Served asset /bootstrap/carousel.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-05-24 20:58:51 -0400
+Served asset /bootstrap/button.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-05-24 20:58:51 -0400
+Served asset /bootstrap/affix.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-05-24 20:58:51 -0400
+Served asset /bootstrap/collapse.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-24 20:58:51 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-24 20:58:51 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-05-24 20:58:51 -0400
+Served asset /bootstrap/alert.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-05-24 20:58:51 -0400
+Served asset /bootstrap/dropdown.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-05-24 20:58:51 -0400
+Served asset /bootstrap/modal.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-05-24 20:58:51 -0400
+Served asset /bootstrap/transition.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-05-24 20:58:51 -0400
+Served asset /bootstrap/scrollspy.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-05-24 20:58:51 -0400
+Served asset /bootstrap/tab.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-05-24 20:58:51 -0400
+Served asset /bootstrap/tooltip.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-05-24 20:58:51 -0400
+Served asset /bootstrap/popover.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-05-24 20:58:51 -0400
+Served asset /bootstrap-sprockets.js - 200 OK (0ms)
+
+
+Started GET "/assets/falling_lava/util.js?body=1" for 127.0.0.1 at 2016-05-24 20:58:51 -0400
+Served asset /falling_lava/util.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/player.js?body=1" for 127.0.0.1 at 2016-05-24 20:58:51 -0400
+Served asset /falling_lava/player.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava.css?body=1" for 127.0.0.1 at 2016-05-24 20:58:51 -0400
+Served asset /falling_lava.css - 200 OK (1ms)
+
+
+Started GET "/assets/falling_lava/sideways_lava.js?body=1" for 127.0.0.1 at 2016-05-24 20:58:51 -0400
+Served asset /falling_lava/sideways_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/timer.js?body=1" for 127.0.0.1 at 2016-05-24 20:58:51 -0400
+Served asset /falling_lava/timer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/menu.js?body=1" for 127.0.0.1 at 2016-05-24 20:58:51 -0400
+Served asset /falling_lava/menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/falling_lava.js?body=1" for 127.0.0.1 at 2016-05-24 20:58:51 -0400
+Served asset /falling_lava/falling_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/game.js?body=1" for 127.0.0.1 at 2016-05-24 20:58:51 -0400
+Served asset /falling_lava/game.js - 304 Not Modified (0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2016-05-24 20:58:51 -0400
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (3.2.22) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.22) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.22) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.22) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.22) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.22) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/static.rb:83:in `call'
+  railties (3.2.22) lib/rails/engine.rb:484:in `call'
+  railties (3.2.22) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.22) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/share/ruby/webrick/httpserver.rb:138:in `service'
+  /usr/share/ruby/webrick/httpserver.rb:94:in `run'
+  /usr/share/ruby/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/bdriskill/.gem/ruby/gems/actionpack-3.2.22/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/falling_lava/statistics" for 127.0.0.1 at 2016-05-24 20:59:21 -0400
+Processing by FallingLavaController#statistics as HTML
+  [1m[35mScore Load (0.3ms)[0m  SELECT "scores".* FROM "scores" 
+  Rendered falling_lava/statistics.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 27.0ms (Views: 25.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-05-24 20:59:21 -0400
+Served asset /bootstrap/alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-05-24 20:59:21 -0400
+Served asset /bootstrap/carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-05-24 20:59:21 -0400
+Served asset /bootstrap/collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-24 20:59:21 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-24 20:59:21 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-05-24 20:59:21 -0400
+Served asset /bootstrap/affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-05-24 20:59:21 -0400
+Served asset /bootstrap/button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-05-24 20:59:21 -0400
+Served asset /bootstrap/tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-05-24 20:59:21 -0400
+Served asset /bootstrap/scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-05-24 20:59:21 -0400
+Served asset /bootstrap/transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-05-24 20:59:21 -0400
+Served asset /bootstrap/dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-05-24 20:59:21 -0400
+Served asset /bootstrap/tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-05-24 20:59:21 -0400
+Served asset /bootstrap/modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava.css?body=1" for 127.0.0.1 at 2016-05-24 20:59:21 -0400
+Served asset /falling_lava.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-05-24 20:59:21 -0400
+Served asset /bootstrap-sprockets.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-05-24 20:59:21 -0400
+Served asset /bootstrap/popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-24 20:59:24 -0400
+Processing by FallingLavaController#new as HTML
+  Rendered falling_lava/falling_lava.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 29.0ms (Views: 28.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-24 20:59:24 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-05-24 20:59:24 -0400
+Served asset /bootstrap/carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-05-24 20:59:24 -0400
+Served asset /bootstrap/alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-05-24 20:59:24 -0400
+Served asset /bootstrap/dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-05-24 20:59:24 -0400
+Served asset /bootstrap/tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-05-24 20:59:24 -0400
+Served asset /bootstrap/transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-05-24 20:59:24 -0400
+Served asset /bootstrap/collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-05-24 20:59:24 -0400
+Served asset /bootstrap/button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-05-24 20:59:24 -0400
+Served asset /bootstrap/affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-05-24 20:59:24 -0400
+Served asset /bootstrap/tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-05-24 20:59:24 -0400
+Served asset /bootstrap/modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-05-24 20:59:24 -0400
+Served asset /bootstrap/popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-05-24 20:59:24 -0400
+Served asset /bootstrap-sprockets.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava.css?body=1" for 127.0.0.1 at 2016-05-24 20:59:24 -0400
+Served asset /falling_lava.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-05-24 20:59:24 -0400
+Served asset /bootstrap/scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/util.js?body=1" for 127.0.0.1 at 2016-05-24 20:59:24 -0400
+Served asset /falling_lava/util.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/player.js?body=1" for 127.0.0.1 at 2016-05-24 20:59:24 -0400
+Served asset /falling_lava/player.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-24 20:59:24 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/falling_lava.js?body=1" for 127.0.0.1 at 2016-05-24 20:59:24 -0400
+Served asset /falling_lava/falling_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/sideways_lava.js?body=1" for 127.0.0.1 at 2016-05-24 20:59:24 -0400
+Served asset /falling_lava/sideways_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/timer.js?body=1" for 127.0.0.1 at 2016-05-24 20:59:24 -0400
+Served asset /falling_lava/timer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/game.js?body=1" for 127.0.0.1 at 2016-05-24 20:59:24 -0400
+Served asset /falling_lava/game.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/menu.js?body=1" for 127.0.0.1 at 2016-05-24 20:59:24 -0400
+Served asset /falling_lava/menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-24 21:00:26 -0400
+Processing by FallingLavaController#new as HTML
+Compiled falling_lava.css  (439ms)  (pid 1591)
+  Rendered falling_lava/falling_lava.html.erb within layouts/application (445.8ms)
+Completed 200 OK in 453.8ms (Views: 453.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-24 21:00:26 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-05-24 21:00:26 -0400
+Served asset /bootstrap/collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-05-24 21:00:26 -0400
+Served asset /bootstrap/button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-24 21:00:26 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-05-24 21:00:26 -0400
+Served asset /bootstrap/alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-05-24 21:00:26 -0400
+Served asset /bootstrap/affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-05-24 21:00:26 -0400
+Served asset /bootstrap/modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-05-24 21:00:26 -0400
+Served asset /bootstrap/scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-05-24 21:00:26 -0400
+Served asset /bootstrap/carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-05-24 21:00:26 -0400
+Served asset /bootstrap-sprockets.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-05-24 21:00:26 -0400
+Served asset /bootstrap/dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-05-24 21:00:26 -0400
+Served asset /bootstrap/tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-05-24 21:00:26 -0400
+Served asset /bootstrap/transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-05-24 21:00:26 -0400
+Served asset /bootstrap/tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-05-24 21:00:26 -0400
+Served asset /bootstrap/popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/sideways_lava.js?body=1" for 127.0.0.1 at 2016-05-24 21:00:26 -0400
+Served asset /falling_lava/sideways_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/player.js?body=1" for 127.0.0.1 at 2016-05-24 21:00:26 -0400
+Served asset /falling_lava/player.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/falling_lava.js?body=1" for 127.0.0.1 at 2016-05-24 21:00:26 -0400
+Served asset /falling_lava/falling_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/util.js?body=1" for 127.0.0.1 at 2016-05-24 21:00:26 -0400
+Served asset /falling_lava/util.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava.css?body=1" for 127.0.0.1 at 2016-05-24 21:00:26 -0400
+Served asset /falling_lava.css - 200 OK (0ms)
+
+
+Started GET "/assets/falling_lava/menu.js?body=1" for 127.0.0.1 at 2016-05-24 21:00:26 -0400
+Served asset /falling_lava/menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/game.js?body=1" for 127.0.0.1 at 2016-05-24 21:00:26 -0400
+Served asset /falling_lava/game.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/timer.js?body=1" for 127.0.0.1 at 2016-05-24 21:00:26 -0400
+Served asset /falling_lava/timer.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-24 21:02:01 -0400
+Processing by FallingLavaController#new as HTML
+Compiled falling_lava.css  (413ms)  (pid 1591)
+  Rendered falling_lava/falling_lava.html.erb within layouts/application (418.9ms)
+Completed 200 OK in 442.1ms (Views: 442.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-24 21:02:01 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-24 21:02:01 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-05-24 21:02:01 -0400
+Served asset /bootstrap/carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-05-24 21:02:01 -0400
+Served asset /bootstrap/affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-05-24 21:02:01 -0400
+Served asset /bootstrap/collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-05-24 21:02:01 -0400
+Served asset /bootstrap/dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-05-24 21:02:01 -0400
+Served asset /bootstrap/modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-05-24 21:02:01 -0400
+Served asset /bootstrap/transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-05-24 21:02:01 -0400
+Served asset /bootstrap/tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-05-24 21:02:01 -0400
+Served asset /bootstrap-sprockets.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-05-24 21:02:01 -0400
+Served asset /bootstrap/scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-05-24 21:02:01 -0400
+Served asset /bootstrap/popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-05-24 21:02:01 -0400
+Served asset /bootstrap/button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-05-24 21:02:01 -0400
+Served asset /bootstrap/alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava.css?body=1" for 127.0.0.1 at 2016-05-24 21:02:01 -0400
+Served asset /falling_lava.css - 200 OK (0ms)
+
+
+Started GET "/assets/falling_lava/sideways_lava.js?body=1" for 127.0.0.1 at 2016-05-24 21:02:01 -0400
+Served asset /falling_lava/sideways_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/menu.js?body=1" for 127.0.0.1 at 2016-05-24 21:02:01 -0400
+Served asset /falling_lava/menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/falling_lava.js?body=1" for 127.0.0.1 at 2016-05-24 21:02:01 -0400
+Served asset /falling_lava/falling_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/player.js?body=1" for 127.0.0.1 at 2016-05-24 21:02:01 -0400
+Served asset /falling_lava/player.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/util.js?body=1" for 127.0.0.1 at 2016-05-24 21:02:01 -0400
+Served asset /falling_lava/util.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-05-24 21:02:01 -0400
+Served asset /bootstrap/tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/game.js?body=1" for 127.0.0.1 at 2016-05-24 21:02:01 -0400
+Served asset /falling_lava/game.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/timer.js?body=1" for 127.0.0.1 at 2016-05-24 21:02:01 -0400
+Served asset /falling_lava/timer.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-24 21:04:32 -0400
+Processing by FallingLavaController#new as HTML
+Compiled falling_lava.css  (410ms)  (pid 1591)
+  Rendered falling_lava/falling_lava.html.erb within layouts/application (432.1ms)
+Completed 200 OK in 440.4ms (Views: 440.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-24 21:04:32 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-05-24 21:04:32 -0400
+Served asset /bootstrap/affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-24 21:04:32 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-05-24 21:04:32 -0400
+Served asset /bootstrap/alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-05-24 21:04:32 -0400
+Served asset /bootstrap/collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-05-24 21:04:32 -0400
+Served asset /bootstrap/dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-05-24 21:04:32 -0400
+Served asset /bootstrap/tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-05-24 21:04:32 -0400
+Served asset /bootstrap/tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-05-24 21:04:32 -0400
+Served asset /bootstrap/button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/sideways_lava.js?body=1" for 127.0.0.1 at 2016-05-24 21:04:32 -0400
+Served asset /falling_lava/sideways_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-05-24 21:04:32 -0400
+Served asset /bootstrap/carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-05-24 21:04:32 -0400
+Served asset /bootstrap/transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-05-24 21:04:32 -0400
+Served asset /bootstrap/scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-05-24 21:04:32 -0400
+Served asset /bootstrap/modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/util.js?body=1" for 127.0.0.1 at 2016-05-24 21:04:32 -0400
+Served asset /falling_lava/util.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/player.js?body=1" for 127.0.0.1 at 2016-05-24 21:04:32 -0400
+Served asset /falling_lava/player.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-05-24 21:04:32 -0400
+Served asset /bootstrap-sprockets.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-05-24 21:04:32 -0400
+Served asset /bootstrap/popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/falling_lava.js?body=1" for 127.0.0.1 at 2016-05-24 21:04:32 -0400
+Served asset /falling_lava/falling_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava.css?body=1" for 127.0.0.1 at 2016-05-24 21:04:32 -0400
+Served asset /falling_lava.css - 200 OK (0ms)
+
+
+Started GET "/assets/falling_lava/menu.js?body=1" for 127.0.0.1 at 2016-05-24 21:04:32 -0400
+Served asset /falling_lava/menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/timer.js?body=1" for 127.0.0.1 at 2016-05-24 21:04:32 -0400
+Served asset /falling_lava/timer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/game.js?body=1" for 127.0.0.1 at 2016-05-24 21:04:32 -0400
+Served asset /falling_lava/game.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-24 21:07:02 -0400
+Processing by FallingLavaController#new as HTML
+  Rendered falling_lava/falling_lava.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 44.2ms (Views: 44.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-24 21:07:02 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-05-24 21:07:02 -0400
+Served asset /bootstrap/button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-05-24 21:07:02 -0400
+Served asset /bootstrap/alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-05-24 21:07:02 -0400
+Served asset /bootstrap/affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-24 21:07:02 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-05-24 21:07:02 -0400
+Served asset /bootstrap/carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-05-24 21:07:02 -0400
+Served asset /bootstrap/collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava.css?body=1" for 127.0.0.1 at 2016-05-24 21:07:02 -0400
+Served asset /falling_lava.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/util.js?body=1" for 127.0.0.1 at 2016-05-24 21:07:02 -0400
+Served asset /falling_lava/util.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/player.js?body=1" for 127.0.0.1 at 2016-05-24 21:07:02 -0400
+Served asset /falling_lava/player.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-05-24 21:07:02 -0400
+Served asset /bootstrap/tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/sideways_lava.js?body=1" for 127.0.0.1 at 2016-05-24 21:07:02 -0400
+Served asset /falling_lava/sideways_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-05-24 21:07:02 -0400
+Served asset /bootstrap/tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-05-24 21:07:02 -0400
+Served asset /bootstrap/popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/game.js?body=1" for 127.0.0.1 at 2016-05-24 21:07:02 -0400
+Served asset /falling_lava/game.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-05-24 21:07:02 -0400
+Served asset /bootstrap/transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-05-24 21:07:02 -0400
+Served asset /bootstrap/modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/falling_lava.js?body=1" for 127.0.0.1 at 2016-05-24 21:07:02 -0400
+Served asset /falling_lava/falling_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-05-24 21:07:02 -0400
+Served asset /bootstrap-sprockets.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-05-24 21:07:02 -0400
+Served asset /bootstrap/scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/timer.js?body=1" for 127.0.0.1 at 2016-05-24 21:07:02 -0400
+Served asset /falling_lava/timer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-05-24 21:07:02 -0400
+Served asset /bootstrap/dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/menu.js?body=1" for 127.0.0.1 at 2016-05-24 21:07:02 -0400
+Served asset /falling_lava/menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-24 21:10:53 -0400
+Processing by FallingLavaController#new as HTML
+Compiled falling_lava.css  (453ms)  (pid 1591)
+  Rendered falling_lava/falling_lava.html.erb within layouts/application (459.5ms)
+Completed 200 OK in 468.2ms (Views: 468.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-05-24 21:10:54 -0400
+Served asset /bootstrap/carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-05-24 21:10:54 -0400
+Served asset /bootstrap/collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-05-24 21:10:54 -0400
+Served asset /bootstrap/dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-05-24 21:10:54 -0400
+Served asset /bootstrap/tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-24 21:10:54 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-05-24 21:10:54 -0400
+Served asset /bootstrap/affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-05-24 21:10:54 -0400
+Served asset /bootstrap/transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-05-24 21:10:54 -0400
+Served asset /bootstrap/tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-05-24 21:10:54 -0400
+Served asset /bootstrap/popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-05-24 21:10:54 -0400
+Served asset /bootstrap/button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-05-24 21:10:54 -0400
+Served asset /bootstrap/scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-24 21:10:54 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/player.js?body=1" for 127.0.0.1 at 2016-05-24 21:10:54 -0400
+Served asset /falling_lava/player.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-05-24 21:10:54 -0400
+Served asset /bootstrap/modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-05-24 21:10:54 -0400
+Served asset /bootstrap-sprockets.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/util.js?body=1" for 127.0.0.1 at 2016-05-24 21:10:54 -0400
+Served asset /falling_lava/util.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava.css?body=1" for 127.0.0.1 at 2016-05-24 21:10:54 -0400
+Served asset /falling_lava.css - 200 OK (1ms)
+
+
+Started GET "/assets/falling_lava/sideways_lava.js?body=1" for 127.0.0.1 at 2016-05-24 21:10:54 -0400
+Served asset /falling_lava/sideways_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/game.js?body=1" for 127.0.0.1 at 2016-05-24 21:10:54 -0400
+Served asset /falling_lava/game.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/menu.js?body=1" for 127.0.0.1 at 2016-05-24 21:10:54 -0400
+Served asset /falling_lava/menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/falling_lava.js?body=1" for 127.0.0.1 at 2016-05-24 21:10:54 -0400
+Served asset /falling_lava/falling_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/timer.js?body=1" for 127.0.0.1 at 2016-05-24 21:10:54 -0400
+Served asset /falling_lava/timer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-05-24 21:10:54 -0400
+Served asset /bootstrap/alert.js - 304 Not Modified (0ms)
+
+
+Started POST "/falling_lava/save_score" for 127.0.0.1 at 2016-05-24 21:11:14 -0400
+Processing by FallingLavaController#save_score as JSON
+  Parameters: {"score"=>{"score"=>"15"}}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "scores" ("created_at", "score", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["created_at", Wed, 25 May 2016 01:11:14 UTC +00:00], ["score", 15], ["updated_at", Wed, 25 May 2016 01:11:14 UTC +00:00]]
+  [1m[36m (28.3ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 30.1ms (Views: 0.1ms | ActiveRecord: 28.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-24 21:12:49 -0400
+Processing by FallingLavaController#new as HTML
+Compiled falling_lava.css  (430ms)  (pid 1591)
+  Rendered falling_lava/falling_lava.html.erb within layouts/application (436.4ms)
+Completed 200 OK in 459.5ms (Views: 459.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-05-24 21:12:49 -0400
+Served asset /bootstrap/alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-05-24 21:12:49 -0400
+Served asset /bootstrap/carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-05-24 21:12:49 -0400
+Served asset /bootstrap/collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-05-24 21:12:49 -0400
+Served asset /bootstrap/dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-24 21:12:49 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-05-24 21:12:49 -0400
+Served asset /bootstrap/tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-05-24 21:12:49 -0400
+Served asset /bootstrap/transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-05-24 21:12:49 -0400
+Served asset /bootstrap/tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-05-24 21:12:49 -0400
+Served asset /bootstrap/button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-24 21:12:49 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-05-24 21:12:49 -0400
+Served asset /bootstrap/scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-05-24 21:12:49 -0400
+Served asset /bootstrap/modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/util.js?body=1" for 127.0.0.1 at 2016-05-24 21:12:49 -0400
+Served asset /falling_lava/util.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava.css?body=1" for 127.0.0.1 at 2016-05-24 21:12:49 -0400
+Served asset /falling_lava.css - 200 OK (0ms)
+
+
+Started GET "/assets/falling_lava/game.js?body=1" for 127.0.0.1 at 2016-05-24 21:12:49 -0400
+Served asset /falling_lava/game.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-05-24 21:12:49 -0400
+Served asset /bootstrap-sprockets.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/player.js?body=1" for 127.0.0.1 at 2016-05-24 21:12:49 -0400
+Served asset /falling_lava/player.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-05-24 21:12:49 -0400
+Served asset /bootstrap/popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/timer.js?body=1" for 127.0.0.1 at 2016-05-24 21:12:49 -0400
+Served asset /falling_lava/timer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/menu.js?body=1" for 127.0.0.1 at 2016-05-24 21:12:49 -0400
+Served asset /falling_lava/menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/falling_lava.js?body=1" for 127.0.0.1 at 2016-05-24 21:12:49 -0400
+Served asset /falling_lava/falling_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/sideways_lava.js?body=1" for 127.0.0.1 at 2016-05-24 21:12:49 -0400
+Served asset /falling_lava/sideways_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-05-24 21:12:49 -0400
+Served asset /bootstrap/affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-24 21:14:18 -0400
+Processing by FallingLavaController#new as HTML
+Compiled falling_lava.css  (416ms)  (pid 1591)
+  Rendered falling_lava/falling_lava.html.erb within layouts/application (439.0ms)
+Completed 200 OK in 447.2ms (Views: 447.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-05-24 21:14:18 -0400
+Served asset /bootstrap/carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-05-24 21:14:18 -0400
+Served asset /bootstrap/collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-24 21:14:18 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-05-24 21:14:18 -0400
+Served asset /bootstrap/affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-05-24 21:14:18 -0400
+Served asset /bootstrap/button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-24 21:14:18 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-05-24 21:14:18 -0400
+Served asset /bootstrap/dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-05-24 21:14:18 -0400
+Served asset /bootstrap/tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-05-24 21:14:18 -0400
+Served asset /bootstrap/modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-05-24 21:14:18 -0400
+Served asset /bootstrap/alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-05-24 21:14:18 -0400
+Served asset /bootstrap/transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-05-24 21:14:18 -0400
+Served asset /bootstrap/tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-05-24 21:14:18 -0400
+Served asset /bootstrap/scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/falling_lava.js?body=1" for 127.0.0.1 at 2016-05-24 21:14:18 -0400
+Served asset /falling_lava/falling_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava.css?body=1" for 127.0.0.1 at 2016-05-24 21:14:18 -0400
+Served asset /falling_lava.css - 200 OK (0ms)
+
+
+Started GET "/assets/falling_lava/util.js?body=1" for 127.0.0.1 at 2016-05-24 21:14:18 -0400
+Served asset /falling_lava/util.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-05-24 21:14:18 -0400
+Served asset /bootstrap/popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/player.js?body=1" for 127.0.0.1 at 2016-05-24 21:14:18 -0400
+Served asset /falling_lava/player.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/game.js?body=1" for 127.0.0.1 at 2016-05-24 21:14:18 -0400
+Served asset /falling_lava/game.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-05-24 21:14:18 -0400
+Served asset /bootstrap-sprockets.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/timer.js?body=1" for 127.0.0.1 at 2016-05-24 21:14:18 -0400
+Served asset /falling_lava/timer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/menu.js?body=1" for 127.0.0.1 at 2016-05-24 21:14:18 -0400
+Served asset /falling_lava/menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/sideways_lava.js?body=1" for 127.0.0.1 at 2016-05-24 21:14:18 -0400
+Served asset /falling_lava/sideways_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-24 21:14:40 -0400
+Processing by FallingLavaController#new as HTML
+Compiled falling_lava.css  (444ms)  (pid 1591)
+  Rendered falling_lava/falling_lava.html.erb within layouts/application (449.4ms)
+Completed 200 OK in 457.4ms (Views: 457.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-24 21:14:41 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-05-24 21:14:41 -0400
+Served asset /bootstrap/scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-05-24 21:14:41 -0400
+Served asset /bootstrap/collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-05-24 21:14:41 -0400
+Served asset /bootstrap/dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-05-24 21:14:41 -0400
+Served asset /bootstrap/tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-05-24 21:14:41 -0400
+Served asset /bootstrap/button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-05-24 21:14:41 -0400
+Served asset /bootstrap/carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-05-24 21:14:41 -0400
+Served asset /bootstrap/transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-05-24 21:14:41 -0400
+Served asset /bootstrap/affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-24 21:14:41 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-05-24 21:14:41 -0400
+Served asset /bootstrap/alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava.css?body=1" for 127.0.0.1 at 2016-05-24 21:14:41 -0400
+Served asset /falling_lava.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-05-24 21:14:41 -0400
+Served asset /bootstrap/popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-05-24 21:14:41 -0400
+Served asset /bootstrap/tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/util.js?body=1" for 127.0.0.1 at 2016-05-24 21:14:41 -0400
+Served asset /falling_lava/util.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-05-24 21:14:41 -0400
+Served asset /bootstrap-sprockets.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-05-24 21:14:41 -0400
+Served asset /bootstrap/modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/player.js?body=1" for 127.0.0.1 at 2016-05-24 21:14:41 -0400
+Served asset /falling_lava/player.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/sideways_lava.js?body=1" for 127.0.0.1 at 2016-05-24 21:14:41 -0400
+Served asset /falling_lava/sideways_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/menu.js?body=1" for 127.0.0.1 at 2016-05-24 21:14:41 -0400
+Served asset /falling_lava/menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/falling_lava.js?body=1" for 127.0.0.1 at 2016-05-24 21:14:41 -0400
+Served asset /falling_lava/falling_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/timer.js?body=1" for 127.0.0.1 at 2016-05-24 21:14:41 -0400
+Served asset /falling_lava/timer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/game.js?body=1" for 127.0.0.1 at 2016-05-24 21:14:41 -0400
+Served asset /falling_lava/game.js - 304 Not Modified (0ms)
+
+
+Started POST "/falling_lava/save_score" for 127.0.0.1 at 2016-05-24 21:15:07 -0400
+Processing by FallingLavaController#save_score as JSON
+  Parameters: {"score"=>{"score"=>"21"}}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "scores" ("created_at", "score", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["created_at", Wed, 25 May 2016 01:15:07 UTC +00:00], ["score", 21], ["updated_at", Wed, 25 May 2016 01:15:07 UTC +00:00]]
+  [1m[35m (26.9ms)[0m  COMMIT
+Completed 200 OK in 28.6ms (Views: 0.1ms | ActiveRecord: 27.3ms)
+
+
+Started GET "/falling_lava/statistics" for 127.0.0.1 at 2016-05-24 21:15:13 -0400
+Processing by FallingLavaController#statistics as HTML
+  [1m[36mScore Load (0.2ms)[0m  [1mSELECT "scores".* FROM "scores" [0m
+  Rendered falling_lava/statistics.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 27.4ms (Views: 26.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-24 21:15:13 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-05-24 21:15:13 -0400
+Served asset /bootstrap/alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-05-24 21:15:13 -0400
+Served asset /bootstrap/affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-24 21:15:13 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-05-24 21:15:13 -0400
+Served asset /bootstrap/transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-05-24 21:15:13 -0400
+Served asset /bootstrap/collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-05-24 21:15:13 -0400
+Served asset /bootstrap/tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-05-24 21:15:13 -0400
+Served asset /bootstrap/tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-05-24 21:15:13 -0400
+Served asset /bootstrap/dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-05-24 21:15:13 -0400
+Served asset /bootstrap-sprockets.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-05-24 21:15:13 -0400
+Served asset /bootstrap/scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-05-24 21:15:13 -0400
+Served asset /bootstrap/modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-05-24 21:15:13 -0400
+Served asset /bootstrap/carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-05-24 21:15:13 -0400
+Served asset /bootstrap/button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-05-24 21:15:13 -0400
+Served asset /bootstrap/popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava.css?body=1" for 127.0.0.1 at 2016-05-24 21:15:13 -0400
+Served asset /falling_lava.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-24 21:15:15 -0400
+Processing by FallingLavaController#new as HTML
+  Rendered falling_lava/falling_lava.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 11.6ms (Views: 11.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-24 21:15:15 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-24 21:15:15 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-05-24 21:15:15 -0400
+Served asset /bootstrap/affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-05-24 21:15:15 -0400
+Served asset /bootstrap/alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-05-24 21:15:15 -0400
+Served asset /bootstrap/button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-05-24 21:15:15 -0400
+Served asset /bootstrap/carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-05-24 21:15:15 -0400
+Served asset /bootstrap/tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-05-24 21:15:15 -0400
+Served asset /bootstrap/transition.js - 304 Not Modified (36ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-05-24 21:15:15 -0400
+Served asset /bootstrap/scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/sideways_lava.js?body=1" for 127.0.0.1 at 2016-05-24 21:15:15 -0400
+Served asset /falling_lava/sideways_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-05-24 21:15:15 -0400
+Served asset /bootstrap-sprockets.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-05-24 21:15:15 -0400
+Served asset /bootstrap/popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-05-24 21:15:15 -0400
+Served asset /bootstrap/tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-05-24 21:15:15 -0400
+Served asset /bootstrap/modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-05-24 21:15:15 -0400
+Served asset /bootstrap/collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/timer.js?body=1" for 127.0.0.1 at 2016-05-24 21:15:15 -0400
+Served asset /falling_lava/timer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/util.js?body=1" for 127.0.0.1 at 2016-05-24 21:15:15 -0400
+Served asset /falling_lava/util.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava.css?body=1" for 127.0.0.1 at 2016-05-24 21:15:15 -0400
+Served asset /falling_lava.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-05-24 21:15:15 -0400
+Served asset /bootstrap/dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/player.js?body=1" for 127.0.0.1 at 2016-05-24 21:15:15 -0400
+Served asset /falling_lava/player.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/game.js?body=1" for 127.0.0.1 at 2016-05-24 21:15:15 -0400
+Served asset /falling_lava/game.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/menu.js?body=1" for 127.0.0.1 at 2016-05-24 21:15:15 -0400
+Served asset /falling_lava/menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/falling_lava.js?body=1" for 127.0.0.1 at 2016-05-24 21:15:15 -0400
+Served asset /falling_lava/falling_lava.js - 304 Not Modified (0ms)

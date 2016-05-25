@@ -183,7 +183,6 @@ function checkMouseClick(event)
 {
     var rect = menuCanvas.getBoundingClientRect();
     menu.checkButtonClicked(event.pageX - rect.left, event.pageY - rect.top);
-    event.preventDefault();
 }
 
 function saveScore()
