@@ -31,7 +31,7 @@ var Menu = Class.create(
         
         checkButtonClicked: function(mouseClickX, mouseClickY)
         {
-            if(this.playButtonEnabled && checkCollision(mouseClickX, mouseClickY, this.playButtonDrawX, this.playButtonDrawY, this.playButton.width, this.playButton.height))
+            if(this.playButtonEnabled && checkCollision(mouseClickX, mouseClickY, ((menuCanvas.width / 2) - (this.playButton.width / 2)), this.playButtonDrawY, this.playButton.width, this.playButton.height))
             {
                 this.playButtonEnabled = false;
                 if(this.tryAgain)

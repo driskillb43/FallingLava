@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a9cefef8-891d-4bc3-ba9b-0afcfbf89ecf" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/falling_lava/menu.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/falling_lava/menu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
     </list>
     <ignored path="FallingLava.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,8 +41,8 @@
       <file leaf-file-name="menu.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/falling_lava/menu.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="104" selection-start-line="28" selection-start-column="104" selection-end-line="28" selection-end-column="104" />
+            <state relative-caret-position="495">
+              <caret line="33" column="136" selection-start-line="33" selection-start-column="136" selection-end-line="33" selection-end-column="136" />
               <folding />
             </state>
           </provider>
@@ -627,12 +626,12 @@
       <workItem from="1463846835215" duration="3384000" />
       <workItem from="1463852702840" duration="9916000" />
       <workItem from="1463956897674" duration="2941000" />
-      <workItem from="1464046854148" duration="9411000" />
+      <workItem from="1464046854148" duration="9509000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54271000" />
+    <option name="totallyTimeSpent" value="54369000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="28" width="1154" height="803" extended-state="6" />
@@ -985,8 +984,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/falling_lava/menu.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="104" selection-start-line="28" selection-start-column="104" selection-end-line="28" selection-end-column="104" />
+        <state relative-caret-position="495">
+          <caret line="33" column="136" selection-start-line="33" selection-start-column="136" selection-end-line="33" selection-end-column="136" />
           <folding />
         </state>
       </provider>
