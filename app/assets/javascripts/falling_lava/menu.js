@@ -11,7 +11,6 @@ var Menu = Class.create(
             this.playButton.src = "images/play_button.png";
             this.playButton.name = "play_button"
             this.playButtonEnabled = true
-            this.playButtonDrawX = (menuCanvas.width / 2) - (this.playButton.width / 2)
             this.playButtonDrawY = menuCanvas.height / 3
             this.tryAgain = false
         },
@@ -19,7 +18,7 @@ var Menu = Class.create(
         drawMainMenu: function()
         {
             menuContext.fillText(this.mainMenuText, menuCanvas.width / 2, menuCanvas.height / 4);
-            menuContext.drawImage(this.playButton, this.playButtonDrawX, this.playButtonDrawY);
+            menuContext.drawImage(this.playButton, ((menuCanvas.width / 2) - (this.playButton.width / 2)), this.playButtonDrawY);
         },
         
         drawFailMenu: function()
@@ -27,7 +26,7 @@ var Menu = Class.create(
             this.playButtonEnabled = true;
             this.tryAgain = true;
             menuContext.fillText(this.tryAgainText, menuCanvas.width / 2, menuCanvas.height / 4);
-            menuContext.drawImage(this.playButton, this.playButtonDrawX, this.playButtonDrawY);
+            menuContext.drawImage(this.playButton, ((menuCanvas.width / 2) - (this.playButton.width / 2)), this.playButtonDrawY);
         },
         
         checkButtonClicked: function(mouseClickX, mouseClickY)
