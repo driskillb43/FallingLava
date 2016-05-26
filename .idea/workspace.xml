@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9cefef8-891d-4bc3-ba9b-0afcfbf89ecf" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/CE6/AB0/sprockets%2F3fb7e48d420be7b9897f021e62d39150" afterPath="$PROJECT_DIR$/tmp/cache/assets/CE6/AB0/sprockets%2F3fb7e48d420be7b9897f021e62d39150" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/D22/0E0/sprockets%2Fa60185895f2eeaa937e9b5a3775f40e9" afterPath="$PROJECT_DIR$/tmp/cache/assets/D22/0E0/sprockets%2Fa60185895f2eeaa937e9b5a3775f40e9" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/D3B/C70/sprockets%2Ff80f9093b98ec09e16ac31a600044dfe" afterPath="$PROJECT_DIR$/tmp/cache/assets/D3B/C70/sprockets%2Ff80f9093b98ec09e16ac31a600044dfe" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/D3E/9D0/sprockets%2F6d4cad6a3b4113fd197468e40f654a7d" afterPath="$PROJECT_DIR$/tmp/cache/assets/D3E/9D0/sprockets%2F6d4cad6a3b4113fd197468e40f654a7d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/D63/330/sprockets%2F161205b60378bcb17b5176af9dfe1aed" afterPath="$PROJECT_DIR$/tmp/cache/assets/D63/330/sprockets%2F161205b60378bcb17b5176af9dfe1aed" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/D69/7F0/sprockets%2F11bc0b51e42485ca06ffdb4b83779cf5" afterPath="$PROJECT_DIR$/tmp/cache/assets/D69/7F0/sprockets%2F11bc0b51e42485ca06ffdb4b83779cf5" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/falling_lava/menu.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/falling_lava/menu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
     </list>
     <ignored path="FallingLava.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,18 +49,8 @@
       <file leaf-file-name="menu.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/falling_lava/menu.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="136" selection-start-line="33" selection-start-column="136" selection-end-line="33" selection-end-column="136" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="falling_lava.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/falling_lava/falling_lava.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
+            <state relative-caret-position="315">
+              <caret line="21" column="110" selection-start-line="21" selection-start-column="110" selection-end-line="21" selection-end-column="110" />
               <folding />
             </state>
           </provider>
@@ -71,8 +69,8 @@
       <file leaf-file-name="game.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/falling_lava/game.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="77" column="24" selection-start-line="77" selection-start-column="24" selection-end-line="77" selection-end-column="24" />
+            <state relative-caret-position="195">
+              <caret line="70" column="5" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -626,12 +624,12 @@
       <workItem from="1463846835215" duration="3384000" />
       <workItem from="1463852702840" duration="9916000" />
       <workItem from="1463956897674" duration="2941000" />
-      <workItem from="1464046854148" duration="9509000" />
+      <workItem from="1464046854148" duration="10612000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54369000" />
+    <option name="totallyTimeSpent" value="55472000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="28" width="1154" height="803" extended-state="6" />
@@ -884,13 +882,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/falling_lava/player.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="155" column="33" selection-start-line="155" selection-start-column="33" selection-end-line="155" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/falling_lava/timer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -958,14 +949,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/falling_lava/falling_lava.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -974,18 +957,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/falling_lava/game.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="77" column="24" selection-start-line="77" selection-start-column="24" selection-end-line="77" selection-end-column="24" />
+        <state relative-caret-position="195">
+          <caret line="70" column="5" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/falling_lava/player.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1627">
+          <caret line="155" column="33" selection-start-line="155" selection-start-column="33" selection-end-line="155" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/falling_lava/menu.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="136" selection-start-line="33" selection-start-column="136" selection-end-line="33" selection-end-column="136" />
+        <state relative-caret-position="315">
+          <caret line="21" column="110" selection-start-line="21" selection-start-column="110" selection-end-line="21" selection-end-column="110" />
           <folding />
         </state>
       </provider>

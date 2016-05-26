@@ -23822,3 +23822,699 @@ Served asset /falling_lava/game.js - 304 Not Modified (0ms)
 
 Started GET "/assets/falling_lava.css?body=1" for 127.0.0.1 at 2016-05-24 21:47:19 -0400
 Served asset /falling_lava.css - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-25 21:05:45 -0400
+Connecting to database specified by database.yml
+Processing by FallingLavaController#new as HTML
+Compiled falling_lava/menu.js  (0ms)  (pid 1078)
+Compiled falling_lava/game.js  (0ms)  (pid 1078)
+  Rendered falling_lava/falling_lava.html.erb within layouts/application (16.7ms)
+Completed 200 OK in 63.3ms (Views: 63.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/falling_lava/util.js?body=1" for 127.0.0.1 at 2016-05-25 21:05:45 -0400
+Served asset /falling_lava/util.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/player.js?body=1" for 127.0.0.1 at 2016-05-25 21:05:45 -0400
+Served asset /falling_lava/player.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/falling_lava.js?body=1" for 127.0.0.1 at 2016-05-25 21:05:45 -0400
+Served asset /falling_lava/falling_lava.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/falling_lava/sideways_lava.js?body=1" for 127.0.0.1 at 2016-05-25 21:05:45 -0400
+Served asset /falling_lava/sideways_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/menu.js?body=1" for 127.0.0.1 at 2016-05-25 21:05:45 -0400
+Served asset /falling_lava/menu.js - 200 OK (0ms)
+
+
+Started GET "/assets/falling_lava/timer.js?body=1" for 127.0.0.1 at 2016-05-25 21:05:45 -0400
+Served asset /falling_lava/timer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava.css?body=1" for 127.0.0.1 at 2016-05-25 21:05:45 -0400
+Served asset /falling_lava.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/game.js?body=1" for 127.0.0.1 at 2016-05-25 21:05:45 -0400
+Served asset /falling_lava/game.js - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-25 21:05:48 -0400
+Processing by FallingLavaController#new as HTML
+  Rendered falling_lava/falling_lava.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 34.2ms (Views: 34.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/falling_lava/util.js?body=1" for 127.0.0.1 at 2016-05-25 21:05:48 -0400
+Served asset /falling_lava/util.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/player.js?body=1" for 127.0.0.1 at 2016-05-25 21:05:48 -0400
+Served asset /falling_lava/player.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/falling_lava.js?body=1" for 127.0.0.1 at 2016-05-25 21:05:48 -0400
+Served asset /falling_lava/falling_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/sideways_lava.js?body=1" for 127.0.0.1 at 2016-05-25 21:05:48 -0400
+Served asset /falling_lava/sideways_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/menu.js?body=1" for 127.0.0.1 at 2016-05-25 21:05:48 -0400
+Served asset /falling_lava/menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/game.js?body=1" for 127.0.0.1 at 2016-05-25 21:05:48 -0400
+Served asset /falling_lava/game.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/timer.js?body=1" for 127.0.0.1 at 2016-05-25 21:05:48 -0400
+Served asset /falling_lava/timer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava.css?body=1" for 127.0.0.1 at 2016-05-25 21:05:48 -0400
+Served asset /falling_lava.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava.css?body=1" for 127.0.0.1 at 2016-05-25 21:05:51 -0400
+Served asset /falling_lava.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-25 21:06:12 -0400
+Processing by FallingLavaController#new as HTML
+Compiled falling_lava/menu.js  (0ms)  (pid 1078)
+  Rendered falling_lava/falling_lava.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 36.2ms (Views: 36.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/falling_lava/util.js?body=1" for 127.0.0.1 at 2016-05-25 21:06:12 -0400
+Served asset /falling_lava/util.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/player.js?body=1" for 127.0.0.1 at 2016-05-25 21:06:12 -0400
+Served asset /falling_lava/player.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/falling_lava.js?body=1" for 127.0.0.1 at 2016-05-25 21:06:12 -0400
+Served asset /falling_lava/falling_lava.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/falling_lava/sideways_lava.js?body=1" for 127.0.0.1 at 2016-05-25 21:06:12 -0400
+Served asset /falling_lava/sideways_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/menu.js?body=1" for 127.0.0.1 at 2016-05-25 21:06:12 -0400
+Served asset /falling_lava/menu.js - 200 OK (0ms)
+
+
+Started GET "/assets/falling_lava.css?body=1" for 127.0.0.1 at 2016-05-25 21:06:12 -0400
+Served asset /falling_lava.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/timer.js?body=1" for 127.0.0.1 at 2016-05-25 21:06:12 -0400
+Served asset /falling_lava/timer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/game.js?body=1" for 127.0.0.1 at 2016-05-25 21:06:12 -0400
+Served asset /falling_lava/game.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-25 21:07:59 -0400
+Processing by FallingLavaController#new as HTML
+Compiled falling_lava/menu.js  (0ms)  (pid 1078)
+Compiled falling_lava/game.js  (0ms)  (pid 1078)
+  Rendered falling_lava/falling_lava.html.erb within layouts/application (28.3ms)
+Completed 200 OK in 36.7ms (Views: 36.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/falling_lava/sideways_lava.js?body=1" for 127.0.0.1 at 2016-05-25 21:07:59 -0400
+Served asset /falling_lava/sideways_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava.css?body=1" for 127.0.0.1 at 2016-05-25 21:07:59 -0400
+Served asset /falling_lava.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/util.js?body=1" for 127.0.0.1 at 2016-05-25 21:07:59 -0400
+Served asset /falling_lava/util.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/player.js?body=1" for 127.0.0.1 at 2016-05-25 21:07:59 -0400
+Served asset /falling_lava/player.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/falling_lava.js?body=1" for 127.0.0.1 at 2016-05-25 21:07:59 -0400
+Served asset /falling_lava/falling_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/menu.js?body=1" for 127.0.0.1 at 2016-05-25 21:07:59 -0400
+Served asset /falling_lava/menu.js - 200 OK (0ms)
+
+
+Started GET "/assets/falling_lava/timer.js?body=1" for 127.0.0.1 at 2016-05-25 21:07:59 -0400
+Served asset /falling_lava/timer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/game.js?body=1" for 127.0.0.1 at 2016-05-25 21:07:59 -0400
+Served asset /falling_lava/game.js - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-25 21:08:15 -0400
+Processing by FallingLavaController#new as HTML
+Compiled falling_lava/game.js  (0ms)  (pid 1078)
+  Rendered falling_lava/falling_lava.html.erb within layouts/application (23.5ms)
+Completed 200 OK in 32.4ms (Views: 32.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/falling_lava/util.js?body=1" for 127.0.0.1 at 2016-05-25 21:08:15 -0400
+Served asset /falling_lava/util.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/sideways_lava.js?body=1" for 127.0.0.1 at 2016-05-25 21:08:15 -0400
+Served asset /falling_lava/sideways_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/player.js?body=1" for 127.0.0.1 at 2016-05-25 21:08:15 -0400
+Served asset /falling_lava/player.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava.css?body=1" for 127.0.0.1 at 2016-05-25 21:08:15 -0400
+Served asset /falling_lava.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/menu.js?body=1" for 127.0.0.1 at 2016-05-25 21:08:15 -0400
+Served asset /falling_lava/menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/falling_lava.js?body=1" for 127.0.0.1 at 2016-05-25 21:08:15 -0400
+Served asset /falling_lava/falling_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/timer.js?body=1" for 127.0.0.1 at 2016-05-25 21:08:15 -0400
+Served asset /falling_lava/timer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/game.js?body=1" for 127.0.0.1 at 2016-05-25 21:08:15 -0400
+Served asset /falling_lava/game.js - 200 OK (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-25 21:12:11 -0400
+Processing by FallingLavaController#new as HTML
+Compiled falling_lava/menu.js  (0ms)  (pid 1078)
+  Rendered falling_lava/falling_lava.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 14.6ms (Views: 14.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/falling_lava.css?body=1" for 127.0.0.1 at 2016-05-25 21:12:11 -0400
+Served asset /falling_lava.css - 304 Not Modified (33ms)
+
+
+Started GET "/assets/falling_lava/util.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:11 -0400
+Served asset /falling_lava/util.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/player.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:11 -0400
+Served asset /falling_lava/player.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/menu.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:11 -0400
+Served asset /falling_lava/menu.js - 200 OK (0ms)
+
+
+Started GET "/assets/falling_lava/falling_lava.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:11 -0400
+Served asset /falling_lava/falling_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/timer.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:11 -0400
+Served asset /falling_lava/timer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/game.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:11 -0400
+Served asset /falling_lava/game.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/sideways_lava.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:11 -0400
+Served asset /falling_lava/sideways_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-25 21:12:14 -0400
+Processing by FallingLavaController#new as HTML
+  Rendered falling_lava/falling_lava.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 11.9ms (Views: 11.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/falling_lava/util.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:14 -0400
+Served asset /falling_lava/util.js - 304 Not Modified (38ms)
+
+
+Started GET "/assets/falling_lava/sideways_lava.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:14 -0400
+Served asset /falling_lava/sideways_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/menu.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:14 -0400
+Served asset /falling_lava/menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava.css?body=1" for 127.0.0.1 at 2016-05-25 21:12:14 -0400
+Served asset /falling_lava.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/player.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:14 -0400
+Served asset /falling_lava/player.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/falling_lava.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:14 -0400
+Served asset /falling_lava/falling_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/game.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:14 -0400
+Served asset /falling_lava/game.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/timer.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:14 -0400
+Served asset /falling_lava/timer.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-25 21:12:15 -0400
+Processing by FallingLavaController#new as HTML
+  Rendered falling_lava/falling_lava.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 10.9ms (Views: 10.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/falling_lava.css?body=1" for 127.0.0.1 at 2016-05-25 21:12:15 -0400
+Served asset /falling_lava.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/player.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:15 -0400
+Served asset /falling_lava/player.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/falling_lava.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:15 -0400
+Served asset /falling_lava/falling_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/timer.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:15 -0400
+Served asset /falling_lava/timer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/menu.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:15 -0400
+Served asset /falling_lava/menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/sideways_lava.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:15 -0400
+Served asset /falling_lava/sideways_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/util.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:15 -0400
+Served asset /falling_lava/util.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/game.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:15 -0400
+Served asset /falling_lava/game.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-25 21:12:16 -0400
+Processing by FallingLavaController#new as HTML
+  Rendered falling_lava/falling_lava.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 11.0ms (Views: 10.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/falling_lava.css?body=1" for 127.0.0.1 at 2016-05-25 21:12:16 -0400
+Served asset /falling_lava.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/player.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:16 -0400
+Served asset /falling_lava/player.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/game.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:16 -0400
+Served asset /falling_lava/game.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/menu.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:16 -0400
+Served asset /falling_lava/menu.js - 304 Not Modified (17ms)
+
+
+Started GET "/assets/falling_lava/falling_lava.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:16 -0400
+Served asset /falling_lava/falling_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/util.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:16 -0400
+Served asset /falling_lava/util.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/timer.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:16 -0400
+Served asset /falling_lava/timer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/sideways_lava.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:16 -0400
+Served asset /falling_lava/sideways_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-25 21:12:17 -0400
+Processing by FallingLavaController#new as HTML
+  Rendered falling_lava/falling_lava.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 10.0ms (Views: 9.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/falling_lava/player.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:17 -0400
+Served asset /falling_lava/player.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/util.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:17 -0400
+Served asset /falling_lava/util.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/menu.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:17 -0400
+Served asset /falling_lava/menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/falling_lava.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:17 -0400
+Served asset /falling_lava/falling_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/sideways_lava.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:17 -0400
+Served asset /falling_lava/sideways_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava.css?body=1" for 127.0.0.1 at 2016-05-25 21:12:17 -0400
+Served asset /falling_lava.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/timer.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:17 -0400
+Served asset /falling_lava/timer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/game.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:17 -0400
+Served asset /falling_lava/game.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-25 21:12:17 -0400
+Processing by FallingLavaController#new as HTML
+  Rendered falling_lava/falling_lava.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 12.3ms (Views: 11.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/falling_lava.css?body=1" for 127.0.0.1 at 2016-05-25 21:12:17 -0400
+Served asset /falling_lava.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/util.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:17 -0400
+Served asset /falling_lava/util.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/timer.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:17 -0400
+Served asset /falling_lava/timer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/menu.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:17 -0400
+Served asset /falling_lava/menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/falling_lava.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:17 -0400
+Served asset /falling_lava/falling_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/player.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:17 -0400
+Served asset /falling_lava/player.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/sideways_lava.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:17 -0400
+Served asset /falling_lava/sideways_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/game.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:17 -0400
+Served asset /falling_lava/game.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-25 21:12:18 -0400
+Processing by FallingLavaController#new as HTML
+  Rendered falling_lava/falling_lava.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 10.1ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/falling_lava/falling_lava.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:18 -0400
+Served asset /falling_lava/falling_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/sideways_lava.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:18 -0400
+Served asset /falling_lava/sideways_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/menu.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:18 -0400
+Served asset /falling_lava/menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/game.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:18 -0400
+Served asset /falling_lava/game.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/timer.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:18 -0400
+Served asset /falling_lava/timer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava.css?body=1" for 127.0.0.1 at 2016-05-25 21:12:18 -0400
+Served asset /falling_lava.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/util.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:18 -0400
+Served asset /falling_lava/util.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/player.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:18 -0400
+Served asset /falling_lava/player.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-25 21:12:20 -0400
+Processing by FallingLavaController#new as HTML
+  Rendered falling_lava/falling_lava.html.erb within layouts/application (25.6ms)
+Completed 200 OK in 33.8ms (Views: 33.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/falling_lava/util.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:20 -0400
+Served asset /falling_lava/util.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/sideways_lava.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:20 -0400
+Served asset /falling_lava/sideways_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/falling_lava.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:21 -0400
+Served asset /falling_lava/falling_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/game.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:21 -0400
+Served asset /falling_lava/game.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/menu.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:21 -0400
+Served asset /falling_lava/menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava.css?body=1" for 127.0.0.1 at 2016-05-25 21:12:21 -0400
+Served asset /falling_lava.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/timer.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:21 -0400
+Served asset /falling_lava/timer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/player.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:21 -0400
+Served asset /falling_lava/player.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-25 21:12:21 -0400
+Processing by FallingLavaController#new as HTML
+  Rendered falling_lava/falling_lava.html.erb within layouts/application (23.1ms)
+Completed 200 OK in 31.2ms (Views: 31.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/falling_lava/util.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:21 -0400
+Served asset /falling_lava/util.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/sideways_lava.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:21 -0400
+Served asset /falling_lava/sideways_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/game.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:21 -0400
+Served asset /falling_lava/game.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/falling_lava.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:21 -0400
+Served asset /falling_lava/falling_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/player.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:21 -0400
+Served asset /falling_lava/player.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/timer.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:21 -0400
+Served asset /falling_lava/timer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava.css?body=1" for 127.0.0.1 at 2016-05-25 21:12:21 -0400
+Served asset /falling_lava.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/menu.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:21 -0400
+Served asset /falling_lava/menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-25 21:12:22 -0400
+Processing by FallingLavaController#new as HTML
+  Rendered falling_lava/falling_lava.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 31.2ms (Views: 31.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/falling_lava.css?body=1" for 127.0.0.1 at 2016-05-25 21:12:22 -0400
+Served asset /falling_lava.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/util.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:22 -0400
+Served asset /falling_lava/util.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/sideways_lava.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:22 -0400
+Served asset /falling_lava/sideways_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/menu.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:22 -0400
+Served asset /falling_lava/menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/timer.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:22 -0400
+Served asset /falling_lava/timer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/game.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:22 -0400
+Served asset /falling_lava/game.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/player.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:22 -0400
+Served asset /falling_lava/player.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/falling_lava.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:22 -0400
+Served asset /falling_lava/falling_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-25 21:12:22 -0400
+Processing by FallingLavaController#new as HTML
+  Rendered falling_lava/falling_lava.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 32.6ms (Views: 32.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/falling_lava/util.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:22 -0400
+Served asset /falling_lava/util.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/falling_lava.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:22 -0400
+Served asset /falling_lava/falling_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/game.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:22 -0400
+Served asset /falling_lava/game.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/player.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:22 -0400
+Served asset /falling_lava/player.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/sideways_lava.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:22 -0400
+Served asset /falling_lava/sideways_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/timer.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:22 -0400
+Served asset /falling_lava/timer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava.css?body=1" for 127.0.0.1 at 2016-05-25 21:12:22 -0400
+Served asset /falling_lava.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/menu.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:22 -0400
+Served asset /falling_lava/menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-25 21:12:23 -0400
+Processing by FallingLavaController#new as HTML
+  Rendered falling_lava/falling_lava.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 31.8ms (Views: 31.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/falling_lava.css?body=1" for 127.0.0.1 at 2016-05-25 21:12:23 -0400
+Served asset /falling_lava.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/util.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:23 -0400
+Served asset /falling_lava/util.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/game.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:23 -0400
+Served asset /falling_lava/game.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/timer.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:23 -0400
+Served asset /falling_lava/timer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/falling_lava.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:23 -0400
+Served asset /falling_lava/falling_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/menu.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:23 -0400
+Served asset /falling_lava/menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/player.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:23 -0400
+Served asset /falling_lava/player.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/sideways_lava.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:23 -0400
+Served asset /falling_lava/sideways_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-25 21:12:23 -0400
+Processing by FallingLavaController#new as HTML
+  Rendered falling_lava/falling_lava.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 32.1ms (Views: 31.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/falling_lava/falling_lava.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:23 -0400
+Served asset /falling_lava/falling_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/sideways_lava.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:23 -0400
+Served asset /falling_lava/sideways_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/util.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:23 -0400
+Served asset /falling_lava/util.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/player.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:23 -0400
+Served asset /falling_lava/player.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/menu.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:23 -0400
+Served asset /falling_lava/menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava.css?body=1" for 127.0.0.1 at 2016-05-25 21:12:23 -0400
+Served asset /falling_lava.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/timer.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:23 -0400
+Served asset /falling_lava/timer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/game.js?body=1" for 127.0.0.1 at 2016-05-25 21:12:23 -0400
+Served asset /falling_lava/game.js - 304 Not Modified (0ms)

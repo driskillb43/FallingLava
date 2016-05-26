@@ -8,17 +8,19 @@ var Menu = Class.create(
             this.mainMenuText = "Falling Lava"
             this.tryAgainText = "You died. Try again?"
             this.playButton = new Image();
-            this.playButton.src = "images/play_button.png";
-            this.playButton.name = "play_button"
-            this.playButtonEnabled = true
-            this.playButtonDrawY = menuCanvas.height / 3
-            this.tryAgain = false
+            this.playButton.name = "play_button";
+            this.playButtonEnabled = true;
+            this.playButtonDrawY = menuCanvas.height / 3;
+            this.tryAgain = false;
         },
         
         drawMainMenu: function()
         {
             menuContext.fillText(this.mainMenuText, menuCanvas.width / 2, menuCanvas.height / 4);
-            menuContext.drawImage(this.playButton, ((menuCanvas.width / 2) - (this.playButton.width / 2)), this.playButtonDrawY);
+            this.playButton.src = "images/play_button.png";
+            this.playButton.onload = function() {
+                menuContext.drawImage(this, ((menuCanvas.width / 2) - (this.width / 2)), menuCanvas.height / 3);
+            };
         },
         
         drawFailMenu: function()
