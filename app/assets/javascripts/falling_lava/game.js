@@ -149,7 +149,6 @@ function draw()
                 player.playCatDeathSound();
             }
             
-    		player.isDead = true;
     		isPlaying = false;
             player.deathAudio.onended = function()
             {
