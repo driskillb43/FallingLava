@@ -86,7 +86,11 @@ function update()
     clearCtx(ctxEntities);
     for (var i = 0; i < entities.length; i++)
     {
-    	entities[i].update();
+        if(!entities[i].isDead)
+        {
+            entities[i].update();
+        }
+
     }
     if(timer.currentTime != 0)
     {
@@ -110,6 +114,10 @@ function update()
         {
             entities.push(new SidewaysLava(randomRange(0, GROUND_Y), randomRange(1, 3), randomTrueOrFalse()));
         }
+        if (timer.currentTime % 30 == 0 && timer.changed)
+        {
+            entities.push(new Cat());
+        }
     }
 }
 
@@ -129,10 +137,18 @@ function draw()
     for (var i = 0; i < entities.length; i++)
     {
     	entities[i].draw();
-    	if(((entities[i] instanceof FallingLava) || (entities[i] instanceof SidewaysLava)) && checkObjectCollision(entities[i], player))
+    	if(((entities[i] instanceof FallingLava) || (entities[i] instanceof SidewaysLava || (entities[i] instanceof Cat))) && checkObjectCollision(entities[i], player))
     	{
             saveScore();
-            player.playDeathSound();
+            if(entities[i] instanceof FallingLava || entities[i] instanceof SidewaysLava)
+            {
+                player.playFireDeathSound();
+            }
+            else 
+            {
+                player.playCatDeathSound();
+            }
+            
     		player.isDead = true;
     		isPlaying = false;
             player.deathAudio.onended = function()

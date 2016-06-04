@@ -14,6 +14,7 @@ var SidewaysLava = Class.create({
         this.sidewaysLavaSprite = new Image();
         this.sidewaysLavaSprite.src = "images/fire.png";
         this.moveRight = moveRight;
+        this.isDead = false;
         if (this.moveRight)
         {
             this.drawX = 0;
@@ -70,13 +71,6 @@ var SidewaysLava = Class.create({
     
     increaseSpeed: function()
     {
-        if (this.moveRight)
-        {
-            this.moveSpeed += 1;
-        }
-        else
-        {
-            this.moveSpeed -= 1;
-        }
+        this.moveSpeed += 1;
     }
 });

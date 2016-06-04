@@ -13,6 +13,7 @@ var Timer = Class.create({
         this.currentTime = null;
         this.changed = false;
         this.previousTime = null;
+        this.isDead = false;
 	},
 
 	update: function() 

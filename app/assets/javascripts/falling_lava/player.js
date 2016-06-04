@@ -142,11 +142,17 @@ var Player = Class.create(
 	    }
 	},
 
-	playDeathSound: function()
+	playFireDeathSound: function()
 	{
 		this.deathAudio = new Audio('sounds/thats_hot.wav');
 		this.deathAudio.play();
 	},
+    
+    playCatDeathSound: function()
+    {
+        this.deathAudio = new Audio('sounds/bad_kitty.wav');
+        this.deathAudio.play();
+    },
 	
 	outOfBoundsX: function(drawX)
 	{	

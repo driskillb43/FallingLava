@@ -15,6 +15,7 @@ var FallingLava = Class.create({
 	    this.fallSpeed = fallSpeed;
 	    this.fallingLavaSprite = new Image();
 	    this.fallingLavaSprite.src = "images/fire.png";
+        this.isDead = false;
 	},
 
 	update: function() 
