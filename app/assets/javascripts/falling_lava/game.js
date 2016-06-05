@@ -2,7 +2,7 @@
  * The main game file
  */
 
-//Grabs the background and front canvases
+//Grabs the background, entities, and menu canvas
 var backgroundCanvas = document.getElementById("backgroundCanvas"),
     backgroundContext = backgroundCanvas.getContext("2d"),
     canvasEntities = document.getElementById("canvasEntities"),
@@ -16,7 +16,14 @@ var CANVAS_WIDTH = backgroundCanvas.width,
     GROUND_Y = 400,
     LAVA_START_AMOUNT = 2,
     BACKGROUND_IMAGE_PATH = "images/background.png",
-    LOAD_EVENT = "load",
+    PLAYER_IMAGE_PATH = "images/egyptianqueen.png",
+    CAT_IMAGE_PATH = "images/catsheet.png",
+    FALLING_LAVA_IMAGE_PATH = "images/fire.png",
+    PLAY_BUTTON_IMAGE_PATH = "images/play_button.png",
+    FALLING_LAVA_AUDIO_PATH = "sounds/falling_lava.wav",
+    PLAYER_FIRE_DEATH_AUDIO = "sounds/thats_hot.wav",
+    PLAYER_CAT_DEATH_AUDIO = "sounds/bad_kitty.wav",
+    MEOW_AUDIO_PATH = "sounds/meow.wav",
     KEY_DOWN_EVENT = "keydown",
     KEY_UP_EVENT = "keyup",
     MOUSE_CLICK = "click"
@@ -24,9 +31,10 @@ var CANVAS_WIDTH = backgroundCanvas.width,
     LEFT_ARROW_ID = 37,
     SPACEBAR_ID = 32;
 
-var entities = new Array(),	
-	player = new Player(),
+var entities = new Array(),
+    player = new Player(),
     timer = new Timer(),
+    menu = new Menu(),
     isPlaying = false,
     requestAnimFrame =  window.requestAnimationFrame ||
                         window.webkitRequestAnimationFrame ||
@@ -35,12 +43,78 @@ var entities = new Array(),
                         window.msRequestAnimationFrame ||
                         function(callback) {
                             window.setTimeout(callback, 1000 / 60);
-                        },
-    bgSprite = new Image(),
-    menu = new Menu();
-bgSprite.src = BACKGROUND_IMAGE_PATH;
-bgSprite.addEventListener(LOAD_EVENT, init, false);
+                        };
 
+var bgSprite = new Image(),
+    bgSpriteLoaded = false,
+    playerSprite = new Image(),
+    playerSpriteLoaded = false,
+    catSprite = new Image(),
+    catSpriteLoaded = false,
+    fallingLavaSprite = new Image(),
+    fallingLavaSpriteLoaded = false,
+    playButtonImage = new Image(),
+    playButtonImageLoaded = false,
+    fallingLavaAudio = new Audio(),
+    fallingLavaAudioLoaded = false,
+    meowAudio = new Audio(),
+    meowAudioLoaded = false,
+    playerFireDeathAudio = new Audio(),
+    playerFireDeathAudioLoaded = false,
+    playerCatDeathAudio = new Audio(),
+    playerCatDeathAudioLoaded = false;
+    
+
+loadImagesAndAudio();
+
+function loadImagesAndAudio()
+{
+    bgSprite.src = BACKGROUND_IMAGE_PATH;
+    bgSprite.onload = function() {
+        bgSpriteLoaded = true;
+        init();
+    }
+    playerSprite.src = PLAYER_IMAGE_PATH;
+    playerSprite.onload = function() {
+        playerSpriteLoaded = true;
+        init();
+    }
+    catSprite.src = CAT_IMAGE_PATH;
+    catSprite.onload = function() {
+        catSpriteLoaded = true;
+        init();
+    }
+    fallingLavaSprite.src = FALLING_LAVA_IMAGE_PATH;
+    fallingLavaSprite.onload = function() {
+        fallingLavaSpriteLoaded = true;
+        init();
+    }
+    playButtonImage.src = PLAY_BUTTON_IMAGE_PATH;
+    playButtonImage.onload = function() {
+        playButtonImageLoaded = true;
+        init();
+    }
+    fallingLavaAudio.src = FALLING_LAVA_AUDIO_PATH;
+    fallingLavaAudio.oncanplaythrough = function() {
+        fallingLavaAudioLoaded = true;
+        init();
+    }
+    meowAudio.src = MEOW_AUDIO_PATH;
+    meowAudio.oncanplaythrough = function() {
+        meowAudioLoaded = true;
+        init();
+    }
+    playerFireDeathAudio.src = PLAYER_FIRE_DEATH_AUDIO;
+    playerFireDeathAudio.oncanplaythrough = function() {
+        playerFireDeathAudioLoaded = true;
+        init();
+    }
+    playerCatDeathAudio.src = PLAYER_CAT_DEATH_AUDIO;
+    playerCatDeathAudio.oncanplaythrough = function() {
+        playerCatDeathAudioLoaded = true;
+        init();
+    }
+}
 function startGame()
 {
     clearCtx(menuContext);
@@ -73,12 +147,22 @@ function initializeLavas()
 
 function init()
 {
-    backgroundContext.drawImage(bgSprite, 0, 0, CANVAS_WIDTH, CANVAS_HEIGHT, 0, 0, CANVAS_WIDTH, CANVAS_HEIGHT);
-    document.addEventListener(MOUSE_CLICK, function(event) {checkMouseClick(event);}, false);
-    menu.drawMainMenu();
-    var audio = new Audio('sounds/falling_lava.wav');
-    audio.play();
-    requestAnimFrame(loop);
+    if(bgSpriteLoaded 
+        && playerSpriteLoaded 
+        && catSpriteLoaded 
+        && fallingLavaSpriteLoaded 
+        && playButtonImageLoaded
+        && fallingLavaAudioLoaded
+        && meowAudioLoaded
+        && playerCatDeathAudioLoaded
+        && playerFireDeathAudioLoaded)
+    {
+        backgroundContext.drawImage(bgSprite, 0, 0, CANVAS_WIDTH, CANVAS_HEIGHT, 0, 0, CANVAS_WIDTH, CANVAS_HEIGHT);
+        document.addEventListener(MOUSE_CLICK, function(event) {checkMouseClick(event);}, false);
+        menu.drawMainMenu();
+        fallingLavaAudio.play();
+        requestAnimFrame(loop);
+    }
 }
 
 function update() 

@@ -32,15 +32,11 @@ var Cat = Class.create(
 	    this.spriteAddition = CAT_FACING_LEFT_X;
         this.spriteAddAddition = true;
         this.isDead = false;
-	    this.catSprite = new Image();
-	    this.catSprite.src = "images/catsheet.png";
-        this.meowAudio = new Audio('sounds/meow.wav');
-        this.meowAudio.play();
+        meowAudio.play();
 	},
 
 	update: function() 
 	{
-        console.log(this.spriteAddition);
         this.drawX -= this.runSpeed;
 
         if(this.spriteAddAddition)
@@ -85,7 +81,7 @@ var Cat = Class.create(
 
 	draw: function() 
 	{
-		ctxEntities.drawImage(this.catSprite, this.srcX, this.srcY, this.width, this.height, this.drawX, this.drawY, this.width, this.height);
+		ctxEntities.drawImage(catSprite, this.srcX, this.srcY, this.width, this.height, this.drawX, this.drawY, this.width, this.height);
 	},
 	
 	isOutOfBounds: function()

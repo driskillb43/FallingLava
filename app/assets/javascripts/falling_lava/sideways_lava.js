@@ -11,8 +11,6 @@ var SidewaysLava = Class.create({
         this.height = 24;
         this.drawY = drawY;
         this.moveSpeed = moveSpeed;
-        this.sidewaysLavaSprite = new Image();
-        this.sidewaysLavaSprite.src = "images/fire.png";
         this.moveRight = moveRight;
         this.isDead = false;
         if (this.moveRight)
@@ -40,7 +38,7 @@ var SidewaysLava = Class.create({
 	draw: function() 
 	{
 		this.checkPosition()
-	    ctxEntities.drawImage(this.sidewaysLavaSprite, this.srcX, this.srcY, this.width, this.height, this.drawX, this.drawY, this.width, this.height);
+	    ctxEntities.drawImage(fallingLavaSprite, this.srcX, this.srcY, this.width, this.height, this.drawX, this.drawY, this.width, this.height);
 	},
 	
 	checkPosition: function()

@@ -40,8 +40,6 @@ var Player = Class.create(
 	    this.isLeftKey = false;
 	    this.isSpaceBar = false;
 	    this.isJumping = false;
-	    this.playerSprite = new Image();
-	    this.playerSprite.src = "images/egyptianqueen.png";
 	    this.isDead = false;
 	},
 
@@ -71,7 +69,7 @@ var Player = Class.create(
 
 	draw: function() 
 	{
-		ctxEntities.drawImage(this.playerSprite, this.srcX, this.srcY, this.width, this.height, this.drawX, this.drawY, this.width, this.height);
+		ctxEntities.drawImage(playerSprite, this.srcX, this.srcY, this.width, this.height, this.drawX, this.drawY, this.width, this.height);
 	},
 
 	checkDirection: function() 
@@ -144,13 +142,13 @@ var Player = Class.create(
 
 	playFireDeathSound: function()
 	{
-		this.deathAudio = new Audio('sounds/thats_hot.wav');
+		this.deathAudio = playerFireDeathAudio;
 		this.deathAudio.play();
 	},
     
     playCatDeathSound: function()
     {
-        this.deathAudio = new Audio('sounds/bad_kitty.wav');
+        this.deathAudio = playerCatDeathAudio;
         this.deathAudio.play();
     },
 	
