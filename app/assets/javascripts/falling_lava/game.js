@@ -46,7 +46,8 @@ var entities = new Array(),
                             window.setTimeout(callback, 1000 / 60);
                         };
 
-var bgSprite = new Image(),
+var gameInitialized = false,
+    bgSprite = new Image(),
     bgSpriteLoaded = false,
     playerSprite = new Image(),
     playerSpriteLoaded = false,
@@ -156,8 +157,10 @@ function init()
         && fallingLavaAudioLoaded
         && meowAudioLoaded
         && playerCatDeathAudioLoaded
-        && playerFireDeathAudioLoaded)
+        && playerFireDeathAudioLoaded
+        && !gameInitialized)
     {
+        gameInitialized = true;
         backgroundContext.drawImage(bgSprite, 0, 0, CANVAS_WIDTH, CANVAS_HEIGHT, 0, 0, CANVAS_WIDTH, CANVAS_HEIGHT);
         document.addEventListener(MOUSE_CLICK, function(event) {checkMouseClick(event);}, false);
         document.addEventListener(MOUSE_MOVE, function(event) {checkMouseMove(event);}, false);

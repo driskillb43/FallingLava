@@ -28096,3 +28096,153 @@ Processing by FallingLavaController#save_score as JSON
   [1m[35mSQL (68.4ms)[0m  INSERT INTO "scores" ("created_at", "score", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["created_at", Fri, 08 Jul 2016 01:27:24 UTC +00:00], ["score", 56], ["updated_at", Fri, 08 Jul 2016 01:27:24 UTC +00:00]]
   [1m[36m (33.6ms)[0m  [1mCOMMIT[0m
 Completed 200 OK in 285.6ms (Views: 0.1ms | ActiveRecord: 230.6ms)
+
+
+Started GET "/falling_lava" for 127.0.0.1 at 2016-07-07 21:36:41 -0400
+Connecting to database specified by database.yml
+Processing by FallingLavaController#new as HTML
+Compiled falling_lava/game.js  (0ms)  (pid 11956)
+  Rendered falling_lava/falling_lava.html.erb within layouts/application (18.4ms)
+Completed 200 OK in 102.0ms (Views: 101.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-07-07 21:36:42 -0400
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-07-07 21:36:42 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-07-07 21:36:42 -0400
+Served asset /bootstrap/dropdown.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-07-07 21:36:42 -0400
+Served asset /bootstrap/carousel.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-07-07 21:36:42 -0400
+Served asset /bootstrap/alert.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-07-07 21:36:42 -0400
+Served asset /bootstrap/affix.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-07-07 21:36:42 -0400
+Served asset /bootstrap/collapse.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-07-07 21:36:42 -0400
+Served asset /bootstrap/tab.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-07-07 21:36:42 -0400
+Served asset /bootstrap/transition.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-07-07 21:36:42 -0400
+Served asset /bootstrap/button.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-07-07 21:36:42 -0400
+Served asset /bootstrap/modal.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-07-07 21:36:42 -0400
+Served asset /bootstrap/tooltip.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-07-07 21:36:42 -0400
+Served asset /bootstrap/scrollspy.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-07-07 21:36:42 -0400
+Served asset /bootstrap-sprockets.js - 200 OK (14ms)
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-07-07 21:36:42 -0400
+Served asset /bootstrap/popover.js - 200 OK (1ms)
+
+
+Started GET "/assets/falling_lava.css?body=1" for 127.0.0.1 at 2016-07-07 21:36:42 -0400
+Served asset /falling_lava.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/falling_lava/falling_lava.js?body=1" for 127.0.0.1 at 2016-07-07 21:36:42 -0400
+Served asset /falling_lava/falling_lava.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/falling_lava/util.js?body=1" for 127.0.0.1 at 2016-07-07 21:36:42 -0400
+Served asset /falling_lava/util.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/falling_lava/player.js?body=1" for 127.0.0.1 at 2016-07-07 21:36:42 -0400
+Served asset /falling_lava/player.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/falling_lava/timer.js?body=1" for 127.0.0.1 at 2016-07-07 21:36:42 -0400
+Served asset /falling_lava/timer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/sideways_lava.js?body=1" for 127.0.0.1 at 2016-07-07 21:36:42 -0400
+Served asset /falling_lava/sideways_lava.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/menu.js?body=1" for 127.0.0.1 at 2016-07-07 21:36:42 -0400
+Served asset /falling_lava/menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/cat.js?body=1" for 127.0.0.1 at 2016-07-07 21:36:42 -0400
+Served asset /falling_lava/cat.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/falling_lava/game.js?body=1" for 127.0.0.1 at 2016-07-07 21:36:42 -0400
+Served asset /falling_lava/game.js - 200 OK (0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2016-07-07 21:36:42 -0400
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (3.2.22) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.22) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.22) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.22) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.22) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.22) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.22) lib/action_dispatch/middleware/static.rb:83:in `call'
+  railties (3.2.22) lib/rails/engine.rb:484:in `call'
+  railties (3.2.22) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.22) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/share/ruby/webrick/httpserver.rb:138:in `service'
+  /usr/share/ruby/webrick/httpserver.rb:94:in `run'
+  /usr/share/ruby/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/bdriskill/.gem/ruby/gems/actionpack-3.2.22/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started POST "/falling_lava/save_score" for 127.0.0.1 at 2016-07-07 21:36:46 -0400
+Processing by FallingLavaController#save_score as JSON
+  Parameters: {"score"=>{"score"=>"2"}}
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (24.0ms)[0m  INSERT INTO "scores" ("created_at", "score", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["created_at", Fri, 08 Jul 2016 01:36:46 UTC +00:00], ["score", 2], ["updated_at", Fri, 08 Jul 2016 01:36:46 UTC +00:00]]
+  [1m[36m (87.5ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 132.5ms (Views: 0.1ms | ActiveRecord: 115.5ms)
+
+
+Started POST "/falling_lava/save_score" for 127.0.0.1 at 2016-07-07 21:36:52 -0400
+Processing by FallingLavaController#save_score as JSON
+  Parameters: {"score"=>{"score"=>"2"}}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "scores" ("created_at", "score", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["created_at", Fri, 08 Jul 2016 01:36:52 UTC +00:00], ["score", 2], ["updated_at", Fri, 08 Jul 2016 01:36:52 UTC +00:00]]
+  [1m[35m (23.4ms)[0m  COMMIT
+Completed 200 OK in 25.3ms (Views: 0.1ms | ActiveRecord: 23.9ms)
