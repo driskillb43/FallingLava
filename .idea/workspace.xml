@@ -2,31 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9cefef8-891d-4bc3-ba9b-0afcfbf89ecf" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/C6F/320/sprockets%2Fd18584f644061b335323dcb0e630713c" afterPath="$PROJECT_DIR$/tmp/cache/assets/C6F/320/sprockets%2Fd18584f644061b335323dcb0e630713c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/CBC/9E0/sprockets%2F5e956a1d283e69c420682e2777cf62c2" afterPath="$PROJECT_DIR$/tmp/cache/assets/CBC/9E0/sprockets%2F5e956a1d283e69c420682e2777cf62c2" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/CE6/AB0/sprockets%2F3fb7e48d420be7b9897f021e62d39150" afterPath="$PROJECT_DIR$/tmp/cache/assets/CE6/AB0/sprockets%2F3fb7e48d420be7b9897f021e62d39150" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/D04/D70/sprockets%2F25d60c51142d5b0bd8741525cd9de75a" afterPath="$PROJECT_DIR$/tmp/cache/assets/D04/D70/sprockets%2F25d60c51142d5b0bd8741525cd9de75a" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/D1F/6D0/sprockets%2F8b8f8a0425df8c723597347d1ce29bd5" afterPath="$PROJECT_DIR$/tmp/cache/assets/D1F/6D0/sprockets%2F8b8f8a0425df8c723597347d1ce29bd5" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/D22/0E0/sprockets%2Fa60185895f2eeaa937e9b5a3775f40e9" afterPath="$PROJECT_DIR$/tmp/cache/assets/D22/0E0/sprockets%2Fa60185895f2eeaa937e9b5a3775f40e9" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/D3B/C70/sprockets%2Ff80f9093b98ec09e16ac31a600044dfe" afterPath="$PROJECT_DIR$/tmp/cache/assets/D3B/C70/sprockets%2Ff80f9093b98ec09e16ac31a600044dfe" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/D3E/9D0/sprockets%2F6d4cad6a3b4113fd197468e40f654a7d" afterPath="$PROJECT_DIR$/tmp/cache/assets/D3E/9D0/sprockets%2F6d4cad6a3b4113fd197468e40f654a7d" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/D46/FA0/sprockets%2F286adaee378f8ef0d3278a314315f54f" afterPath="$PROJECT_DIR$/tmp/cache/assets/D46/FA0/sprockets%2F286adaee378f8ef0d3278a314315f54f" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/D55/1B0/sprockets%2F6af90782f7fd5f3455ed8e16bb48c726" afterPath="$PROJECT_DIR$/tmp/cache/assets/D55/1B0/sprockets%2F6af90782f7fd5f3455ed8e16bb48c726" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/D57/420/sprockets%2Fd56af2ddf09eda97583972712dd66c96" afterPath="$PROJECT_DIR$/tmp/cache/assets/D57/420/sprockets%2Fd56af2ddf09eda97583972712dd66c96" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/D63/330/sprockets%2F161205b60378bcb17b5176af9dfe1aed" afterPath="$PROJECT_DIR$/tmp/cache/assets/D63/330/sprockets%2F161205b60378bcb17b5176af9dfe1aed" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/D69/7F0/sprockets%2F11bc0b51e42485ca06ffdb4b83779cf5" afterPath="$PROJECT_DIR$/tmp/cache/assets/D69/7F0/sprockets%2F11bc0b51e42485ca06ffdb4b83779cf5" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/D78/5D0/sprockets%2Ff78d0573c2105fd8fe8dc4a40709f5ed" afterPath="$PROJECT_DIR$/tmp/cache/assets/D78/5D0/sprockets%2Ff78d0573c2105fd8fe8dc4a40709f5ed" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/D9B/830/sprockets%2Fbb1a427c1603ffbb6ada9279f8e10d88" afterPath="$PROJECT_DIR$/tmp/cache/assets/D9B/830/sprockets%2Fbb1a427c1603ffbb6ada9279f8e10d88" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/DAA/5B0/sprockets%2Ffa60ca978e1a7e0576b3d828a98efd3a" afterPath="$PROJECT_DIR$/tmp/cache/assets/DAA/5B0/sprockets%2Ffa60ca978e1a7e0576b3d828a98efd3a" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/DBE/DE0/sprockets%2F6d30beb63092f00dfbebd041fea4754f" afterPath="$PROJECT_DIR$/tmp/cache/assets/DBE/DE0/sprockets%2F6d30beb63092f00dfbebd041fea4754f" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/EB0/D00/sprockets%2Ff8dbfc1d5fad3b13ef1dfd32fdb173ab" afterPath="$PROJECT_DIR$/tmp/cache/assets/EB0/D00/sprockets%2Ff8dbfc1d5fad3b13ef1dfd32fdb173ab" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/falling_lava/cat.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/falling_lava/cat.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/falling_lava/falling_lava.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/falling_lava/falling_lava.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/falling_lava/game.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/falling_lava/game.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/falling_lava/menu.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/falling_lava/menu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/falling_lava/player.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/falling_lava/player.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/falling_lava/sideways_lava.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/falling_lava/sideways_lava.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/falling_lava/falling_lava.html.erb" afterPath="$PROJECT_DIR$/app/views/falling_lava/falling_lava.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
     </list>
     <ignored path="FallingLava.iws" />
@@ -56,8 +41,28 @@
       <file leaf-file-name="game.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/falling_lava/game.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3210">
-              <caret line="247" column="19" selection-start-line="247" selection-start-column="19" selection-end-line="247" selection-end-column="19" />
+            <state relative-caret-position="657">
+              <caret line="238" column="27" selection-start-line="238" selection-start-column="27" selection-end-line="238" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="player.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/falling_lava/player.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="552">
+              <caret line="144" column="8" selection-start-line="144" selection-start-column="8" selection-end-line="144" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="menu.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/falling_lava/menu.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="387">
+              <caret line="29" column="51" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -94,14 +99,14 @@
         <option value="$PROJECT_DIR$/app/controllers/falling_lava_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/falling_lava.css" />
-        <option value="$PROJECT_DIR$/app/views/falling_lava/falling_lava.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/falling_lava/timer.js" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/falling_lava/cat.js" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/falling_lava/menu.js" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/falling_lava/falling_lava.js" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/falling_lava/player.js" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/falling_lava/sideways_lava.js" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/falling_lava/game.js" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/falling_lava/menu.js" />
+        <option value="$PROJECT_DIR$/app/views/falling_lava/falling_lava.html.erb" />
       </list>
     </option>
   </component>
@@ -114,8 +119,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-1" />
     <option name="y" value="28" />
-    <option name="width" value="1154" />
-    <option name="height" value="803" />
+    <option name="width" value="1922" />
+    <option name="height" value="1019" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -143,8 +148,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="RailsProjectView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -349,24 +352,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FallingLava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FallingLava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -425,6 +410,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -633,18 +620,22 @@
       <workItem from="1464046854148" duration="11350000" />
       <workItem from="1464742638222" duration="2446000" />
       <workItem from="1465054092459" duration="3134000" />
-      <workItem from="1465133661892" duration="2696000" />
+      <workItem from="1465133661892" duration="7206000" />
+      <workItem from="1465172217840" duration="617000" />
+      <workItem from="1467655343648" duration="14000" />
+      <workItem from="1467655387928" duration="1176000" />
+      <workItem from="1467940822519" duration="270000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64486000" />
+    <option name="totallyTimeSpent" value="71073000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="28" width="1154" height="803" extended-state="6" />
+    <frame x="-1" y="28" width="1922" height="1019" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24565972" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2453125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913166" sideWeight="0.5034722" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -692,7 +683,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -729,7 +719,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -780,13 +769,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -907,14 +889,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/falling_lava/falling_lava.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/images/fire.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -935,27 +909,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/falling_lava/menu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="32" column="31" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/falling_lava/player.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2205">
-          <caret line="147" column="4" selection-start-line="147" selection-start-column="4" selection-end-line="147" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/falling_lava/sideways_lava.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
           <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -963,7 +920,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -971,7 +927,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1140">
           <caret line="76" column="43" selection-start-line="76" selection-start-column="43" selection-end-line="76" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -979,14 +934,43 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="26" column="47" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/falling_lava/falling_lava.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/falling_lava/menu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="29" column="51" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/falling_lava/player.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="144" column="8" selection-start-line="144" selection-start-column="8" selection-end-line="144" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/falling_lava/game.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3210">
-          <caret line="247" column="19" selection-start-line="247" selection-start-column="19" selection-end-line="247" selection-end-column="19" />
+        <state relative-caret-position="657">
+          <caret line="238" column="27" selection-start-line="238" selection-start-column="27" selection-end-line="238" selection-end-column="27" />
           <folding />
         </state>
       </provider>

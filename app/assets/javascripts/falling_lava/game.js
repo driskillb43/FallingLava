@@ -26,7 +26,8 @@ var CANVAS_WIDTH = backgroundCanvas.width,
     MEOW_AUDIO_PATH = "sounds/meow.wav",
     KEY_DOWN_EVENT = "keydown",
     KEY_UP_EVENT = "keyup",
-    MOUSE_CLICK = "click"
+    MOUSE_CLICK = "click",
+    MOUSE_MOVE = "mousemove",
     RIGHT_ARROW_ID = 39,
     LEFT_ARROW_ID = 37,
     SPACEBAR_ID = 32;
@@ -159,6 +160,7 @@ function init()
     {
         backgroundContext.drawImage(bgSprite, 0, 0, CANVAS_WIDTH, CANVAS_HEIGHT, 0, 0, CANVAS_WIDTH, CANVAS_HEIGHT);
         document.addEventListener(MOUSE_CLICK, function(event) {checkMouseClick(event);}, false);
+        document.addEventListener(MOUSE_MOVE, function(event) {checkMouseMove(event);}, false);
         menu.drawMainMenu();
         fallingLavaAudio.play();
         requestAnimFrame(loop);
@@ -282,6 +284,12 @@ function checkMouseClick(event)
 {
     var rect = menuCanvas.getBoundingClientRect();
     menu.checkButtonClicked(event.pageX - rect.left, event.pageY - rect.top);
+}
+
+function checkMouseMove(event)
+{
+    var rect = menuCanvas.getBoundingClientRect();
+    menu.checkButtonHoverOver(event.pageX - rect.left, event.pageY - rect.top);
 }
 
 function saveScore()

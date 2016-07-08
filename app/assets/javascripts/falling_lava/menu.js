@@ -1,20 +1,25 @@
+var GAME_TITLE_TEXT = "Falling Lava",
+    TRY_AGAIN_TEXT = "You died. Try again?";
+
 var Menu = Class.create(
     {
         initialize: function()
         {
-            menuContext.font = "60px Comic Sans MS";
+            menuContext.font = "60px monospace";
             menuContext.fillStyle = "red";
-            menuContext.textAlign = "center";
-            this.mainMenuText = "Falling Lava";
-            this.tryAgainText = "You died. Try again?";
             this.playButtonEnabled = true;
             this.playButtonDrawY = menuCanvas.height / 3;
             this.tryAgain = false;
         },
+
+        drawCenterText: function(text, yOffset)
+        {
+            menuContext.fillText(text, (menuCanvas.width - menuContext.measureText(text).width) / 2, (menuCanvas.height / 4) + yOffset);
+        },
         
         drawMainMenu: function()
         {
-            menuContext.fillText(this.mainMenuText, menuCanvas.width / 2, menuCanvas.height / 4);
+            this.drawCenterText(GAME_TITLE_TEXT, 0);
             menuContext.drawImage(playButtonImage, ((menuCanvas.width / 2) - (playButtonImage.width / 2)), menuCanvas.height / 3);
         },
         
@@ -22,7 +27,7 @@ var Menu = Class.create(
         {
             this.playButtonEnabled = true;
             this.tryAgain = true;
-            menuContext.fillText(this.tryAgainText, menuCanvas.width / 2, menuCanvas.height / 4);
+            this.drawCenterText(TRY_AGAIN_TEXT, 0);
             menuContext.drawImage(playButtonImage, ((menuCanvas.width / 2) - (playButtonImage.width / 2)), this.playButtonDrawY);
         },
         
@@ -40,6 +45,11 @@ var Menu = Class.create(
                     startGame();
                 }
             }
+        },
+        
+        checkButtonHoverOver: function(mouseX, mouseY)
+        {
+            
         }
     }
 );
