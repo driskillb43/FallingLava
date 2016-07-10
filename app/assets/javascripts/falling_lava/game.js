@@ -10,6 +10,9 @@ var backgroundCanvas = document.getElementById("backgroundCanvas"),
     menuCanvas = document.getElementById("menu"),
     menuContext = menuCanvas.getContext("2d");
 
+//Creates the stages
+var menuStage = new createjs.Stage(menuCanvas);
+
 //Constants for the background
 var CANVAS_WIDTH = backgroundCanvas.width,
     CANVAS_HEIGHT = backgroundCanvas.height,
@@ -19,7 +22,6 @@ var CANVAS_WIDTH = backgroundCanvas.width,
     PLAYER_IMAGE_PATH = "images/egyptianqueen.png",
     CAT_IMAGE_PATH = "images/catsheet.png",
     FALLING_LAVA_IMAGE_PATH = "images/fire.png",
-    PLAY_BUTTON_IMAGE_PATH = "images/play_button.png",
     FALLING_LAVA_AUDIO_PATH = "sounds/falling_lava.wav",
     PLAYER_FIRE_DEATH_AUDIO = "sounds/thats_hot.wav",
     PLAYER_CAT_DEATH_AUDIO = "sounds/bad_kitty.wav",
@@ -28,9 +30,12 @@ var CANVAS_WIDTH = backgroundCanvas.width,
     KEY_UP_EVENT = "keyup",
     MOUSE_CLICK = "click",
     MOUSE_MOVE = "mousemove",
+    DOWN_ARROW_ID = 40,
     RIGHT_ARROW_ID = 39,
+    UP_ARROW_ID = 38,
     LEFT_ARROW_ID = 37,
-    SPACEBAR_ID = 32;
+    SPACEBAR_ID = 32,
+    ENTER_ID = 13;
 
 var entities = new Array(),
     player = new Player(),
@@ -47,6 +52,9 @@ var entities = new Array(),
                         };
 
 var gameInitialized = false,
+    downMenuChanged = false,
+    upMenuChanged = false,
+    menuSelected = false,
     bgSprite = new Image(),
     bgSpriteLoaded = false,
     playerSprite = new Image(),
@@ -55,8 +63,6 @@ var gameInitialized = false,
     catSpriteLoaded = false,
     fallingLavaSprite = new Image(),
     fallingLavaSpriteLoaded = false,
-    playButtonImage = new Image(),
-    playButtonImageLoaded = false,
     fallingLavaAudio = new Audio(),
     fallingLavaAudioLoaded = false,
     meowAudio = new Audio(),
@@ -91,11 +97,6 @@ function loadImagesAndAudio()
         fallingLavaSpriteLoaded = true;
         init();
     }
-    playButtonImage.src = PLAY_BUTTON_IMAGE_PATH;
-    playButtonImage.onload = function() {
-        playButtonImageLoaded = true;
-        init();
-    }
     fallingLavaAudio.src = FALLING_LAVA_AUDIO_PATH;
     fallingLavaAudio.oncanplaythrough = function() {
         fallingLavaAudioLoaded = true;
@@ -119,11 +120,14 @@ function loadImagesAndAudio()
 }
 function startGame()
 {
-    clearCtx(menuContext);
-    document.addEventListener(KEY_DOWN_EVENT, function(event) {checkKey(event, true);}, false);
-    document.addEventListener(KEY_UP_EVENT, function(event) {checkKey(event, false);}, false);
-    initializeEntities();
-    isPlaying = true;
+    fallingLavaAudio.play();
+    fallingLavaAudio.onended = function()
+    {
+        menuStage.removeAllChildren();
+        menuStage.update();
+        initializeEntities();
+        isPlaying = true;
+    }
 }
 
 function initializeEntities()
@@ -135,8 +139,13 @@ function initializeEntities()
 
 function resetGame()
 {
-    clearCtx(menuContext);
-    isPlaying = true;
+    fallingLavaAudio.play();
+    fallingLavaAudio.onended = function()
+    {
+        menuStage.removeAllChildren();
+        menuStage.update();
+        isPlaying = true;
+    }
 }
 
 function initializeLavas()
@@ -152,8 +161,7 @@ function init()
     if(bgSpriteLoaded 
         && playerSpriteLoaded 
         && catSpriteLoaded 
-        && fallingLavaSpriteLoaded 
-        && playButtonImageLoaded
+        && fallingLavaSpriteLoaded
         && fallingLavaAudioLoaded
         && meowAudioLoaded
         && playerCatDeathAudioLoaded
@@ -162,10 +170,9 @@ function init()
     {
         gameInitialized = true;
         backgroundContext.drawImage(bgSprite, 0, 0, CANVAS_WIDTH, CANVAS_HEIGHT, 0, 0, CANVAS_WIDTH, CANVAS_HEIGHT);
-        document.addEventListener(MOUSE_CLICK, function(event) {checkMouseClick(event);}, false);
-        document.addEventListener(MOUSE_MOVE, function(event) {checkMouseMove(event);}, false);
+        document.addEventListener(KEY_DOWN_EVENT, function(event) {checkKey(event, true);}, false);
+        document.addEventListener(KEY_UP_EVENT, function(event) {checkKey(event, false);}, false);
         menu.drawMainMenu();
-        fallingLavaAudio.play();
         requestAnimFrame(loop);
     }
 }
@@ -266,33 +273,82 @@ function clearCtx(ctx)
 function checkKey(event, isKeyDown) 
 {
     var keyID = event.keyCode || event.which;
-    if (keyID === RIGHT_ARROW_ID)
-    { 
-        player.isRightKey = isKeyDown;
-        event.preventDefault();
-    }
-    if (keyID === LEFT_ARROW_ID)
+    if(keyID == DOWN_ARROW_ID)
     {
-        player.isLeftKey = isKeyDown;
-        event.preventDefault();
+        if(menu.menuEnabled)
+        {
+            if(isKeyDown && !downMenuChanged)
+            {
+                menu.changeSelection(true);
+                downMenuChanged = true;
+            }
+            event.preventDefault();
+        }
+
+        if(!isKeyDown)
+        {
+            downMenuChanged = false;
+        }
     }
-    if (keyID === SPACEBAR_ID)
+    if(keyID == UP_ARROW_ID)
+    {
+        if(menu.menuEnabled)
+        {
+            if(isKeyDown && !upMenuChanged)
+            {
+                menu.changeSelection(false);
+                upMenuChanged = true;
+            }
+            event.preventDefault();
+        }
+
+        if(!isKeyDown)
+        {
+            upMenuChanged = false;
+        }
+    }
+    if(keyID == ENTER_ID)
+    {
+        if(menu.menuEnabled)
+        {
+            if(isKeyDown && !menuSelected)
+            {
+                console.log("Enter pressed")
+                menuSelected = true;
+                menu.selectMenuItem();
+            }
+            event.preventDefault();
+        }
+
+        if(!isKeyDown)
+        {
+            menuSelected = false;
+        }
+    }
+    if(keyID === RIGHT_ARROW_ID)
     { 
-        player.isSpaceBar = isKeyDown;
-        event.preventDefault();
+        if(isPlaying)
+        {
+            player.isRightKey = isKeyDown;
+            event.preventDefault();
+        }
     }
-}
-
-function checkMouseClick(event)
-{
-    var rect = menuCanvas.getBoundingClientRect();
-    menu.checkButtonClicked(event.pageX - rect.left, event.pageY - rect.top);
-}
-
-function checkMouseMove(event)
-{
-    var rect = menuCanvas.getBoundingClientRect();
-    menu.checkButtonHoverOver(event.pageX - rect.left, event.pageY - rect.top);
+    if(keyID === LEFT_ARROW_ID)
+    {
+        if(isPlaying)
+        {
+            player.isLeftKey = isKeyDown;
+            event.preventDefault();
+        }
+    }
+    if(keyID === SPACEBAR_ID)
+    {
+        if(isPlaying)
+        {
+            player.isSpaceBar = isKeyDown;
+            event.preventDefault();   
+        }
+    }
 }
 
 function saveScore()
