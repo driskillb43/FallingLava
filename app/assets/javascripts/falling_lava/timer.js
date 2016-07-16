@@ -6,7 +6,7 @@ var Timer = Class.create({
 	
 	initialize: function()
 	{
-        ctxEntities.font = "20px Comic Sans MS";
+        ctxEntities.font = "20px monospace";
         ctxEntities.fillStyle = "white";
         ctxEntities.textAlign = "center";
         this.startTime = null;

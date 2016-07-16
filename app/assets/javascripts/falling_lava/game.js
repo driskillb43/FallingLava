@@ -129,15 +129,11 @@ function loadImagesAndAudio()
 }
 function startGame()
 {
-    fallingLavaAudio.play();
-    fallingLavaAudio.onended = function()
-    {
-        menuStage.removeAllChildren();
-        menuStage.update();
-        levelOneAudio.play();
-        initializeEntities();
-        isPlaying = true;
-    }
+    menuStage.removeAllChildren();
+    menuStage.update();
+    levelOneAudio.play();
+    initializeEntities();
+    isPlaying = true;
 }
 
 function initializeEntities()
@@ -149,14 +145,10 @@ function initializeEntities()
 
 function resetGame()
 {
-    fallingLavaAudio.play();
-    fallingLavaAudio.onended = function()
-    {
-        menuStage.removeAllChildren();
-        menuStage.update();
-        levelOneAudio.play();
-        isPlaying = true;
-    }
+    menuStage.removeAllChildren();
+    menuStage.update();
+    levelOneAudio.play();
+    isPlaying = true;
 }
 
 function initializeLavas()
@@ -185,6 +177,7 @@ function init()
         document.addEventListener(KEY_DOWN_EVENT, function(event) {checkKey(event, true);}, false);
         document.addEventListener(KEY_UP_EVENT, function(event) {checkKey(event, false);}, false);
         menu.drawMainMenu();
+        fallingLavaAudio.play();
         requestAnimFrame(loop);
     }
 }

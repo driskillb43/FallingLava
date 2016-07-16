@@ -136,7 +136,6 @@ var Menu = Class.create(
                 menuStage.update();
                 if(this.menuItems[this.menuIndex].text === PLAY_TEXT)
                 {
-                    this.drawLevelNumber();
                     if(this.tryAgain)
                     {
                         resetGame();
