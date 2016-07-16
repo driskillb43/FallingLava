@@ -26,6 +26,7 @@ var CANVAS_WIDTH = backgroundCanvas.width,
     PLAYER_FIRE_DEATH_AUDIO = "sounds/thats_hot.wav",
     PLAYER_CAT_DEATH_AUDIO = "sounds/bad_kitty.wav",
     MEOW_AUDIO_PATH = "sounds/meow.wav",
+    LEVEL_ONE_AUDIO = "sounds/level_1_track.wav"
     KEY_DOWN_EVENT = "keydown",
     KEY_UP_EVENT = "keyup",
     MOUSE_CLICK = "click",
@@ -70,7 +71,9 @@ var gameInitialized = false,
     playerFireDeathAudio = new Audio(),
     playerFireDeathAudioLoaded = false,
     playerCatDeathAudio = new Audio(),
-    playerCatDeathAudioLoaded = false;
+    playerCatDeathAudioLoaded = false,
+    levelOneAudio = new Audio(),
+    levelOneAudioLoaded = false;
     
 
 loadImagesAndAudio();
@@ -117,6 +120,11 @@ function loadImagesAndAudio()
         playerCatDeathAudioLoaded = true;
         init();
     }
+    levelOneAudio.src = LEVEL_ONE_AUDIO;
+    levelOneAudio.oncanplaythrough = function() {
+        levelOneAudioLoaded = true;
+        init();
+    }
 }
 function startGame()
 {
@@ -125,6 +133,11 @@ function startGame()
     {
         menuStage.removeAllChildren();
         menuStage.update();
+        levelOneAudio.play();
+        levelOneAudio.onended = function()
+        {
+            levelOneAudio.play();
+        }
         initializeEntities();
         isPlaying = true;
     }
@@ -144,6 +157,11 @@ function resetGame()
     {
         menuStage.removeAllChildren();
         menuStage.update();
+        levelOneAudio.play();
+        levelOneAudio.onended = function()
+        {
+            levelOneAudio.play();
+        }
         isPlaying = true;
     }
 }
@@ -166,6 +184,7 @@ function init()
         && meowAudioLoaded
         && playerCatDeathAudioLoaded
         && playerFireDeathAudioLoaded
+        && levelOneAudioLoaded
         && !gameInitialized)
     {
         gameInitialized = true;
@@ -238,10 +257,12 @@ function draw()
             saveScore();
             if(entities[i] instanceof FallingLava || entities[i] instanceof SidewaysLava)
             {
+                levelOneAudio.pause();
                 player.playFireDeathSound();
             }
             else 
             {
+                levelOneAudio.pause();
                 player.playCatDeathSound();
             }
             
@@ -313,7 +334,6 @@ function checkKey(event, isKeyDown)
         {
             if(isKeyDown && !menuSelected)
             {
-                console.log("Enter pressed")
                 menuSelected = true;
                 menu.selectMenuItem();
             }
