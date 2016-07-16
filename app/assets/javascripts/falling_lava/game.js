@@ -121,6 +121,7 @@ function loadImagesAndAudio()
         init();
     }
     levelOneAudio.src = LEVEL_ONE_AUDIO;
+    levelOneAudio.loop = true;
     levelOneAudio.oncanplaythrough = function() {
         levelOneAudioLoaded = true;
         init();
@@ -134,10 +135,6 @@ function startGame()
         menuStage.removeAllChildren();
         menuStage.update();
         levelOneAudio.play();
-        levelOneAudio.onended = function()
-        {
-            levelOneAudio.play();
-        }
         initializeEntities();
         isPlaying = true;
     }
@@ -158,10 +155,6 @@ function resetGame()
         menuStage.removeAllChildren();
         menuStage.update();
         levelOneAudio.play();
-        levelOneAudio.onended = function()
-        {
-            levelOneAudio.play();
-        }
         isPlaying = true;
     }
 }
@@ -258,11 +251,13 @@ function draw()
             if(entities[i] instanceof FallingLava || entities[i] instanceof SidewaysLava)
             {
                 levelOneAudio.pause();
+                levelOneAudio.currentTime = 0;
                 player.playFireDeathSound();
             }
             else 
             {
                 levelOneAudio.pause();
+                levelOneAudio.currentTime = 0;
                 player.playCatDeathSound();
             }
             
