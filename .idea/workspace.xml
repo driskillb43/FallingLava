@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a9cefef8-891d-4bc3-ba9b-0afcfbf89ecf" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/falling_lava/game.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/falling_lava/game.js" />
-    </list>
+    <list default="true" id="a9cefef8-891d-4bc3-ba9b-0afcfbf89ecf" name="Default" comment="" />
     <ignored path="FallingLava.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.bundle/" />
@@ -654,12 +652,12 @@
       <workItem from="1467655387928" duration="1176000" />
       <workItem from="1467940822519" duration="5354000" />
       <workItem from="1468157626853" duration="4378000" />
-      <workItem from="1468185215704" duration="4536000" />
+      <workItem from="1468185215704" duration="4888000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85071000" />
+    <option name="totallyTimeSpent" value="85423000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="28" width="1922" height="1019" extended-state="6" />
